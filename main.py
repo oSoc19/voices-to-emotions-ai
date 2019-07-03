@@ -19,5 +19,7 @@ def graph_spectrogram(filename, inputDir, outputDir):
     pylab.savefig(outputDir + filename.replace('.wav', '.png'))
 
 files = os.listdir('./input_data/')
-print files
-graph_spectrogram('03-02-06-01-01-02-01.wav', './input_data/', './results')
+for i in range(0, len(files)):
+    file = files[i]
+    graph_spectrogram(file, './input_data/', './output_data/')
+
