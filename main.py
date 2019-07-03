@@ -30,6 +30,9 @@ def iterate_dirs(dir_name):
         if (os.path.isdir(file_path)):
             iterate_dirs(file_path)
         elif (file_path.endswith('.wav')):
+            if (os.path.isfile(file_path.replace('.wav', '.png'))):
+                return
+
             graph_spectrogram(file_path)
 
 
