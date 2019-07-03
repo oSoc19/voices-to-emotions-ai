@@ -1,7 +1,10 @@
-import pylab
 import wave
 import os
 import pandas
+import matplotlib.pyplot as plt
+import librosa
+import librosa.display as ldisplay
+import numpy
 
 emotion_dict = {
     '01': 'neutral',
@@ -39,6 +42,7 @@ def get_wav_info(filename):
 
 
 def add_index_entry(file_path):
+    print('Add Index Entry: ' + file_path)
     file_name = os.path.basename(file_path).replace('.png', '').split('-')
 
     gender = 'F'
@@ -59,12 +63,23 @@ def save_index(file_path):
     df.to_csv(file_path)
 
 
-def graph_spectrogram(filename):
-    sound_info, frame_rate = get_wav_info(filename)
-    pylab.figure(num=None, figsize=(19, 12))
-    pylab.subplot(111)
-    pylab.specgram(sound_info, Fs=frame_rate)
-    pylab.savefig(filename.replace('.wav', '.png'))
+def create_spectrogram(filename):
+    plt.interactive(False)
+    clip, sample_rate = librosa.load(filename, sr=None)
+    fig = plt.figure(figsize=[0.72, 0.72])
+    ax = fig.add_subplot(111)
+    ax.axes.get_xaxis().set_visible(False)
+    ax.axes.get_yaxis().set_visible(False)
+    ax.set_frame_on(False)
+    S = librosa.feature.melspectrogram(y=clip, sr=sample_rate)
+    ldisplay.specshow(librosa.power_to_db(S, ref=numpy.max))
+    filename = filename.replace('.wav', '.png')
+    plt.savefig(filename, dpi=400, bbox_inches='tight', pad_inches=0)
+    plt.close()
+    fig.clf()
+    plt.close(fig)
+    plt.close('all')
+    del filename, clip, sample_rate, fig, ax, S
 
 
 def iterate_dirs(dir_name):
@@ -77,9 +92,7 @@ def iterate_dirs(dir_name):
         elif (file_path.endswith('.wav')):
             target_filepath = file_path.replace('.wav', '.png')
             add_index_entry(target_filepath)
-
-            if (os.path.isfile(target_filepath) == False):
-                graph_spectrogram(file_path)
+            create_spectrogram(file_path)
 
 
 input_dir = './data/'
