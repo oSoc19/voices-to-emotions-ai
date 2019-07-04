@@ -27,6 +27,8 @@ statement_dict = {
     '02': 'Dogs are sitting by the door'
 }
 
+good_emotions = frozenset(['neutral', 'calm', 'happy'])
+
 data_index = []
 
 
@@ -49,9 +51,16 @@ def add_index_entry(file_path):
     if (int(file_name[6]) % 2 > 0):
         gender = 'M'
 
+    emotion = emotion_dict[file_name[2]]
+
+    emotion_cat = 'bad'
+    if (emotion in good_emotions):
+        emotion_cat = 'good'
+
     data_index.append({
         'file_path': file_path,
-        'emotion': emotion_dict[file_name[2]],
+        'emotion': emotion,
+        'category': emotion_cat,
         'intensity': intensity_dict[file_name[3]],
         'statement': statement_dict[file_name[4]],
         'gender': gender
