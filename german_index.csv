@@ -1,0 +1,536 @@
+,emotion,file_path,gender,statement
+0,calm,./data/german/16a02Lb.png,F,Das will sie am Mittwoch abgeben.
+1,angry,./data/german/14a07Wc.png,F,In sieben Stunden wird es soweit sein.
+2,fearful,./data/german/10a07Ad.png,M,In sieben Stunden wird es soweit sein.
+3,disgust,./data/german/13a05Ea.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+4,angry,./data/german/14a05Wa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+5,neutral,./data/german/14a07Na.png,F,In sieben Stunden wird es soweit sein.
+6,angry,./data/german/15a05Wa.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+7,angry,./data/german/16b10Wb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+8,neutral,./data/german/09a01Nb.png,F,Der Lappen liegt auf dem Eisschrank.
+9,happy,./data/german/16a01Fc.png,F,Der Lappen liegt auf dem Eisschrank.
+10,disgust,./data/german/14a04Ed.png,F,Heute abend könnte ich es ihm sagen.
+11,fearful,./data/german/11a01Ab.png,M,Der Lappen liegt auf dem Eisschrank.
+12,neutral,./data/german/09b02Na.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+13,neutral,./data/german/03a05Nd.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+14,fearful,./data/german/10a01Ac.png,M,Der Lappen liegt auf dem Eisschrank.
+15,fearful,./data/german/16a04Ab.png,F,Heute abend könnte ich es ihm sagen.
+16,neutral,./data/german/15b02Nd.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+17,angry,./data/german/16b09Wb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+18,calm,./data/german/11a01Ld.png,M,Der Lappen liegt auf dem Eisschrank.
+19,angry,./data/german/08a01Wa.png,F,Der Lappen liegt auf dem Eisschrank.
+20,angry,./data/german/09b02Wc.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+21,sad,./data/german/12b09Td.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+22,fearful,./data/german/10b02Aa.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+23,sad,./data/german/16a04Tc.png,F,Heute abend könnte ich es ihm sagen.
+24,calm,./data/german/16b01La.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+25,angry,./data/german/13b01Wa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+26,angry,./data/german/12b01Wa.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+27,neutral,./data/german/13b03Na.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+28,angry,./data/german/12a02Wc.png,M,Das will sie am Mittwoch abgeben.
+29,fearful,./data/german/16b03Ad.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+30,angry,./data/german/13b03Wc.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+31,neutral,./data/german/13b01Nc.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+32,disgust,./data/german/15a02Ea.png,M,Das will sie am Mittwoch abgeben.
+33,sad,./data/german/11a05Td.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+34,disgust,./data/german/14a02Ea.png,F,Das will sie am Mittwoch abgeben.
+35,disgust,./data/german/09b03Ed.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+36,angry,./data/german/13a02Wa.png,F,Das will sie am Mittwoch abgeben.
+37,calm,./data/german/16b03La.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+38,angry,./data/german/12a02Wa.png,M,Das will sie am Mittwoch abgeben.
+39,calm,./data/german/13b10La.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+40,angry,./data/german/03b02Wb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+41,neutral,./data/german/13a02Nc.png,F,Das will sie am Mittwoch abgeben.
+42,calm,./data/german/16b01Lc.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+43,angry,./data/german/16b10Wa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+44,disgust,./data/german/15b01Ec.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+45,angry,./data/german/14a05Wb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+46,angry,./data/german/14b02Wd.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+47,neutral,./data/german/08a01Na.png,F,Der Lappen liegt auf dem Eisschrank.
+48,angry,./data/german/08a01Wc.png,F,Der Lappen liegt auf dem Eisschrank.
+49,fearful,./data/german/11a01Aa.png,M,Der Lappen liegt auf dem Eisschrank.
+50,neutral,./data/german/08b02Nb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+51,calm,./data/german/13b09La.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+52,angry,./data/german/09a01Wb.png,F,Der Lappen liegt auf dem Eisschrank.
+53,fearful,./data/german/11b02Ab.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+54,neutral,./data/german/15a07Nc.png,M,In sieben Stunden wird es soweit sein.
+55,disgust,./data/german/14b01Eb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+56,fearful,./data/german/11a05Ad.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+57,neutral,./data/german/03a01Nc.png,M,Der Lappen liegt auf dem Eisschrank.
+58,neutral,./data/german/12a02Nb.png,M,Das will sie am Mittwoch abgeben.
+59,calm,./data/german/11a05Lc.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+60,neutral,./data/german/15a05Na.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+61,angry,./data/german/03a01Wa.png,M,Der Lappen liegt auf dem Eisschrank.
+62,neutral,./data/german/14a05Na.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+63,angry,./data/german/09a07Wd.png,F,In sieben Stunden wird es soweit sein.
+64,calm,./data/german/10a07La.png,M,In sieben Stunden wird es soweit sein.
+65,neutral,./data/german/03b02Na.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+66,disgust,./data/german/09a02Ea.png,F,Das will sie am Mittwoch abgeben.
+67,disgust,./data/german/14b03Ed.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+68,calm,./data/german/12b10Ld.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+69,angry,./data/german/09a05Wb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+70,fearful,./data/german/16b01Aa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+71,happy,./data/german/11a02Fb.png,M,Das will sie am Mittwoch abgeben.
+72,fearful,./data/german/12b10Ac.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+73,angry,./data/german/15b02Wa.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+74,happy,./data/german/14b09Fc.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+75,angry,./data/german/09b02Wd.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+76,happy,./data/german/10a04Fd.png,M,Heute abend könnte ich es ihm sagen.
+77,calm,./data/german/10b02La.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+78,angry,./data/german/03a05Wa.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+79,happy,./data/german/11a04Fd.png,M,Heute abend könnte ich es ihm sagen.
+80,neutral,./data/german/14a01Na.png,F,Der Lappen liegt auf dem Eisschrank.
+81,angry,./data/german/08b02Wd.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+82,disgust,./data/german/12b02Ea.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+83,fearful,./data/german/13b09Ab.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+84,disgust,./data/german/13a01Ec.png,F,Der Lappen liegt auf dem Eisschrank.
+85,angry,./data/german/03a07Wc.png,M,In sieben Stunden wird es soweit sein.
+86,angry,./data/german/14a01Wc.png,F,Der Lappen liegt auf dem Eisschrank.
+87,angry,./data/german/13a04Wc.png,F,Heute abend könnte ich es ihm sagen.
+88,angry,./data/german/12a04Wc.png,M,Heute abend könnte ich es ihm sagen.
+89,calm,./data/german/16a04Lc.png,F,Heute abend könnte ich es ihm sagen.
+90,fearful,./data/german/12b09Ac.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+91,happy,./data/german/16a07Fb.png,F,In sieben Stunden wird es soweit sein.
+92,fearful,./data/german/10a05Aa.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+93,sad,./data/german/16a02Tc.png,F,Das will sie am Mittwoch abgeben.
+94,angry,./data/german/09a05Wc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+95,happy,./data/german/11b03Fc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+96,fearful,./data/german/11a07Ac.png,M,In sieben Stunden wird es soweit sein.
+97,happy,./data/german/10b01Fa.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+98,calm,./data/german/11a07Ld.png,M,In sieben Stunden wird es soweit sein.
+99,sad,./data/german/10a05Tb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+100,happy,./data/german/11b01Fc.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+101,angry,./data/german/08a07Wc.png,F,In sieben Stunden wird es soweit sein.
+102,happy,./data/german/08b10Fd.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+103,disgust,./data/german/09a02Eb.png,F,Das will sie am Mittwoch abgeben.
+104,fearful,./data/german/10a07Aa.png,M,In sieben Stunden wird es soweit sein.
+105,calm,./data/german/10a05Ld.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+106,neutral,./data/german/08a07Na.png,F,In sieben Stunden wird es soweit sein.
+107,neutral,./data/german/09a07Na.png,F,In sieben Stunden wird es soweit sein.
+108,angry,./data/german/08a05Wa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+109,happy,./data/german/10a02Fa.png,M,Das will sie am Mittwoch abgeben.
+110,sad,./data/german/16b03Ta.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+111,angry,./data/german/14b02Wb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+112,angry,./data/german/03a05Wb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+113,neutral,./data/german/15a01Nb.png,M,Der Lappen liegt auf dem Eisschrank.
+114,calm,./data/german/16a04La.png,F,Heute abend könnte ich es ihm sagen.
+115,happy,./data/german/16b02Fd.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+116,sad,./data/german/11b02Td.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+117,angry,./data/german/14a01Wa.png,F,Der Lappen liegt auf dem Eisschrank.
+118,angry,./data/german/15a01Wa.png,M,Der Lappen liegt auf dem Eisschrank.
+119,disgust,./data/german/13a01Ea.png,F,Der Lappen liegt auf dem Eisschrank.
+120,neutral,./data/german/14b02Na.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+121,happy,./data/german/08b09Fd.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+122,neutral,./data/german/03a07Nc.png,M,In sieben Stunden wird es soweit sein.
+123,happy,./data/german/15b09Fa.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+124,angry,./data/german/15b02Wc.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+125,happy,./data/german/16a07Fa.png,F,In sieben Stunden wird es soweit sein.
+126,sad,./data/german/11a07Ta.png,M,In sieben Stunden wird es soweit sein.
+127,sad,./data/german/10a07Ta.png,M,In sieben Stunden wird es soweit sein.
+128,disgust,./data/german/09b01Ea.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+129,sad,./data/german/16b01Tb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+130,happy,./data/german/16a05Fc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+131,neutral,./data/german/09a05Nb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+132,angry,./data/german/09a07Wb.png,F,In sieben Stunden wird es soweit sein.
+133,neutral,./data/german/08a05Nb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+134,fearful,./data/german/10b01Aa.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+135,calm,./data/german/08b10La.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+136,fearful,./data/german/15b10Ac.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+137,sad,./data/german/10b03Tb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+138,calm,./data/german/11a02Ld.png,M,Das will sie am Mittwoch abgeben.
+139,disgust,./data/german/13b03Ed.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+140,neutral,./data/german/08b01Na.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+141,angry,./data/german/15a02Wd.png,M,Das will sie am Mittwoch abgeben.
+142,neutral,./data/german/09b01Na.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+143,neutral,./data/german/03b01Nb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+144,angry,./data/german/12a01Wc.png,M,Der Lappen liegt auf dem Eisschrank.
+145,angry,./data/german/15a04Wb.png,M,Heute abend könnte ich es ihm sagen.
+146,angry,./data/german/03a02Wb.png,M,Das will sie am Mittwoch abgeben.
+147,angry,./data/german/14a04Wb.png,F,Heute abend könnte ich es ihm sagen.
+148,angry,./data/german/13b02Wa.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+149,angry,./data/german/12b02Wa.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+150,happy,./data/german/13b09Fc.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+151,angry,./data/german/03b01Wa.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+152,happy,./data/german/13b09Fb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+153,angry,./data/german/14a04Wc.png,F,Heute abend könnte ich es ihm sagen.
+154,angry,./data/german/03a02Wc.png,M,Das will sie am Mittwoch abgeben.
+155,angry,./data/german/13a01Wb.png,F,Der Lappen liegt auf dem Eisschrank.
+156,angry,./data/german/03b03Wc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+157,calm,./data/german/16a01Lb.png,F,Der Lappen liegt auf dem Eisschrank.
+158,fearful,./data/german/14b09Ac.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+159,neutral,./data/german/13b02Nb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+160,fearful,./data/german/15b09Ac.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+161,fearful,./data/german/10a02Ab.png,M,Das will sie am Mittwoch abgeben.
+162,neutral,./data/german/12a05Nd.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+163,sad,./data/german/14b10Tc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+164,happy,./data/german/16b01Fa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+165,neutral,./data/german/09b03Nb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+166,neutral,./data/german/08b03Nb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+167,angry,./data/german/09b01Wb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+168,sad,./data/german/11a02Tc.png,M,Das will sie am Mittwoch abgeben.
+169,happy,./data/german/16b03Fa.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+170,fearful,./data/german/11b01Ab.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+171,sad,./data/german/16a05Tb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+172,angry,./data/german/09a02Wb.png,F,Das will sie am Mittwoch abgeben.
+173,happy,./data/german/11a05Fb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+174,angry,./data/german/09b03Wb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+175,happy,./data/german/13b10Fa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+176,calm,./data/german/08b09Lc.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+177,happy,./data/german/11b02Fd.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+178,angry,./data/german/15a04Wa.png,M,Heute abend könnte ich es ihm sagen.
+179,angry,./data/german/12b02Wb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+180,angry,./data/german/03b01Wc.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+181,calm,./data/german/16b02Lb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+182,neutral,./data/german/13a01Nb.png,F,Der Lappen liegt auf dem Eisschrank.
+183,neutral,./data/german/12a01Nb.png,M,Der Lappen liegt auf dem Eisschrank.
+184,neutral,./data/german/15a04Nc.png,M,Heute abend könnte ich es ihm sagen.
+185,neutral,./data/german/03a02Nc.png,M,Das will sie am Mittwoch abgeben.
+186,sad,./data/german/15b09Ta.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+187,neutral,./data/german/03b03Nb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+188,disgust,./data/german/15a01Ea.png,M,Der Lappen liegt auf dem Eisschrank.
+189,disgust,./data/german/14a01Ea.png,F,Der Lappen liegt auf dem Eisschrank.
+190,neutral,./data/german/12b02Na.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+191,disgust,./data/german/09a07Eb.png,F,In sieben Stunden wird es soweit sein.
+192,happy,./data/german/11a05Fc.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+193,calm,./data/german/03b09La.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+194,angry,./data/german/08a02Wc.png,F,Das will sie am Mittwoch abgeben.
+195,angry,./data/german/08b01Wa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+196,fearful,./data/german/16a05Ab.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+197,neutral,./data/german/08a02Na.png,F,Das will sie am Mittwoch abgeben.
+198,disgust,./data/german/16b10Eb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+199,calm,./data/german/14b10Lb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+200,happy,./data/german/16b03Fd.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+201,calm,./data/german/16a05La.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+202,sad,./data/german/11b03Td.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+203,disgust,./data/german/09a05Ed.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+204,sad,./data/german/03b09Tc.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+205,angry,./data/german/13a05Wa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+206,neutral,./data/german/13a07Na.png,F,In sieben Stunden wird es soweit sein.
+207,angry,./data/german/15b03Wb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+208,angry,./data/german/14b03Wb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+209,calm,./data/german/10a02Lb.png,M,Das will sie am Mittwoch abgeben.
+210,angry,./data/german/15a02Wb.png,M,Das will sie am Mittwoch abgeben.
+211,angry,./data/german/09a04Wa.png,F,Heute abend könnte ich es ihm sagen.
+212,fearful,./data/german/11a04Ac.png,M,Heute abend könnte ich es ihm sagen.
+213,neutral,./data/german/08a04Nc.png,F,Heute abend könnte ich es ihm sagen.
+214,neutral,./data/german/11b09Na.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+215,sad,./data/german/14b09Td.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+216,fearful,./data/german/03b10Ab.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+217,fearful,./data/german/16b02Aa.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+218,sad,./data/german/16a01Tb.png,F,Der Lappen liegt auf dem Eisschrank.
+219,neutral,./data/german/09a04Nb.png,F,Heute abend könnte ich es ihm sagen.
+220,calm,./data/german/14b09Lb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+221,disgust,./data/german/16b09Eb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+222,disgust,./data/german/09a01Ea.png,F,Der Lappen liegt auf dem Eisschrank.
+223,angry,./data/german/10b09Wb.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+224,neutral,./data/german/13a05Nb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+225,angry,./data/german/13a07Wb.png,F,In sieben Stunden wird es soweit sein.
+226,angry,./data/german/14a02Wc.png,F,Das will sie am Mittwoch abgeben.
+227,angry,./data/german/03a04Wc.png,M,Heute abend könnte ich es ihm sagen.
+228,calm,./data/german/11b03Lc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+229,calm,./data/german/16a07Lb.png,F,In sieben Stunden wird es soweit sein.
+230,disgust,./data/german/12a02Ec.png,M,Das will sie am Mittwoch abgeben.
+231,disgust,./data/german/13a02Ec.png,F,Das will sie am Mittwoch abgeben.
+232,disgust,./data/german/14a07Eb.png,F,In sieben Stunden wird es soweit sein.
+233,disgust,./data/german/15a07Eb.png,M,In sieben Stunden wird es soweit sein.
+234,fearful,./data/german/14b10Ad.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+235,neutral,./data/german/15a02Na.png,M,Das will sie am Mittwoch abgeben.
+236,sad,./data/german/16a07Td.png,F,In sieben Stunden wird es soweit sein.
+237,fearful,./data/german/09b10Aa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+238,calm,./data/german/15b10Lc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+239,fearful,./data/german/08b10Aa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+240,angry,./data/german/14b01Wc.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+241,disgust,./data/german/15a05Eb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+242,angry,./data/german/15b01Wc.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+243,neutral,./data/german/03a04Nc.png,M,Heute abend könnte ich es ihm sagen.
+244,neutral,./data/german/14a02Nc.png,F,Das will sie am Mittwoch abgeben.
+245,angry,./data/german/11b10Wa.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+246,angry,./data/german/12a05Wb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+247,angry,./data/german/10b10Wa.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+248,disgust,./data/german/13b01Ec.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+249,neutral,./data/german/15b01Na.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+250,angry,./data/german/15b03Wa.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+251,neutral,./data/german/14b01Na.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+252,calm,./data/german/10b03La.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+253,angry,./data/german/14a02Wa.png,F,Das will sie am Mittwoch abgeben.
+254,angry,./data/german/08b03Wd.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+255,neutral,./data/german/11b10Nc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+256,fearful,./data/german/08b09Ab.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+257,angry,./data/german/12b02Wd.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+258,happy,./data/german/16a04Fa.png,F,Heute abend könnte ich es ihm sagen.
+259,sad,./data/german/08b09Tb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+260,calm,./data/german/15b09La.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+261,angry,./data/german/11b09Wa.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+262,angry,./data/german/08a04Wc.png,F,Heute abend könnte ich es ihm sagen.
+263,sad,./data/german/08b10Tc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+264,angry,./data/german/12a07Wa.png,M,In sieben Stunden wird es soweit sein.
+265,calm,./data/german/16a07La.png,F,In sieben Stunden wird es soweit sein.
+266,angry,./data/german/13a05Wc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+267,calm,./data/german/11b01Lb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+268,calm,./data/german/10b01Lb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+269,neutral,./data/german/15b03Nb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+270,happy,./data/german/15a05Fb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+271,happy,./data/german/14a05Fb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+272,happy,./data/german/13b01Fc.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+273,calm,./data/german/09b03Lb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+274,happy,./data/german/13a02Fa.png,F,Das will sie am Mittwoch abgeben.
+275,sad,./data/german/14b03Ta.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+276,sad,./data/german/15a02Ta.png,M,Das will sie am Mittwoch abgeben.
+277,sad,./data/german/03a04Ta.png,M,Heute abend könnte ich es ihm sagen.
+278,sad,./data/german/08a04Tb.png,F,Heute abend könnte ich es ihm sagen.
+279,angry,./data/german/16b02Wb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+280,neutral,./data/german/03b10Nc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+281,angry,./data/german/08b09Wc.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+282,angry,./data/german/10a04Wa.png,M,Heute abend könnte ich es ihm sagen.
+283,disgust,./data/german/16a04Ea.png,F,Heute abend könnte ich es ihm sagen.
+284,sad,./data/german/03b01Td.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+285,fearful,./data/german/12b02Ad.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+286,neutral,./data/german/10a04Nb.png,M,Heute abend könnte ich es ihm sagen.
+287,calm,./data/german/03b01Lb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+288,neutral,./data/german/16a01Nc.png,F,Der Lappen liegt auf dem Eisschrank.
+289,calm,./data/german/13b02Lc.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+290,angry,./data/german/11b01Wd.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+291,happy,./data/german/08a07Fd.png,F,In sieben Stunden wird es soweit sein.
+292,fearful,./data/german/14b01Ac.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+293,neutral,./data/german/03b09Nc.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+294,happy,./data/german/03a01Fa.png,M,Der Lappen liegt auf dem Eisschrank.
+295,happy,./data/german/15a07Fa.png,M,In sieben Stunden wird es soweit sein.
+296,fearful,./data/german/12a05Ab.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+297,fearful,./data/german/15b03Aa.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+298,calm,./data/german/08b03Lc.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+299,sad,./data/german/13a05Tc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+300,angry,./data/german/03b09Wa.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+301,happy,./data/german/14a05Fa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+302,calm,./data/german/09a02La.png,F,Das will sie am Mittwoch abgeben.
+303,fearful,./data/german/15a02Ac.png,M,Das will sie am Mittwoch abgeben.
+304,happy,./data/german/16b10Fb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+305,calm,./data/german/08a02La.png,F,Das will sie am Mittwoch abgeben.
+306,sad,./data/german/12a05Ta.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+307,neutral,./data/german/08b10Nc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+308,calm,./data/german/11b10Ld.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+309,angry,./data/german/08b10Wa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+310,sad,./data/german/13a07Tc.png,F,In sieben Stunden wird es soweit sein.
+311,angry,./data/german/09b10Wa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+312,sad,./data/german/14a02Tb.png,F,Das will sie am Mittwoch abgeben.
+313,angry,./data/german/03b10Wb.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+314,neutral,./data/german/08b09Nb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+315,angry,./data/german/10a04Wb.png,M,Heute abend könnte ich es ihm sagen.
+316,calm,./data/german/14a04Lb.png,F,Heute abend könnte ich es ihm sagen.
+317,calm,./data/german/12a01Lb.png,M,Der Lappen liegt auf dem Eisschrank.
+318,calm,./data/german/13a01Lb.png,F,Der Lappen liegt auf dem Eisschrank.
+319,angry,./data/german/11a04Wc.png,M,Heute abend könnte ich es ihm sagen.
+320,angry,./data/german/08b09Wa.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+321,neutral,./data/german/03b10Na.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+322,angry,./data/german/16a01Wb.png,F,Der Lappen liegt auf dem Eisschrank.
+323,calm,./data/german/11b09Ld.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+324,angry,./data/german/09b09Wa.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+325,happy,./data/german/09a01Fa.png,F,Der Lappen liegt auf dem Eisschrank.
+326,happy,./data/german/16b09Fb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+327,angry,./data/german/03b10Wc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+328,calm,./data/german/08b01Lb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+329,happy,./data/german/15a07Fb.png,M,In sieben Stunden wird es soweit sein.
+330,sad,./data/german/15b03Tc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+331,fearful,./data/german/13a05Aa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+332,happy,./data/german/08a05Fe.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+333,fearful,./data/german/14a02Ab.png,F,Das will sie am Mittwoch abgeben.
+334,fearful,./data/german/12a07Ac.png,M,In sieben Stunden wird es soweit sein.
+335,angry,./data/german/10a02Wa.png,M,Das will sie am Mittwoch abgeben.
+336,disgust,./data/german/16b03Ea.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+337,neutral,./data/german/15b10Nc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+338,calm,./data/german/14a02La.png,F,Das will sie am Mittwoch abgeben.
+339,fearful,./data/german/08a02Ac.png,F,Das will sie am Mittwoch abgeben.
+340,angry,./data/german/11b03Wa.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+341,calm,./data/german/15a02La.png,M,Das will sie am Mittwoch abgeben.
+342,disgust,./data/german/16a02Ea.png,F,Das will sie am Mittwoch abgeben.
+343,fearful,./data/german/08b01Aa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+344,neutral,./data/german/11a02Nc.png,M,Das will sie am Mittwoch abgeben.
+345,sad,./data/german/08a02Tb.png,F,Das will sie am Mittwoch abgeben.
+346,angry,./data/german/16a05Wb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+347,angry,./data/german/15b10Wa.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+348,neutral,./data/german/16a07Nb.png,F,In sieben Stunden wird es soweit sein.
+349,calm,./data/german/12a05Lb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+350,sad,./data/german/03a02Ta.png,M,Das will sie am Mittwoch abgeben.
+351,neutral,./data/german/15b09Nb.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+352,happy,./data/german/14b02Fb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+353,angry,./data/german/14b09Wa.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+354,happy,./data/german/03a05Fc.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+355,fearful,./data/german/14a04Aa.png,F,Heute abend könnte ich es ihm sagen.
+356,happy,./data/german/08b02Ff.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+357,happy,./data/german/08a01Fd.png,F,Der Lappen liegt auf dem Eisschrank.
+358,happy,./data/german/03a07Fa.png,M,In sieben Stunden wird es soweit sein.
+359,neutral,./data/german/11a04Nd.png,M,Heute abend könnte ich es ihm sagen.
+360,calm,./data/german/13a05Lc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+361,sad,./data/german/08b03Tc.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+362,neutral,./data/german/11b03Nb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+363,disgust,./data/german/16b01Eb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+364,angry,./data/german/16a05Wc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+365,calm,./data/german/15b01Lb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+366,calm,./data/german/12a07La.png,M,In sieben Stunden wird es soweit sein.
+367,fearful,./data/german/08a02Ab.png,F,Das will sie am Mittwoch abgeben.
+368,neutral,./data/german/15b10Nb.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+369,angry,./data/german/16a07Wa.png,F,In sieben Stunden wird es soweit sein.
+370,neutral,./data/german/14b10Nb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+371,calm,./data/german/14b03Lb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+372,angry,./data/german/11b03Wb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+373,angry,./data/german/10b03Wb.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+374,sad,./data/german/11b10Td.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+375,fearful,./data/german/11b10Ae.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+376,sad,./data/german/09b03Ta.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+377,happy,./data/german/13b03Fd.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+378,neutral,./data/german/09b09Nd.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+379,sad,./data/german/14a04Tb.png,F,Heute abend könnte ich es ihm sagen.
+380,calm,./data/german/09a04La.png,F,Heute abend könnte ich es ihm sagen.
+381,disgust,./data/german/13b09Ec.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+382,fearful,./data/german/15a04Ac.png,M,Heute abend könnte ich es ihm sagen.
+383,calm,./data/german/08a04La.png,F,Heute abend könnte ich es ihm sagen.
+384,fearful,./data/german/10b09Ad.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+385,fearful,./data/german/11b09Ad.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+386,angry,./data/german/14b09Wc.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+387,angry,./data/german/15b09Wb.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+388,calm,./data/german/10b09Lb.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+389,fearful,./data/german/13a01Ac.png,F,Der Lappen liegt auf dem Eisschrank.
+390,fearful,./data/german/15a04Ab.png,M,Heute abend könnte ich es ihm sagen.
+391,sad,./data/german/14a04Tc.png,F,Heute abend könnte ich es ihm sagen.
+392,happy,./data/german/13a04Fc.png,F,Heute abend könnte ich es ihm sagen.
+393,sad,./data/german/11b09Td.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+394,happy,./data/german/15a01Fb.png,M,Der Lappen liegt auf dem Eisschrank.
+395,happy,./data/german/03a07Fb.png,M,In sieben Stunden wird es soweit sein.
+396,sad,./data/german/03b03Tc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+397,calm,./data/german/10b10Lc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+398,disgust,./data/german/13b10Ec.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+399,angry,./data/german/14b10Wc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+400,fearful,./data/german/11b10Ad.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+401,happy,./data/german/14a07Fd.png,F,In sieben Stunden wird es soweit sein.
+402,neutral,./data/german/10a02Na.png,M,Das will sie am Mittwoch abgeben.
+403,disgust,./data/german/16a02Ec.png,F,Das will sie am Mittwoch abgeben.
+404,neutral,./data/german/09b10Nd.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+405,calm,./data/german/13a07Lb.png,F,In sieben Stunden wird es soweit sein.
+406,calm,./data/german/03a04Lc.png,M,Heute abend könnte ich es ihm sagen.
+407,neutral,./data/german/11b01Nc.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+408,fearful,./data/german/14b03Ad.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+409,angry,./data/german/11a02Wc.png,M,Das will sie am Mittwoch abgeben.
+410,calm,./data/german/15b03Lc.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+411,fearful,./data/german/03a04Ad.png,M,Heute abend könnte ich es ihm sagen.
+412,angry,./data/german/12b10Wa.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+413,angry,./data/german/10a05Wb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+414,angry,./data/german/13b10Wa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+415,calm,./data/german/15a05Lb.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+416,calm,./data/german/14a05Lb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+417,calm,./data/german/12b03La.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+418,sad,./data/german/08a05Ta.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+419,neutral,./data/german/13b10Nc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+420,calm,./data/german/08a01Lc.png,F,Der Lappen liegt auf dem Eisschrank.
+421,fearful,./data/german/14a01Aa.png,F,Der Lappen liegt auf dem Eisschrank.
+422,happy,./data/german/12b02Fb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+423,happy,./data/german/13b02Fb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+424,neutral,./data/german/11a01Nd.png,M,Der Lappen liegt auf dem Eisschrank.
+425,sad,./data/german/13a04Ta.png,F,Heute abend könnte ich es ihm sagen.
+426,happy,./data/german/09a04Fd.png,F,Heute abend könnte ich es ihm sagen.
+427,calm,./data/german/08b02La.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+428,sad,./data/german/03a05Tc.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+429,angry,./data/german/13b09Wa.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+430,sad,./data/german/15b02Tc.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+431,calm,./data/german/16b09La.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+432,sad,./data/german/14b02Tc.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+433,disgust,./data/german/14b09Ea.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+434,disgust,./data/german/16a07Ea.png,F,In sieben Stunden wird es soweit sein.
+435,neutral,./data/german/11a05Na.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+436,angry,./data/german/16b01Wb.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+437,neutral,./data/german/16b03Nb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+438,sad,./data/german/08a07Tb.png,F,In sieben Stunden wird es soweit sein.
+439,disgust,./data/german/11b01Eb.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+440,neutral,./data/german/16a02Nb.png,F,Das will sie am Mittwoch abgeben.
+441,sad,./data/german/13b03Td.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+442,calm,./data/german/03b02La.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+443,happy,./data/german/09b03Fa.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+444,happy,./data/german/14a02Fd.png,F,Das will sie am Mittwoch abgeben.
+445,happy,./data/german/03a04Fd.png,M,Heute abend könnte ich es ihm sagen.
+446,disgust,./data/german/16a05Ea.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+447,disgust,./data/german/14b10Eb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+448,calm,./data/german/16b10Lb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+449,angry,./data/german/16a02Wb.png,F,Das will sie am Mittwoch abgeben.
+450,calm,./data/german/13b03Lb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+451,sad,./data/german/09a05Tb.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+452,angry,./data/german/11a07Wc.png,M,In sieben Stunden wird es soweit sein.
+453,angry,./data/german/16b03Wb.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+454,calm,./data/german/14a07Lc.png,F,In sieben Stunden wird es soweit sein.
+455,sad,./data/german/16b10Td.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+456,fearful,./data/german/13a04Ac.png,F,Heute abend könnte ich es ihm sagen.
+457,angry,./data/german/12b09Wc.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+458,neutral,./data/german/13b09Na.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+459,fearful,./data/german/15b02Aa.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+460,happy,./data/german/08a04Ff.png,F,Heute abend könnte ich es ihm sagen.
+461,fearful,./data/german/14b02Aa.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+462,happy,./data/german/11b09Fd.png,M,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+463,happy,./data/german/03a02Fc.png,M,Das will sie am Mittwoch abgeben.
+464,fearful,./data/german/03a05Aa.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+465,happy,./data/german/12a01Fb.png,M,Der Lappen liegt auf dem Eisschrank.
+466,happy,./data/german/03b01Fa.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+467,fearful,./data/german/14a01Ac.png,F,Der Lappen liegt auf dem Eisschrank.
+468,calm,./data/german/16b09Lb.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+469,disgust,./data/german/11a02Ec.png,M,Das will sie am Mittwoch abgeben.
+470,calm,./data/german/13a02Lc.png,F,Das will sie am Mittwoch abgeben.
+471,angry,./data/german/10a07Wb.png,M,In sieben Stunden wird es soweit sein.
+472,fearful,./data/german/13a02Ad.png,F,Das will sie am Mittwoch abgeben.
+473,angry,./data/german/16b01Wa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+474,sad,./data/german/08a07Ta.png,F,In sieben Stunden wird es soweit sein.
+475,angry,./data/german/13b10Wc.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+476,disgust,./data/german/10b01Ea.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+477,sad,./data/german/09a07Ta.png,F,In sieben Stunden wird es soweit sein.
+478,happy,./data/german/13a07Fd.png,F,In sieben Stunden wird es soweit sein.
+479,happy,./data/german/09b03Fd.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+480,fearful,./data/german/14a05Ac.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+481,angry,./data/german/11a05Wd.png,M,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+482,sad,./data/german/12b03Ta.png,M,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+483,fearful,./data/german/13b01Ab.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+484,sad,./data/german/13a02Ta.png,F,Das will sie am Mittwoch abgeben.
+485,sad,./data/german/03b02Tb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+486,fearful,./data/german/14a07Aa.png,F,In sieben Stunden wird es soweit sein.
+487,happy,./data/german/14b01Fc.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+488,fearful,./data/german/08a01Ab.png,F,Der Lappen liegt auf dem Eisschrank.
+489,neutral,./data/german/10a01Nb.png,M,Der Lappen liegt auf dem Eisschrank.
+490,calm,./data/german/15b02Lb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+491,neutral,./data/german/16a04Nc.png,F,Heute abend könnte ich es ihm sagen.
+492,disgust,./data/german/16b02Eb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+493,angry,./data/german/11b02Wb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+494,angry,./data/german/10b02Wb.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+495,calm,./data/german/03a07La.png,M,In sieben Stunden wird es soweit sein.
+496,neutral,./data/german/11b02Na.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+497,calm,./data/german/15a01La.png,M,Der Lappen liegt auf dem Eisschrank.
+498,neutral,./data/german/10b02Na.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+499,angry,./data/german/10a01Wa.png,M,Der Lappen liegt auf dem Eisschrank.
+500,sad,./data/german/14a05Tc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+501,happy,./data/german/08a02Fe.png,F,Das will sie am Mittwoch abgeben.
+502,calm,./data/german/13b01Ld.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+503,happy,./data/german/08b03Fe.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+504,fearful,./data/german/16b10Aa.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+505,sad,./data/german/14a07Tc.png,F,In sieben Stunden wird es soweit sein.
+506,happy,./data/german/08b01Fe.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+507,fearful,./data/german/12a02Ac.png,M,Das will sie am Mittwoch abgeben.
+508,sad,./data/german/16b10Tb.png,F,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+509,sad,./data/german/14a05Ta.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+510,fearful,./data/german/13b03Ac.png,F,An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.
+511,angry,./data/german/11a01Wc.png,M,Der Lappen liegt auf dem Eisschrank.
+512,angry,./data/german/16a04Wb.png,F,Heute abend könnte ich es ihm sagen.
+513,fearful,./data/german/16b09Ab.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+514,sad,./data/german/09b02Tb.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+515,disgust,./data/german/16a01Ec.png,F,Der Lappen liegt auf dem Eisschrank.
+516,calm,./data/german/13a04Lb.png,F,Heute abend könnte ich es ihm sagen.
+517,happy,./data/german/15a04Fd.png,M,Heute abend könnte ich es ihm sagen.
+518,disgust,./data/german/03b10Ec.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+519,happy,./data/german/13a01Fd.png,F,Der Lappen liegt auf dem Eisschrank.
+520,disgust,./data/german/09b09Ea.png,F,Ich will das eben wegbringen und dann mit Karl was trinken gehen.
+521,sad,./data/german/08b02Tc.png,F,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+522,angry,./data/german/16a04Wc.png,F,Heute abend könnte ich es ihm sagen.
+523,happy,./data/german/14b01Fa.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+524,calm,./data/german/14a07Ld.png,F,In sieben Stunden wird es soweit sein.
+525,calm,./data/german/15a07Ld.png,M,In sieben Stunden wird es soweit sein.
+526,sad,./data/german/12b01Ta.png,M,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+527,happy,./data/german/10b10Fc.png,M,"Die wird auf dem Platz sein, wo wir sie immer hinlegen."
+528,fearful,./data/german/15a07Ac.png,M,In sieben Stunden wird es soweit sein.
+529,calm,./data/german/08a07La.png,F,In sieben Stunden wird es soweit sein.
+530,happy,./data/german/08b01Fd.png,F,"Was sind denn das für Tüten, die da unter dem Tisch stehen?"
+531,fearful,./data/german/03b02Aa.png,M,Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.
+532,calm,./data/german/09a05Lc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+533,calm,./data/german/08a05Lc.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.
+534,fearful,./data/german/14a05Aa.png,F,Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.

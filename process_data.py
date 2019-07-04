@@ -1,4 +1,3 @@
-import wave
 import os
 import pandas
 import matplotlib.pyplot as plt
@@ -38,19 +37,18 @@ statement_dict = {
 }
 
 german_statement_dict = {
-    'a01':	'Der Lappen liegt auf dem Eisschrank.',
-    'a02':	'Das will sie am Mittwoch abgeben.',
-    'a04':	'Heute abend könnte ich es ihm sagen.',
-    'a05':	'Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.',
-    'a07':	'In sieben Stunden wird es soweit sein.',
-    'b01':	'Was sind denn das für Tüten, die da unter dem Tisch stehen?',
-    'b02':	'Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.',
-    'b03':	'An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.',
-    'b09':	'Ich will das eben wegbringen und dann mit Karl was trinken gehen.',
-    'b10':	'Die wird auf dem Platz sein, wo wir sie immer hinlegen.'
+    'a01': 'Der Lappen liegt auf dem Eisschrank.',
+    'a02': 'Das will sie am Mittwoch abgeben.',
+    'a04': 'Heute abend könnte ich es ihm sagen.',
+    'a05': 'Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.',
+    'a07': 'In sieben Stunden wird es soweit sein.',
+    'b01': 'Was sind denn das für Tüten, die da unter dem Tisch stehen?',
+    'b02': 'Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.',
+    'b03': 'An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.',
+    'b09': 'Ich will das eben wegbringen und dann mit Karl was trinken gehen.',
+    'b10': 'Die wird auf dem Platz sein, wo wir sie immer hinlegen.'
 }
 
-data_index = []
 german_genders = {
     '03': 'M',
     '08': 'F',
@@ -63,7 +61,9 @@ german_genders = {
     '15': 'M',
     '16': 'F'
 }
-def add_german_entry(file_path):
+
+
+def add_german_entry(file_path, data_index):
     print('Add German Index Entry: ' + file_path)
     file_name = os.path.basename(file_path).replace('.png', '')
 
@@ -79,7 +79,8 @@ def add_german_entry(file_path):
         'gender': gender
     })
 
-def add_index_entry(file_path):
+
+def add_engie_entry(file_path, data_index):
     print('Add Index Entry: ' + file_path)
     file_name = os.path.basename(file_path).replace('.png', '').split('-')
 
@@ -97,7 +98,7 @@ def add_index_entry(file_path):
     })
 
 
-def save_index(file_path):
+def save_index(file_path, data_index):
     df = pandas.DataFrame(data_index)
     df.to_csv(file_path)
 
@@ -121,7 +122,7 @@ def create_spectrogram(filename):
     del filename, clip, sample_rate, fig, ax, S
 
 
-def iterate_dirs(dir_name):
+def iterate_dirs(dir_name, dataset_type, index):
     files = os.listdir(dir_name)
     for i in range(0, len(files)):
         file_name = files[i]
@@ -130,10 +131,23 @@ def iterate_dirs(dir_name):
             iterate_dirs(file_path)
         elif (file_path.endswith('.wav')):
             target_filepath = file_path.replace('.wav', '.png')
-            add_german_entry(target_filepath)
+
+            if dataset_type == 'german':
+                add_german_entry(target_filepath, index)
+            elif dataset_type == 'engie':
+                add_engie_entry(target_filepath, index)
+
             create_spectrogram(file_path)
 
 
-input_dir = './data/german'
-iterate_dirs(input_dir)
-save_index('german_index.csv')
+input_dir = './data'
+
+german_data_index = []
+german_data_dir = os.path.join(input_dir, 'german')
+iterate_dirs(german_data_dir, 'german', german_data_index)
+save_index('german_index.csv', german_data_index)
+
+engie_data_index = []
+engie_data_dir = os.path.join(input_dir, 'engie')
+iterate_dirs(engie_data_dir, 'engie', engie_data_index)
+save_index('engie_index.csv', engie_data_index)
