@@ -18,12 +18,12 @@ emotion_dict = {
 }
 
 german_dict = {
-    'A': 'angry',
-    'B': 'calm',
-    'D': 'disgust',
-    'F': 'fearful',
-    'H': 'happy',
-    'S': 'sad',
+    'W': 'angry',
+    'L': 'calm',
+    'E': 'disgust',
+    'A': 'fearful',
+    'F': 'happy',
+    'T': 'sad',
     'N': 'neutral'
 }
 
@@ -50,30 +50,32 @@ german_statement_dict = {
     'b10':	'Die wird auf dem Platz sein, wo wir sie immer hinlegen.'
 }
 
-good_emotions = frozenset(['neutral', 'calm', 'happy'])
-
 data_index = []
-
+german_genders = {
+    '03': 'M',
+    '08': 'F',
+    '09': 'F',
+    '10': 'M',
+    '11': 'M',
+    '12': 'M',
+    '13': 'F',
+    '14': 'F',
+    '15': 'M',
+    '16': 'F'
+}
 def add_german_entry(file_path):
-    print('Add Index Entry: ' + file_path)
-    file_name = os.path.basename(file_path).replace('.png', '').split('-')
+    print('Add German Index Entry: ' + file_path)
+    file_name = os.path.basename(file_path).replace('.png', '')
 
-    gender = 'F'
-    if (int(file_name[6]) % 2 > 0):
-        gender = 'M'
+    actor_no = file_name[0:2]
+    gender = german_genders[actor_no]
 
-    emotion = emotion_dict[file_name[2]]
-
-    emotion_cat = 'bad'
-    if (emotion in good_emotions):
-        emotion_cat = 'good'
+    emotion = german_dict[file_name[5:6]]
 
     data_index.append({
         'file_path': file_path,
         'emotion': emotion,
-        'category': emotion_cat,
-        'intensity': intensity_dict[file_name[3]],
-        'statement': statement_dict[file_name[4]],
+        'statement': german_statement_dict[file_name[2:5]],
         'gender': gender
     })
 
@@ -87,15 +89,9 @@ def add_index_entry(file_path):
 
     emotion = emotion_dict[file_name[2]]
 
-    emotion_cat = 'bad'
-    if (emotion in good_emotions):
-        emotion_cat = 'good'
-
     data_index.append({
         'file_path': file_path,
         'emotion': emotion,
-        'category': emotion_cat,
-        'intensity': intensity_dict[file_name[3]],
         'statement': statement_dict[file_name[4]],
         'gender': gender
     })
@@ -134,10 +130,10 @@ def iterate_dirs(dir_name):
             iterate_dirs(file_path)
         elif (file_path.endswith('.wav')):
             target_filepath = file_path.replace('.wav', '.png')
-            add_index_entry(target_filepath)
+            add_german_entry(target_filepath)
             create_spectrogram(file_path)
 
 
-input_dir = './data/'
+input_dir = './data/german'
 iterate_dirs(input_dir)
-save_index('index.csv')
+save_index('german_index.csv')
