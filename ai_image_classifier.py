@@ -13,7 +13,7 @@ from keras.callbacks import EarlyStopping
 def main():
     gc.collect()
 
-    data_dir = os.path.abspath('./dataset')
+    data_dir = os.path.abspath('.')
     index_df = pandas.read_csv(os.path.join(data_dir, 'index.csv'))
 
     train = index_df.iloc[:round(len(index_df) * .9)]
