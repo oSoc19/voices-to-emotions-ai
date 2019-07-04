@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import librosa
 import librosa.display as ldisplay
 import numpy
+from denoisify import denoisify
 
 emotion_dict = {
     '01': 'neutral',
@@ -138,6 +139,7 @@ def iterate_dirs(dir_name, dataset_type, index):
                 add_engie_entry(target_filepath, index)
 
             create_spectrogram(file_path)
+            denoisify(target_filepath, target_filepath)
 
 
 input_dir = './data'
