@@ -14,10 +14,10 @@ def main():
     gc.collect()
 
     data_dir = os.path.abspath('.')
-    index_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
+    german_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
 
-    train = index_df.iloc[:round(len(index_df) * .9)]
-    test = index_df.iloc[round(len(index_df) * .9):]
+    train = german_df.iloc[:round(len(german_df) * .9)]
+    test = german_df.iloc[round(len(german_df) * .9):]
 
     train_datagen = ImageDataGenerator(rescale=1. / 255., validation_split=0.25)
     train_generator = train_datagen.flow_from_dataframe(

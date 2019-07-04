@@ -1,10 +1,10 @@
+import gc
 import os
 import pandas
 import matplotlib.pyplot as plt
 import librosa
 import librosa.display as ldisplay
 import numpy
-from denoisify import denoisify
 
 emotion_dict = {
     '01': 'neutral',
@@ -64,26 +64,26 @@ german_genders = {
 }
 
 
-def add_german_entry(file_path, data_index):
-    print('Add German Index Entry: ' + file_path)
-    file_name = os.path.basename(file_path).replace('.png', '')
+def add_german_entry(file_name, data_index, spectrogram_paths):
+    print('Add German Index Entry: ' + file_name)
 
     actor_no = file_name[0:2]
     gender = german_genders[actor_no]
 
     emotion = german_dict[file_name[5:6]]
 
-    data_index.append({
-        'file_path': file_path,
-        'emotion': emotion,
-        'statement': german_statement_dict[file_name[2:5]],
-        'gender': gender
-    })
+    for i in range(0, len(spectrogram_paths)):
+        data_index.append({
+            'file_path': spectrogram_paths[i],
+            'emotion': emotion,
+            'statement': german_statement_dict[file_name[2:5]],
+            'gender': gender
+        })
 
 
-def add_engie_entry(file_path, data_index):
-    print('Add Index Entry: ' + file_path)
-    file_name = os.path.basename(file_path).replace('.png', '').split('-')
+def add_engie_entry(file_name, data_index, spectrogram_paths):
+    print('Add Index Entry: ' + file_name)
+    file_name = file_name.split('-')
 
     gender = 'F'
     if (int(file_name[6]) % 2 > 0):
@@ -91,12 +91,13 @@ def add_engie_entry(file_path, data_index):
 
     emotion = emotion_dict[file_name[2]]
 
-    data_index.append({
-        'file_path': file_path,
-        'emotion': emotion,
-        'statement': statement_dict[file_name[4]],
-        'gender': gender
-    })
+    for i in range(0, len(spectrogram_paths)):
+        data_index.append({
+            'file_path': spectrogram_paths[i],
+            'emotion': emotion,
+            'statement': statement_dict[file_name[4]],
+            'gender': gender
+        })
 
 
 def save_index(file_path, data_index):
@@ -106,21 +107,43 @@ def save_index(file_path, data_index):
 
 def create_spectrogram(filename):
     plt.interactive(False)
+
     clip, sample_rate = librosa.load(filename, sr=None)
-    fig = plt.figure(figsize=[0.72, 0.72])
-    ax = fig.add_subplot(111)
-    ax.axes.get_xaxis().set_visible(False)
-    ax.axes.get_yaxis().set_visible(False)
-    ax.set_frame_on(False)
-    S = librosa.feature.melspectrogram(y=clip, sr=sample_rate)
-    ldisplay.specshow(librosa.power_to_db(S, ref=numpy.max))
-    filename = filename.replace('.wav', '.png')
-    plt.savefig(filename, dpi=400, bbox_inches='tight', pad_inches=0)
-    plt.close()
-    fig.clf()
-    plt.close(fig)
-    plt.close('all')
-    del filename, clip, sample_rate, fig, ax, S
+    trimmed_clips = librosa.effects.split(clip, top_db=25)
+    one_sec_framecount = librosa.time_to_samples(1, sr=sample_rate)
+
+    filenames = []
+    for x in range(0, len(trimmed_clips)):
+        last_sample_index = trimmed_clips[x][0]
+        trimmed_clip = clip[trimmed_clips[x][0]:trimmed_clips[x][1]]
+        sec_fragments_count = len(trimmed_clip) // one_sec_framecount
+        for i in range(0, sec_fragments_count):
+            sec_clip = clip[last_sample_index:last_sample_index + one_sec_framecount]
+            fig = plt.figure(figsize=[0.72, 0.72])
+            ax = fig.add_subplot(111)
+            ax.axes.get_xaxis().set_visible(False)
+            ax.axes.get_yaxis().set_visible(False)
+            ax.set_frame_on(False)
+            S = librosa.feature.melspectrogram(y=sec_clip, sr=sample_rate)
+            db_matrix = librosa.power_to_db(S, ref=numpy.max)
+            ldisplay.specshow(db_matrix)
+
+            # Save File
+            plt_file_path = filename.replace('.wav', '__' + str(x) + '__' + str(i) + '.png')
+            plt.savefig(plt_file_path, dpi=400, bbox_inches='tight', pad_inches=0)
+            plt.close()
+            fig.clf()
+            plt.close(fig)
+            plt.close('all')
+
+            print('Created spectrogram: ' + plt_file_path)
+            filenames.append(plt_file_path)
+
+            last_sample_index += one_sec_framecount
+
+    gc.collect()
+
+    return filenames
 
 
 def iterate_dirs(dir_name, dataset_type, index):
@@ -132,15 +155,13 @@ def iterate_dirs(dir_name, dataset_type, index):
             iterate_dirs(file_path, dataset_type, index)
         elif (file_path.endswith('.wav')):
             target_filepath = file_path.replace('.wav', '.png')
+            file_name = os.path.basename(target_filepath).replace('.png', '')
+            spectrogram_paths = create_spectrogram(file_path)
 
             if dataset_type == 'german':
-                add_german_entry(target_filepath, index)
+                add_german_entry(file_name, index, spectrogram_paths)
             elif dataset_type == 'engie':
-                add_engie_entry(target_filepath, index)
-
-            create_spectrogram(file_path)
-            # TODO: figure out a better solution
-            # denoisify(target_filepath, target_filepath)
+                add_engie_entry(file_name, index, spectrogram_paths)
 
 
 input_dir = './data'
@@ -150,7 +171,7 @@ german_data_dir = os.path.join(input_dir, 'german')
 iterate_dirs(german_data_dir, 'german', german_data_index)
 save_index('german_index.csv', german_data_index)
 
-engie_data_index = []
-engie_data_dir = os.path.join(input_dir, 'engie')
-iterate_dirs(engie_data_dir, 'engie', engie_data_index)
-save_index('engie_index.csv', engie_data_index)
+# engie_data_index = []
+# engie_data_dir = os.path.join(input_dir, 'engie')
+# iterate_dirs(engie_data_dir, 'engie', engie_data_index)
+# save_index('engie_index.csv', engie_data_index)
