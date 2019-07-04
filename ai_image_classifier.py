@@ -14,7 +14,7 @@ def main():
     gc.collect()
 
     data_dir = os.path.abspath('.')
-    index_df = pandas.read_csv(os.path.join(data_dir, 'engie_index.csv'))
+    index_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
 
     train = index_df.iloc[:round(len(index_df) * .9)]
     test = index_df.iloc[round(len(index_df) * .9):]
@@ -62,7 +62,7 @@ def main():
     model.add(Activation('hard_sigmoid'))
     model.add(Dropout(0.5))
 
-    model.add(Dense(8, activation='softmax'))
+    model.add(Dense(7, activation='softmax'))
 
     model.compile(optimizer=Adam(lr=0.001), loss="categorical_crossentropy", metrics=["accuracy"])
     model.summary()

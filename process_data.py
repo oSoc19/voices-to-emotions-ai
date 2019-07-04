@@ -139,7 +139,8 @@ def iterate_dirs(dir_name, dataset_type, index):
                 add_engie_entry(target_filepath, index)
 
             create_spectrogram(file_path)
-            denoisify(target_filepath, target_filepath)
+            # TODO: figure out a better solution
+            # denoisify(target_filepath, target_filepath)
 
 
 input_dir = './data'
