@@ -128,7 +128,7 @@ def iterate_dirs(dir_name, dataset_type, index):
         file_name = files[i]
         file_path = os.path.join(dir_name, file_name)
         if (os.path.isdir(file_path)):
-            iterate_dirs(file_path)
+            iterate_dirs(file_path, dataset_type, index)
         elif (file_path.endswith('.wav')):
             target_filepath = file_path.replace('.wav', '.png')
 
