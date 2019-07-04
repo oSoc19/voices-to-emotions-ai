@@ -17,6 +17,16 @@ emotion_dict = {
     '08': 'surprised'
 }
 
+german_dict = {
+    'A': 'angry',
+    'B': 'calm',
+    'D': 'disgust',
+    'F': 'fearful',
+    'H': 'happy',
+    'S': 'sad',
+    'N': 'neutral'
+}
+
 intensity_dict = {
     '01': 'normal',
     '02': 'strong'
@@ -27,21 +37,45 @@ statement_dict = {
     '02': 'Dogs are sitting by the door'
 }
 
+german_statement_dict = {
+    'a01':	'Der Lappen liegt auf dem Eisschrank.',
+    'a02':	'Das will sie am Mittwoch abgeben.',
+    'a04':	'Heute abend könnte ich es ihm sagen.',
+    'a05':	'Das schwarze Stück Papier befindet sich da oben neben dem Holzstück.',
+    'a07':	'In sieben Stunden wird es soweit sein.',
+    'b01':	'Was sind denn das für Tüten, die da unter dem Tisch stehen?',
+    'b02':	'Sie haben es gerade hochgetragen und jetzt gehen sie wieder runter.',
+    'b03':	'An den Wochenenden bin ich jetzt immer nach Hause gefahren und habe Agnes besucht.',
+    'b09':	'Ich will das eben wegbringen und dann mit Karl was trinken gehen.',
+    'b10':	'Die wird auf dem Platz sein, wo wir sie immer hinlegen.'
+}
+
 good_emotions = frozenset(['neutral', 'calm', 'happy'])
 
 data_index = []
 
+def add_german_entry(file_path):
+    print('Add Index Entry: ' + file_path)
+    file_name = os.path.basename(file_path).replace('.png', '').split('-')
 
-def get_wav_info(filename):
-    print('Reading: ' + filename)
-    wav = wave.open(filename, 'r')
-    frames = wav.readframes(-1)
-    sound_info = pylab.fromstring(frames, 'int16')
-    frame_rate = wav.getframerate()
-    wav.close()
+    gender = 'F'
+    if (int(file_name[6]) % 2 > 0):
+        gender = 'M'
 
-    return sound_info, frame_rate
+    emotion = emotion_dict[file_name[2]]
 
+    emotion_cat = 'bad'
+    if (emotion in good_emotions):
+        emotion_cat = 'good'
+
+    data_index.append({
+        'file_path': file_path,
+        'emotion': emotion,
+        'category': emotion_cat,
+        'intensity': intensity_dict[file_name[3]],
+        'statement': statement_dict[file_name[4]],
+        'gender': gender
+    })
 
 def add_index_entry(file_path):
     print('Add Index Entry: ' + file_path)
