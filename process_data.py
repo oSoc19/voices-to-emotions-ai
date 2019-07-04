@@ -171,7 +171,7 @@ german_data_dir = os.path.join(input_dir, 'german')
 iterate_dirs(german_data_dir, 'german', german_data_index)
 save_index('german_index.csv', german_data_index)
 
-# engie_data_index = []
-# engie_data_dir = os.path.join(input_dir, 'engie')
-# iterate_dirs(engie_data_dir, 'engie', engie_data_index)
-# save_index('engie_index.csv', engie_data_index)
+engie_data_index = []
+engie_data_dir = os.path.join(input_dir, 'engie')
+iterate_dirs(engie_data_dir, 'engie', engie_data_index)
+save_index('engie_index.csv', engie_data_index)
