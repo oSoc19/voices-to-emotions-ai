@@ -124,7 +124,7 @@ def create_spectrogram(filename):
         ax.axes.get_yaxis().set_visible(False)
         ax.set_frame_on(False)
         S = librosa.feature.melspectrogram(y=trimmed_clip, sr=sample_rate)
-        db_matrix = librosa.power_to_db(S, ref=numpy.max, top_db=35)
+        db_matrix = librosa.power_to_db(S, ref=numpy.max, top_db=60)
         ldisplay.specshow(db_matrix)
 
         # Save File
@@ -163,16 +163,24 @@ def iterate_dirs(dir_name, dataset_type, index):
 
 input_dir = './data'
 
-german_data_index = []
-german_data_dir = os.path.join(input_dir, 'german')
-iterate_dirs(german_data_dir, 'german', german_data_index)
-save_index('german_index.csv', german_data_index)
 
-engie_data_index = []
-engie_data_dir = os.path.join(input_dir, 'engie')
-iterate_dirs(engie_data_dir, 'engie', engie_data_index)
-save_index('engie_index.csv', engie_data_index)
+def main():
+    german_data_index = []
+    german_data_dir = os.path.join(input_dir, 'german')
+    iterate_dirs(german_data_dir, 'german', german_data_index)
+    save_index('german_index.csv', german_data_index)
 
-# files = create_spectrogram(os.path.join(input_dir, 'engie', 'Actor_01', '03-01-01-01-01-01-01.wav'))
-# for i in range(0, len(files)):
-# os.system('open ' + files[i])
+    engie_data_index = []
+    engie_data_dir = os.path.join(input_dir, 'engie')
+    iterate_dirs(engie_data_dir, 'engie', engie_data_index)
+    save_index('engie_index.csv', engie_data_index)
+
+
+def test_one_image():
+    files = create_spectrogram(os.path.join(input_dir, 'engie', 'Actor_01', '03-01-01-01-01-01-01.wav'))
+    for i in range(0, len(files)):
+        os.system('open ' + files[i])
+
+
+main()
+# test_one_image()

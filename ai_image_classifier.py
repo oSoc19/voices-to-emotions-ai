@@ -15,11 +15,11 @@ def main():
 
     data_dir = os.path.abspath('.')
     german_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
-    engie_df = pandas.read_csv(os.path.join(data_dir, 'engie_df.csv'))
+    engie_df = pandas.read_csv(os.path.join(data_dir, 'engie_index.csv'))
     dataframe = pandas.concat([german_df, engie_df])
 
-    train = dataframe.iloc[:round(len(dataframe) * .9)]
-    test = dataframe.iloc[round(len(dataframe) * .9):]
+    train = dataframe.iloc[:round(len(dataframe) * .8)]
+    test = dataframe.iloc[round(len(dataframe) * .8):]
 
     train_datagen = ImageDataGenerator(rescale=1. / 255., validation_split=0.25)
     train_generator = train_datagen.flow_from_dataframe(
@@ -64,7 +64,7 @@ def main():
     model.add(Activation('hard_sigmoid'))
     model.add(Dropout(0.5))
 
-    model.add(Dense(7, activation='softmax'))
+    model.add(Dense(8, activation='softmax'))
 
     model.compile(optimizer=Adam(lr=0.001), loss="categorical_crossentropy", metrics=["accuracy"])
     model.summary()
