@@ -6,9 +6,9 @@ import gc
 from random import shuffle
 
 learning_rate = 0.0001
-training_iters = 500
 training_epochs = 10
 batch_size = 64
+model_path = 'lstm.model'
 
 width = 20  # mfcc features
 height = 500  # (max) length of utterance
@@ -25,39 +25,43 @@ net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, los
 model = tflearn.DNN(net, tensorboard_verbose=1)
 
 # Load previous model to improve training
-model.load("lstm.model")
+model.load(model_path)
 
 gc.collect()
 
-for i in range(0, training_iters):
-    print('Current Iter: #', str(i))
+# Train model
+try:
+    while True:
+        print('Loading data...')
 
-    print('Loading data...')
-    shuffle(dataset)
-    trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
-    shuffle(dataset)
-    testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
+        shuffle(dataset)
+        trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
 
-    print('Training model...')
-    model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
-              batch_size=batch_size)
+        shuffle(dataset)
+        testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
 
-    if i % 50 == 0:
-        # Save model
-        print('Saving model...')
-        model.save("lstm.model")
+        model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
+                  batch_size=batch_size)
 
-    gc.collect()
+        gc.collect()
+
+except KeyboardInterrupt:
+    print("KeyboardInterrupt has been caught.")
+
+gc.collect()
 
 # Save model
 print('Saving model...')
-model.save("lstm.model")
+model.save(model_path)
 
+# Evaluate model
 print('Evaluating model...')
 
 shuffle(dataset)
 evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
+
 predictions = model.predict(evalX)
+
 accuracy = 0
 for prediction, actual in zip(predictions, evalY):
     predicted_class = np.argmax(prediction)

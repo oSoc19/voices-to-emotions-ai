@@ -22,7 +22,7 @@ training_epochs = 10
 width = 20  # mfcc features
 height = 500  # (max) length of utterance
 classes = 7
-dataset_folder = os.path.abspath('./data/youtube')
+dataset_folder = os.path.abspath('./data/test')
 dataset = lstm_speech_data.load_dataset(dataset_folder=dataset_folder)
 batch_size = 100
 
