@@ -6,7 +6,7 @@ import gc
 from random import shuffle
 
 learning_rate = 0.0001
-training_iters = 1000
+training_iters = 500
 training_epochs = 10
 batch_size = 64
 
@@ -42,6 +42,11 @@ for i in range(0, training_iters):
     model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
               batch_size=batch_size)
 
+    if i % 50 == 0:
+        # Save model
+        print('Saving model...')
+        model.save("lstm.model")
+
     gc.collect()
 
 # Save model
@@ -63,5 +68,3 @@ for prediction, actual in zip(predictions, evalY):
 accuracy = accuracy / len(evalY)
 
 print("AVG Model Accuracy:", str(round(accuracy * 10000) / 100), '%')
-
-gc.collect()
