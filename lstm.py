@@ -4,7 +4,7 @@ import lstm_speech_data
 import numpy as np
 
 learning_rate = 0.0001
-training_iters = 50
+training_iters = 100
 training_epochs = 10
 batch_size = 128
 
@@ -28,13 +28,15 @@ model = tflearn.DNN(net, tensorboard_verbose=0)
 for i in range(0, training_iters):
     model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
               batch_size=batch_size)
-    _y = model.predict(X)
+
+_y = model.predict(X)
 
 # Save model
 model.save("tflearn.lstm.model")
 
 # Print da statistics
-# print(Y)
-avg_acc_results = np.average(_y, axis=0)
-for i in range(0, len(avg_acc_results)):
-    print('Accuracy of #' + str(i) + ": " + str(round(avg_acc_results[i] * 100)) + '%')
+labels = np.array(Y).argmax(axis=1)
+prediction = np.array(_y).argmax(axis=1)
+mean_acc = (prediction == labels).mean()
+
+print('Average accuracy: ' + str(round(mean_acc * 100)) + '%')
