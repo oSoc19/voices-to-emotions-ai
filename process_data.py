@@ -124,7 +124,7 @@ def create_spectrogram(filename):
         ax.axes.get_yaxis().set_visible(False)
         ax.set_frame_on(False)
         S = librosa.feature.melspectrogram(y=trimmed_clip, sr=sample_rate)
-        db_matrix = librosa.power_to_db(S, ref=numpy.max, top_db=60)
+        db_matrix = librosa.power_to_db(S, ref=numpy.max, top_db=55)
         ldisplay.specshow(db_matrix)
 
         # Save File
@@ -165,11 +165,18 @@ input_dir = './data'
 
 
 def main():
+    process_german_data()
+    process_engie_data()
+
+
+def process_german_data():
     german_data_index = []
     german_data_dir = os.path.join(input_dir, 'german')
     iterate_dirs(german_data_dir, 'german', german_data_index)
     save_index('german_index.csv', german_data_index)
 
+
+def process_engie_data():
     engie_data_index = []
     engie_data_dir = os.path.join(input_dir, 'engie')
     iterate_dirs(engie_data_dir, 'engie', engie_data_index)
@@ -183,4 +190,5 @@ def test_one_image():
 
 
 main()
+# process_german_data()
 # test_one_image()
