@@ -16,8 +16,8 @@ def main():
     data_dir = os.path.abspath('.')
     german_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
     engie_df = pandas.read_csv(os.path.join(data_dir, 'engie_index.csv'))
-    dataframe = pandas.concat([engie_df])
-    num_classes = 823
+    dataframe = pandas.concat([german_df])  # , engie_df
+    num_classes = 7
 
     train = dataframe.iloc[:round(len(dataframe) * .8)]
     test = dataframe.iloc[round(len(dataframe) * .8):]
