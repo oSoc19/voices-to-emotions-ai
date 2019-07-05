@@ -18,6 +18,8 @@ pillow = "*"
 matplotlib = "*"
 librosa = "*"
 opencv-python = "*"
+tflearn = "*"
+future = "*"
 
 [requires]
 python_version = "3.7"
