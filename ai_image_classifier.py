@@ -15,9 +15,11 @@ def main():
 
     data_dir = os.path.abspath('.')
     german_df = pandas.read_csv(os.path.join(data_dir, 'german_index.csv'))
+    engie_df = pandas.read_csv(os.path.join(data_dir, 'engie_df.csv'))
+    dataframe = pandas.concat([german_df, engie_df])
 
-    train = german_df.iloc[:round(len(german_df) * .9)]
-    test = german_df.iloc[round(len(german_df) * .9):]
+    train = dataframe.iloc[:round(len(dataframe) * .9)]
+    test = dataframe.iloc[round(len(dataframe) * .9):]
 
     train_datagen = ImageDataGenerator(rescale=1. / 255., validation_split=0.25)
     train_generator = train_datagen.flow_from_dataframe(

@@ -109,37 +109,34 @@ def create_spectrogram(filename):
     plt.interactive(False)
 
     clip, sample_rate = librosa.load(filename, sr=None)
-    trimmed_clips = librosa.effects.split(clip, top_db=25)
-    one_sec_framecount = librosa.time_to_samples(1, sr=sample_rate)
+    trimmed_clips = librosa.effects.split(clip, top_db=35)
+    one_sec_sample_count = librosa.time_to_samples(1, sr=sample_rate)
 
     filenames = []
     for x in range(0, len(trimmed_clips)):
-        last_sample_index = trimmed_clips[x][0]
         trimmed_clip = clip[trimmed_clips[x][0]:trimmed_clips[x][1]]
-        sec_fragments_count = len(trimmed_clip) // one_sec_framecount
-        for i in range(0, sec_fragments_count):
-            sec_clip = clip[last_sample_index:last_sample_index + one_sec_framecount]
-            fig = plt.figure(figsize=[0.72, 0.72])
-            ax = fig.add_subplot(111)
-            ax.axes.get_xaxis().set_visible(False)
-            ax.axes.get_yaxis().set_visible(False)
-            ax.set_frame_on(False)
-            S = librosa.feature.melspectrogram(y=sec_clip, sr=sample_rate)
-            db_matrix = librosa.power_to_db(S, ref=numpy.max)
-            ldisplay.specshow(db_matrix)
+        if (len(trimmed_clip) < one_sec_sample_count):
+            continue
 
-            # Save File
-            plt_file_path = filename.replace('.wav', '__' + str(x) + '__' + str(i) + '.png')
-            plt.savefig(plt_file_path, dpi=400, bbox_inches='tight', pad_inches=0)
-            plt.close()
-            fig.clf()
-            plt.close(fig)
-            plt.close('all')
+        fig = plt.figure(figsize=[0.72, 0.72])
+        ax = fig.add_subplot(111)
+        ax.axes.get_xaxis().set_visible(False)
+        ax.axes.get_yaxis().set_visible(False)
+        ax.set_frame_on(False)
+        S = librosa.feature.melspectrogram(y=trimmed_clip, sr=sample_rate)
+        db_matrix = librosa.power_to_db(S, ref=numpy.max, top_db=35)
+        ldisplay.specshow(db_matrix)
 
-            print('Created spectrogram: ' + plt_file_path)
-            filenames.append(plt_file_path)
+        # Save File
+        plt_file_path = filename.replace('.wav', '__' + str(x) + '.png')
+        plt.savefig(plt_file_path, dpi=400, bbox_inches='tight', pad_inches=0)
+        plt.close()
+        fig.clf()
+        plt.close(fig)
+        plt.close('all')
 
-            last_sample_index += one_sec_framecount
+        print('Created spectrogram: ' + plt_file_path)
+        filenames.append(plt_file_path)
 
     gc.collect()
 
@@ -175,3 +172,7 @@ engie_data_index = []
 engie_data_dir = os.path.join(input_dir, 'engie')
 iterate_dirs(engie_data_dir, 'engie', engie_data_index)
 save_index('engie_index.csv', engie_data_index)
+
+# files = create_spectrogram(os.path.join(input_dir, 'engie', 'Actor_01', '03-01-01-01-01-01-01.wav'))
+# for i in range(0, len(files)):
+# os.system('open ' + files[i])
