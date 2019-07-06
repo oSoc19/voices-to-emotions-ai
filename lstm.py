@@ -7,8 +7,8 @@ from random import shuffle
 
 learning_rate = 0.0001
 training_epochs = 10
-batch_size = 64
-model_path = 'lstm.model'
+batch_size = 256
+model_path = 'model-lstm.tflearn'
 
 width = 20  # mfcc features
 height = 500  # (max) length of utterance
