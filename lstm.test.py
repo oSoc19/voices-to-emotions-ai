@@ -21,7 +21,7 @@ training_epochs = 25
 batch_size = 128
 model_path = 'model-lstm.tflearn'
 
-width = 20  # mfcc features
+mfcc_features = 64  # mfcc features
 height = 500  # (max) length of utterance
 classes = 8
 
@@ -29,11 +29,10 @@ dataset_folder = os.path.abspath('./data/test')
 dataset = lstm_speech_data.load_dataset(dataset_folder=dataset_folder)
 
 # Network building
-net = tflearn.input_data([None, width, height])
+net = tflearn.input_data([None, mfcc_features, height])
 net = tflearn.lstm(net, 128, dropout=0.8)
 net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
-
 
 # Load model
 print('Loading model...')
@@ -43,7 +42,8 @@ model.load(model_path)
 gc.collect()
 
 print('Evaluating model...')
-evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, dataset_folder=dataset_folder)
+evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, dataset_folder=dataset_folder,
+                                               mfcc_features=mfcc_features)
 predictions = model.predict(evalX)
 accuracy = 0
 for prediction, actual in zip(predictions, evalY):

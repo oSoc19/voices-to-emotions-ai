@@ -10,13 +10,13 @@ training_epochs = 50
 batch_size = 256
 model_path = 'model-lstm.tflearn'
 
-width = 20  # mfcc features
+mfcc_features = 64  # mfcc features
 height = 500  # (max) length of utterance
 classes = 8
 dataset = lstm_speech_data.load_dataset()
 
 # Network building
-net = tflearn.input_data([None, width, height])
+net = tflearn.input_data([None, mfcc_features, height])
 net = tflearn.lstm(net, 128, dropout=0.8)
 net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
@@ -36,10 +36,10 @@ try:
         print('Loading data...')
 
         shuffle(dataset)
-        trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
+        trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
         shuffle(dataset)
-        testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
+        testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
         model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
                   batch_size=batch_size)
@@ -57,7 +57,7 @@ except KeyboardInterrupt:
 print('Evaluating model...')
 
 shuffle(dataset)
-evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size)
+evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
 predictions = model.predict(evalX)
 

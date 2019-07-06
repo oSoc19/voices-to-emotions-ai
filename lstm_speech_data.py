@@ -11,14 +11,14 @@ def dense_to_one_hot(labels_dense, num_classes=8):
     return np.eye(num_classes)[labels_dense]
 
 
-def load_audio_data(file_path):
+def load_audio_data(file_path, mfcc_features=64):
     wave, sr = librosa.load(file_path, mono=True)
     wave_frag_offsets = librosa.effects.split(wave, top_db=35)
 
     results = []
     for offsets in wave_frag_offsets:
         wave_fragment = wave[offsets[0]:offsets[1]]
-        mfcc = librosa.feature.mfcc(wave_fragment, sr)
+        mfcc = librosa.feature.mfcc(wave_fragment, sr, n_mfcc=mfcc_features)
         _, y_size = mfcc.shape
 
         splitted_mfcc = np.array_split(mfcc, math.ceil(y_size / 500), axis=1)
@@ -34,7 +34,7 @@ def load_dataset(dataset_folder=os.path.join(data_dir, 'train')):
     return os.listdir(dataset_folder)
 
 
-def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10):
+def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10, mfcc_features=64):
     batch_features = []
     labels = []
 
@@ -46,7 +46,7 @@ def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_
         # Our data is labeled 01-... but labels should be an int starting at 0
         emotion = int(os.path.basename(wav).split('-')[0]) - 1
         label = dense_to_one_hot(emotion, num_classes=8)
-        audio_data = load_audio_data(file_path)
+        audio_data = load_audio_data(file_path, mfcc_features=mfcc_features)
 
         for mfcc in audio_data:
             labels.append(label)
