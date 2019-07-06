@@ -6,7 +6,7 @@ import gc
 from random import shuffle
 
 learning_rate = 0.0001
-training_epochs = 128
+training_epochs = 50
 batch_size = 256
 model_path = 'model-lstm.tflearn'
 
