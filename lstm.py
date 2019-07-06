@@ -6,13 +6,13 @@ import gc
 from random import shuffle
 
 learning_rate = 0.0001
-training_epochs = 10
-batch_size = 256
+training_epochs = 25
+batch_size = 128
 model_path = 'model-lstm.tflearn'
 
 width = 20  # mfcc features
 height = 500  # (max) length of utterance
-classes = 7
+classes = 8
 dataset = lstm_speech_data.load_dataset()
 
 # Network building

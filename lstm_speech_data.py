@@ -6,7 +6,7 @@ import math
 data_dir = os.path.abspath('./data')
 
 
-def dense_to_one_hot(labels_dense, num_classes=7):
+def dense_to_one_hot(labels_dense, num_classes=8):
     """Convert class labels from scalars to one-hot vectors."""
     return np.eye(num_classes)[labels_dense]
 
@@ -30,11 +30,11 @@ def load_audio_data(file_path):
     return results
 
 
-def load_dataset(dataset_folder=os.path.join(data_dir, 'german')):
+def load_dataset(dataset_folder=os.path.join(data_dir, 'train')):
     return os.listdir(dataset_folder)
 
 
-def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'german'), batch_size=10):
+def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10):
     batch_features = []
     labels = []
 
@@ -43,8 +43,9 @@ def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'german'), batch
             continue
 
         file_path = os.path.join(dataset_folder, wav)
-        emotion =
-        label = dense_to_one_hot(emotion_dict[wav[5:6]], 7)
+        # Our data is labeled 01-... but labels should be an int starting at 0
+        emotion = int(os.path.basename(wav).split('-')[0]) - 1
+        label = dense_to_one_hot(emotion, num_classes=8)
         audio_data = load_audio_data(file_path)
 
         for mfcc in audio_data:
