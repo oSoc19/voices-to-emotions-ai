@@ -6,8 +6,8 @@ import gc
 from random import shuffle
 
 learning_rate = 0.0001
-training_epochs = 25
-batch_size = 128
+training_epochs = 128
+batch_size = 256
 model_path = 'model-lstm.tflearn'
 
 width = 20  # mfcc features
@@ -44,16 +44,14 @@ try:
         model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
                   batch_size=batch_size)
 
+        # Save model
+        print('Saving model...')
+        model.save(model_path)
+
         gc.collect()
 
 except KeyboardInterrupt:
     print("KeyboardInterrupt has been caught.")
-
-gc.collect()
-
-# Save model
-print('Saving model...')
-model.save(model_path)
 
 # Evaluate model
 print('Evaluating model...')
