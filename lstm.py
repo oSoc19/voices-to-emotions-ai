@@ -25,6 +25,7 @@ net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, los
 model = tflearn.DNN(net, tensorboard_verbose=1)
 
 # Load previous model to improve training
+print('Loading model...')
 model.load(model_path)
 
 gc.collect()

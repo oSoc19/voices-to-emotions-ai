@@ -6,25 +6,27 @@ import gc
 import os
 
 emotion_dict = {
-    0: 'angry',
-    1: 'calm',
-    2: 'disgust',
-    3: 'fearful',
-    4: 'happy',
-    5: 'sad',
-    6: 'neutral'
+    0: 'Neutral',
+    1: 'Calm',
+    2: 'Happy',
+    3: 'Sad',
+    4: 'Angry',
+    5: 'Fearful',
+    6: 'Disgust',
+    7: 'Surprised'
 }
 
 learning_rate = 0.0001
-training_iters = 2
-training_epochs = 10
+training_epochs = 25
+batch_size = 128
+model_path = 'model-lstm.tflearn'
 
 width = 20  # mfcc features
 height = 500  # (max) length of utterance
-classes = 7
+classes = 8
+
 dataset_folder = os.path.abspath('./data/test')
 dataset = lstm_speech_data.load_dataset(dataset_folder=dataset_folder)
-batch_size = 100
 
 # Network building
 net = tflearn.input_data([None, width, height])
@@ -32,9 +34,11 @@ net = tflearn.lstm(net, 128, dropout=0.8)
 net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
 
+
 # Load model
+print('Loading model...')
 model = tflearn.DNN(net, tensorboard_verbose=1)
-model.load("lstm.model")
+model.load(model_path)
 
 gc.collect()
 
