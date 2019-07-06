@@ -5,16 +5,6 @@ import math
 
 data_dir = os.path.abspath('./data')
 
-emotion_dict = {
-    'W': 0,  # angry
-    'L': 1,  # calm
-    'E': 2,  # disgust
-    'A': 3,  # fearful
-    'F': 4,  # happy
-    'T': 5,  # sad
-    'N': 6  # neutral
-}
-
 
 def dense_to_one_hot(labels_dense, num_classes=7):
     """Convert class labels from scalars to one-hot vectors."""
@@ -53,6 +43,7 @@ def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'german'), batch
             continue
 
         file_path = os.path.join(dataset_folder, wav)
+        emotion =
         label = dense_to_one_hot(emotion_dict[wav[5:6]], 7)
         audio_data = load_audio_data(file_path)
 
