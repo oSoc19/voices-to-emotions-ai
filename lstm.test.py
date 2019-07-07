@@ -26,7 +26,6 @@ height = 500  # (max) length of utterance
 classes = 8
 
 dataset_folder = os.path.abspath('./data/test')
-dataset = lstm_speech_data.load_dataset(dataset_folder=dataset_folder)
 
 # Network building
 net = tflearn.input_data([None, mfcc_features, height])
@@ -42,25 +41,45 @@ model.load(model_path)
 gc.collect()
 
 print('Evaluating model...')
-evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, dataset_folder=dataset_folder,
-                                               mfcc_features=mfcc_features)
-predictions = model.predict(evalX)
-accuracy = 0
-for prediction, actual in zip(predictions, evalY):
-    predicted_class = np.argmax(prediction)
-    actual_class = np.argmax(actual)
 
-    print('emotion percentages:')
-    for i in range(0, len(prediction)):
-        p = prediction[i]
-        print(emotion_dict[i] + ': ' + str(round(p * 10000) / 100) + '%')
-    print('Predicted:', emotion_dict[predicted_class], ',', 'Actual:', emotion_dict[actual_class])
 
-    if (predicted_class == actual_class):
-        accuracy += 1
+def evaluate_predictions(filename, predictions):
+    human_assigned_class = int(os.path.basename(filename).split('-')[0]) - 1
 
-accuracy = accuracy / len(evalY)
+    print('###', 'Evaluation For:', filename, '###')
+    predictions_mean = np.mean(predictions, axis=0)
+    predictions_count = [0] * 8
+    for prediction_arr in predictions:
+        max_pred = np.argmax(prediction_arr)
+        predictions_count[max_pred] += 1
 
-print("AVG Model Accuracy:", str(round(accuracy * 10000) / 100), '%')
+    predicted_class = np.argmax(predictions_count)
+    for i in range(0, len(predictions_mean)):
+        p = predictions_mean[i]
+        print(emotion_dict[i] + ':', str(round(p * 10000) / 100), '%', ' -- ' + 'Predicted:',
+              str(predictions_count[i]) + '#')
 
-gc.collect()
+    print('Predicted Class:', emotion_dict[predicted_class], ', Actual class:', emotion_dict[human_assigned_class])
+
+    if predicted_class == human_assigned_class:
+        return True
+
+
+test_audio_files = os.listdir(dataset_folder)
+
+correct_predictions = 0
+total_predictions = 0
+for file in test_audio_files:
+    if (file.endswith('.wav') or file.endswith('.mp3')) == False:
+        continue
+
+    total_predictions += 1
+
+    file_path = os.path.join(dataset_folder, file)
+    audio_data = lstm_speech_data.load_audio_data(file_path, mfcc_features=mfcc_features)
+    predictions = model.predict(audio_data)
+
+    if evaluate_predictions(file, predictions):
+        correct_predictions += 1
+
+print('Accuracy:', str(round((correct_predictions / total_predictions) * 10000) / 100), '%')
