@@ -21,7 +21,7 @@ training_epochs = 25
 batch_size = 128
 model_path = 'model-lstm.tflearn'
 
-mfcc_features = 64  # mfcc features
+mfcc_features = 20  # mfcc features
 height = 500  # (max) length of utterance
 classes = 8
 

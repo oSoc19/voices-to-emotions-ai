@@ -34,7 +34,7 @@ def load_dataset(dataset_folder=os.path.join(data_dir, 'train')):
     return os.listdir(dataset_folder)
 
 
-def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10, mfcc_features=64):
+def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10, mfcc_features=20):
     batch_features = []
     labels = []
 
