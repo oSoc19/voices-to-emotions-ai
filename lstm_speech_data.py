@@ -13,7 +13,10 @@ def dense_to_one_hot(labels_dense, num_classes=8):
 
 
 def load_audio_data(file_path, mfcc_features=64):
-    wave, sr = librosa.load(file_path, mono=True, sr=randint(2000, 22050))
+    wave, sr = librosa.load(file_path, mono=True, sr=randint(2000, 22050), res_type='kaiser_fast')
+    whitenoise = np.random.normal(0, abs(np.mean(wave)), wave.shape)
+    wave = librosa.resample(wave + whitenoise, sr, sr, res_type='kaiser_fast')
+    librosa.output.write_wav('test.wav', wave, sr)
     wave_frag_offsets = librosa.effects.split(wave, top_db=35)
 
     results = []
