@@ -1,3 +1,3 @@
-# Voices To Emotions Dataset
+# Voices To Emotions AI
 
-Dataset used for training the voices to emotions AI
+Repository containing all training scripts for the Voices To Emotions AI
