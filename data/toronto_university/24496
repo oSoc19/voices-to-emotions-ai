@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class='no-js' lang="en">
+    <head>
+        <title>Toronto emotional speech set (TESS) - Younger talker_Neutral | TSpace Repository</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="HTML Static Page Generator" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/css/tspace.css" type="text/css" />
+        <link rel="stylesheet" href="/css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="/css/rwd.css" type="text/css" />
+	<link rel="stylesheet" href="/css/fonts.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Dupuis, Kate" xml:lang="en_US" />
+<meta name="DC.contributor" content="Pichora-Fuller, M. Kathleen" xml:lang="en_US" />
+<meta name="DCTERMS.dateAccepted" content="2010-06-24T12:58:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2010-06-24T12:58:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2010-06-21" xml:lang="en_US" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/1807/24496" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="These stimuli were modeled on the Northwestern University Auditory Test No. 6 (NU-6; Tillman &amp; Carhart, 1966). A set of 200 target words were spoken in the carrier phrase &quot;Say the word _____&quot; by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 stimuli in total. The two actresses were recruited from the Toronto area. Both actresses speak English as their first language, are university educated, and have musical training. Audiometric testing indicated that both actresses have thresholds within the normal range." xml:lang="en_US" />
+<meta name="DC.publisher" content="Toronto : University of Toronto, Psychology Department, 2010." xml:lang="en_US" />
+<meta name="DC.subject" content="Auditory perception" xml:lang="en_US" />
+<meta name="DC.title" content="Toronto emotional speech set (TESS) - Younger talker_Neutral" xml:lang="en_US" />
+
+<meta name="citation_keywords" content="Auditory perception" />
+<meta name="citation_title" content="Toronto emotional speech set (TESS) - Younger talker_Neutral" />
+<meta name="citation_publisher" content="Toronto : University of Toronto, Psychology Department, 2010." />
+<meta name="citation_pdf_url" content="https://tspace.library.utoronto.ca/bitstream/1807/24496/1/YAF_youth_neutral.wav" />
+<meta name="citation_date" content="2010-06-21" />
+<meta name="citation_abstract_html_url" content="https://tspace.library.utoronto.ca/handle/1807/24496" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+   <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+	<script type="text/javascript" src="/static/js/tspace_home.js"> </script>
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </head>
+
+    
+    
+    <body>
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-normal">
+			<ul class="list-unstyled list-inline">
+				<li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">U of T Libraries</a></li>
+				<li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+				<li><a href="http://portal.utoronto.ca">Portal</a></li>
+				<li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+				<li><a href="http://www.utoronto.ca/campuses/maps.htm">Campus Maps</a></li>
+			</ul>
+		</div>
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-small">
+                        <ul class="list-unstyled list-inline">
+                                <li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">UTL</a></li>
+                                <li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+                                <li><a href="http://portal.utoronto.ca">Portal</a></li>
+                                <li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+                                <li><a href="http://www.utoronto.ca/campuses/maps.htm">Maps</a></li>
+                        </ul>
+                </div>
+		
+	<div class="tspaceNav">
+       <div class="navbar-header" style="background:white !important">
+         <button aria-label='mobile menu' type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+      	 <a class="navbar-brand" href="http://www.utoronto.ca" title="University of Toronto"><img height="50px" src="/image/UofTCrst.png" alt="University of Toronto" /></a> <a class="navbar-brand" href="/" title="TSpace"><h1>TSpace</h1></a>
+      	 
+      
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right" id="user_login_logout">
+         <li class="dropdown">
+         
+             <a href="/mydspace" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Login</a>
+	             
+          
+           </li>
+          </ul>
+	
+   
+    <form method="get" action="/simple-search" class="navbar-form navbar-right hidden-xs hidden-sm" scope="search">
+        <div class="form-group">
+              <label for="search-terms" class="hide-label">Search</label>
+              <input type="text" class="form-control stretcher" placeholder="Search for faculty and student research" name="query" id="search-terms" size="35" aria-label="Search for faculty and student research"/>
+        </div>
+            <button aria-label='search button' type="submit" class="btn btn-primary" id="tequery-hidden" name="tequery"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+  
+  <form method="get" action="/simple-search" class="navbar-form navbar-right visible-xs" scope="search">
+      <div class="form-group">
+            <div class="col-xs-10" style="padding-right:5px;">
+         	<label for="tequery" class="hide-label">Search</label>
+            <input type="text" class="form-control" placeholder="Search for faculty and student research" name="query" id="tequery" size="25" aria-label="Search for faculty and student research"/>
+            </div>
+          <div class="col-xs-1" style="padding-left:0;">
+          <button aria-label='search button' type="submit" class="btn btn-primary" name="search" id="search"><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+        </div>
+  </form>
+  </div>
+
+         <ul class="nav navbar-nav">
+           <!--
+           <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            -->
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Communities<br/>&amp;&nbsp;collections</a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header" >Browse items by:</li>
+        
+
+        
+                    <li><a href="/browse?type=dateissued&starts_with=A">Date</a></li>
+          
+                    <li><a href="/browse?type=author&starts_with=A">Author</a></li>
+          
+                    <li><a href="/browse?type=title&starts_with=A">Title</a></li>
+          
+                    <li><a href="/browse?type=subject&starts_with=A">Subject</a></li>
+          
+
+        
+
+            </ul>
+          </li>
+          <li ><a href="/help">Help</a></li>
+            
+
+
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+                <li>
+                    <a href="/about/"  title="About TSpace: TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto">About TSpace</a>
+                </li>
+                <li>
+                    <a href="/about/collectionpolicies.jsp"  title="TSpace usage policies page">Policies</a>
+                </li>
+                <li>
+                    <a href="/about/news.jsp"  title="TSpace news and announcements page">News</a>
+                </li>
+            </ul>
+          </li>
+            <li>
+                <a href="/help/firsttimeusers.jsp">Deposit your Research</a>
+            </li>
+       </ul>
+
+    </nav>
+
+    </div>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+                
+
+<div class="container breadcrumbs">
+                
+
+
+
+  
+
+
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">TSpace Repository</a></li>
+
+  <li><a href="/handle/1807/3044">University of Toronto Mississauga</a></li>
+
+  <li><a href="/handle/1807/24486">Department of Psychology</a></li>
+
+  <li><a href="/handle/1807/24487">Toronto emotional speech set (TESS)</a></li>
+
+
+</ol>
+
+
+</div>                
+
+
+
+        
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='item-outer-container'>
+
+
+		
+		
+		
+		
+
+
+   
+
+    <div class='item-container'>
+<tr><td class="metadataFieldLabel"><span class='item-field-label'>Title:</span>
+<h2 class='item-title'>
+Toronto&#x20;emotional&#x20;speech&#x20;set&#x20;(TESS)&#x20;-&#x20;Younger&#x20;talker_Neutral</h2>
+<tr><td class="metadataFieldLabel"><div class='item-field item-author-field'>
+<span class='item-field-label'>Author:</span>
+<a class="author"href="/browse?type=author&amp;value=Dupuis%2C+Kate">Dupuis,&#x20;Kate</a>; <a class="author"href="/browse?type=author&amp;value=Pichora-Fuller%2C+M.+Kathleen">Pichora-Fuller,&#x20;M.&#x20;Kathleen</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Issue Date:</span>
+21-Jun-2010</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Publisher:</span>
+Toronto&#x20;:&#x20;University&#x20;of&#x20;Toronto,&#x20;Psychology&#x20;Department,&#x20;2010.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Description:</span>
+These&#x20;stimuli&#x20;were&#x20;modeled&#x20;on&#x20;the&#x20;Northwestern&#x20;University&#x20;Auditory&#x20;Test&#x20;No.&#x20;6&#x20;(NU-6;&#x20;Tillman&#x20;&amp;&#x20;Carhart,&#x20;1966).&#x20;A&#x20;set&#x20;of&#x20;200&#x20;target&#x20;words&#x20;were&#x20;spoken&#x20;in&#x20;the&#x20;carrier&#x20;phrase&#x20;&quot;Say&#x20;the&#x20;word&#x20;_____&quot;&#x20;by&#x20;two&#x20;actresses&#x20;(aged&#x20;26&#x20;and&#x20;64&#x20;years)&#x20;and&#x20;recordings&#x20;were&#x20;made&#x20;of&#x20;the&#x20;set&#x20;portraying&#x20;each&#x20;of&#x20;seven&#x20;emotions&#x20;(anger,&#x20;disgust,&#x20;fear,&#x20;happiness,&#x20;pleasant&#x20;surprise,&#x20;sadness,&#x20;and&#x20;neutral).&#x20;There&#x20;are&#x20;2800&#x20;stimuli&#x20;in&#x20;total.&#x20;The&#x20;two&#x20;actresses&#x20;were&#x20;recruited&#x20;from&#x20;the&#x20;Toronto&#x20;area.&#x20;Both&#x20;actresses&#x20;speak&#x20;English&#x20;as&#x20;their&#x20;first&#x20;language,&#x20;are&#x20;university&#x20;educated,&#x20;and&#x20;have&#x20;musical&#x20;training.&#x20;Audiometric&#x20;testing&#x20;indicated&#x20;that&#x20;both&#x20;actresses&#x20;have&#x20;thresholds&#x20;within&#x20;the&#x20;normal&#x20;range.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>URI:</span>
+<a href="http://hdl.handle.net/1807/24496">http:&#x2F;&#x2F;hdl.handle.net&#x2F;1807&#x2F;24496</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Keywords:</span>
+<a href="/browse?type=subject&value=Auditory+perception+">Auditory&#x20;perception</a></div>
+</table>
+</div>
+<div class="item-sidebar"><div class='item-files'>
+<h2>Files</h2>
+<ul>
+<li><a target="_blank" href="/bitstream/1807/24496/1/YAF_youth_neutral.wav">YAF_youth_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/2/YAF_young_neutral.wav">YAF_young_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/3/YAF_yes_neutral.wav">YAF_yes_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/4/YAF_yearn_neutral.wav">YAF_yearn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/5/YAF_witch_neutral.wav">YAF_witch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/6/YAF_wire_neutral.wav">YAF_wire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/7/YAF_wife_neutral.wav">YAF_wife_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/8/YAF_white_neutral.wav">YAF_white_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/9/YAF_whip_neutral.wav">YAF_whip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/10/YAF_which_neutral.wav">YAF_which_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/11/YAF_when_neutral.wav">YAF_when_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/12/YAF_wheat_neutral.wav">YAF_wheat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/13/YAF_week_neutral.wav">YAF_week_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/14/YAF_wash_neutral.wav">YAF_wash_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/15/YAF_walk_neutral.wav">YAF_walk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/16/YAF_wag_neutral.wav">YAF_wag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/17/YAF_vote_neutral.wav">YAF_vote_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/18/YAF_void_neutral.wav">YAF_void_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/19/YAF_voice_neutral.wav">YAF_voice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/20/YAF_vine_neutral.wav">YAF_vine_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/21/YAF_turn_neutral.wav">YAF_turn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/22/YAF_tough_neutral.wav">YAF_tough_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/23/YAF_tool_neutral.wav">YAF_tool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/24/YAF_ton_neutral.wav">YAF_ton_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/25/YAF_tire_neutral.wav">YAF_tire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/26/YAF_tip_neutral.wav">YAF_tip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/27/YAF_time_neutral.wav">YAF_time_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/28/YAF_thumb_neutral.wav">YAF_thumb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/29/YAF_thought_neutral.wav">YAF_thought_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/30/YAF_third_neutral.wav">YAF_third_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/31/YAF_thin_neutral.wav">YAF_thin_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/32/YAF_tell_neutral.wav">YAF_tell_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/33/YAF_team_neutral.wav">YAF_team_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/34/YAF_tape_neutral.wav">YAF_tape_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/35/YAF_talk_neutral.wav">YAF_talk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/36/YAF_take_neutral.wav">YAF_take_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/37/YAF_sure_neutral.wav">YAF_sure_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/38/YAF_such_neutral.wav">YAF_such_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/39/YAF_sub_neutral.wav">YAF_sub_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/40/YAF_south_neutral.wav">YAF_south_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/41/YAF_sour_neutral.wav">YAF_sour_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/42/YAF_soup_neutral.wav">YAF_soup_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/43/YAF_soap_neutral.wav">YAF_soap_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/44/YAF_size_neutral.wav">YAF_size_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/45/YAF_shout_neutral.wav">YAF_shout_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/46/YAF_should_neutral.wav">YAF_should_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/47/YAF_shirt_neutral.wav">YAF_shirt_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/48/YAF_sheep_neutral.wav">YAF_sheep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/49/YAF_shawl_neutral.wav">YAF_shawl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/50/YAF_shall_neutral.wav">YAF_shall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/51/YAF_shack_neutral.wav">YAF_shack_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/52/YAF_sell_neutral.wav">YAF_sell_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/53/YAF_seize_neutral.wav">YAF_seize_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/54/YAF_search_neutral.wav">YAF_search_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/55/YAF_sail_neutral.wav">YAF_sail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/56/YAF_said_neutral.wav">YAF_said_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/57/YAF_rush_neutral.wav">YAF_rush_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/58/YAF_rough_neutral.wav">YAF_rough_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/59/YAF_rot_neutral.wav">YAF_rot_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/60/YAF_rose_neutral.wav">YAF_rose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/61/YAF_room_neutral.wav">YAF_room_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/62/YAF_road_neutral.wav">YAF_road_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/63/YAF_ripe_neutral.wav">YAF_ripe_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/64/YAF_ring_neutral.wav">YAF_ring_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/65/YAF_red_neutral.wav">YAF_red_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/66/YAF_read_neutral.wav">YAF_read_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/67/YAF_reach_neutral.wav">YAF_reach_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/68/YAF_rat_neutral.wav">YAF_rat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/69/YAF_raise_neutral.wav">YAF_raise_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/70/YAF_rain_neutral.wav">YAF_rain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/71/YAF_raid_neutral.wav">YAF_raid_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/72/YAF_rag_neutral.wav">YAF_rag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/73/YAF_puff_neutral.wav">YAF_puff_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/74/YAF_pool_neutral.wav">YAF_pool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/75/YAF_pole_neutral.wav">YAF_pole_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/76/YAF_pike_neutral.wav">YAF_pike_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/77/YAF_pick_neutral.wav">YAF_pick_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/78/YAF_phone_neutral.wav">YAF_phone_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/79/YAF_perch_neutral.wav">YAF_perch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/80/YAF_peg_neutral.wav">YAF_peg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/81/YAF_pearl_neutral.wav">YAF_pearl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/82/YAF_pass_neutral.wav">YAF_pass_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/83/YAF_pain_neutral.wav">YAF_pain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/84/YAF_page_neutral.wav">YAF_page_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/85/YAF_pad_neutral.wav">YAF_pad_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/86/YAF_numb_neutral.wav">YAF_numb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/87/YAF_note_neutral.wav">YAF_note_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/88/YAF_nice_neutral.wav">YAF_nice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/89/YAF_neat_neutral.wav">YAF_neat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/90/YAF_near_neutral.wav">YAF_near_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/91/YAF_name_neutral.wav">YAF_name_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/92/YAF_nag_neutral.wav">YAF_nag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/93/YAF_mouse_neutral.wav">YAF_mouse_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/94/YAF_mop_neutral.wav">YAF_mop_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/95/YAF_moon_neutral.wav">YAF_moon_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/96/YAF_mood_neutral.wav">YAF_mood_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/97/YAF_mode_neutral.wav">YAF_mode_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/98/YAF_mob_neutral.wav">YAF_mob_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/99/YAF_mill_neutral.wav">YAF_mill_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/100/YAF_met_neutral.wav">YAF_met_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/101/YAF_mess_neutral.wav">YAF_mess_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/102/YAF_merge_neutral.wav">YAF_merge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/103/YAF_match_neutral.wav">YAF_match_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/104/YAF_make_neutral.wav">YAF_make_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/105/YAF_luck_neutral.wav">YAF_luck_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/106/YAF_love_neutral.wav">YAF_love_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/107/YAF_lot_neutral.wav">YAF_lot_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/108/YAF_lose_neutral.wav">YAF_lose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/109/YAF_lore_neutral.wav">YAF_lore_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/110/YAF_long_neutral.wav">YAF_long_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/111/YAF_loaf_neutral.wav">YAF_loaf_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/112/YAF_live_neutral.wav">YAF_live_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/113/YAF_limb_neutral.wav">YAF_limb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/114/YAF_life_neutral.wav">YAF_life_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/115/YAF_lid_neutral.wav">YAF_lid_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/116/YAF_lease_neutral.wav">YAF_lease_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/117/YAF_learn_neutral.wav">YAF_learn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/118/YAF_lean_neutral.wav">YAF_lean_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/119/YAF_laud_neutral.wav">YAF_laud_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/120/YAF_late_neutral.wav">YAF_late_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/121/YAF_knock_neutral.wav">YAF_knock_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/122/YAF_kite_neutral.wav">YAF_kite_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/123/YAF_king_neutral.wav">YAF_king_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/124/YAF_kill_neutral.wav">YAF_kill_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/125/YAF_kick_neutral.wav">YAF_kick_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/126/YAF_keg_neutral.wav">YAF_keg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/127/YAF_keep_neutral.wav">YAF_keep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/128/YAF_keen_neutral.wav">YAF_keen_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/129/YAF_juice_neutral.wav">YAF_juice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/130/YAF_jug_neutral.wav">YAF_jug_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/131/YAF_judge_neutral.wav">YAF_judge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/132/YAF_join_neutral.wav">YAF_join_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/133/YAF_jar_neutral.wav">YAF_jar_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/134/YAF_jail_neutral.wav">YAF_jail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/135/YAF_hush_neutral.wav">YAF_hush_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/136/YAF_hurl_neutral.wav">YAF_hurl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/137/YAF_home_neutral.wav">YAF_home_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/138/YAF_hole_neutral.wav">YAF_hole_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/139/YAF_hit_neutral.wav">YAF_hit_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/140/YAF_hire_neutral.wav">YAF_hire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/141/YAF_haze_neutral.wav">YAF_haze_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/142/YAF_have_neutral.wav">YAF_have_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/143/YAF_hate_neutral.wav">YAF_hate_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/144/YAF_hash_neutral.wav">YAF_hash_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/145/YAF_hall_neutral.wav">YAF_hall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/146/YAF_half_neutral.wav">YAF_half_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/147/YAF_gun_neutral.wav">YAF_gun_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/148/YAF_goose_neutral.wav">YAF_goose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/149/YAF_good_neutral.wav">YAF_good_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/150/YAF_goal_neutral.wav">YAF_goal_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/151/YAF_gin_neutral.wav">YAF_gin_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/152/YAF_get_neutral.wav">YAF_get_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/153/YAF_germ_neutral.wav">YAF_germ_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/154/YAF_gaze_neutral.wav">YAF_gaze_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/155/YAF_gas_neutral.wav">YAF_gas_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/156/YAF_gap_neutral.wav">YAF_gap_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/157/YAF_food_neutral.wav">YAF_food_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/158/YAF_five_neutral.wav">YAF_five_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/159/YAF_fit_neutral.wav">YAF_fit_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/160/YAF_fat_neutral.wav">YAF_fat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/161/YAF_far_neutral.wav">YAF_far_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/162/YAF_fall_neutral.wav">YAF_fall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/163/YAF_fail_neutral.wav">YAF_fail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/164/YAF_door_neutral.wav">YAF_door_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/165/YAF_doll_neutral.wav">YAF_doll_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/166/YAF_dog_neutral.wav">YAF_dog_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/167/YAF_dodge_neutral.wav">YAF_dodge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/168/YAF_ditch_neutral.wav">YAF_ditch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/169/YAF_dip_neutral.wav">YAF_dip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/170/YAF_dime_neutral.wav">YAF_dime_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/171/YAF_deep_neutral.wav">YAF_deep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/172/YAF_death_neutral.wav">YAF_death_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/173/YAF_dead_neutral.wav">YAF_dead_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/174/YAF_date_neutral.wav">YAF_date_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/175/YAF_dab_neutral.wav">YAF_dab_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/176/YAF_cool_neutral.wav">YAF_cool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/177/YAF_choice_neutral.wav">YAF_choice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/178/YAF_chief_neutral.wav">YAF_chief_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/179/YAF_cheek_neutral.wav">YAF_cheek_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/180/YAF_check_neutral.wav">YAF_check_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/181/YAF_chat_neutral.wav">YAF_chat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/182/YAF_chalk_neutral.wav">YAF_chalk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/183/YAF_chair_neutral.wav">YAF_chair_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/184/YAF_chain_neutral.wav">YAF_chain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/185/YAF_cause_neutral.wav">YAF_cause_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/186/YAF_came_neutral.wav">YAF_came_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/187/YAF_calm_neutral.wav">YAF_calm_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/188/YAF_cab_neutral.wav">YAF_cab_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/189/YAF_burn_neutral.wav">YAF_burn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/190/YAF_bought_neutral.wav">YAF_bought_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/191/YAF_book_neutral.wav">YAF_book_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/192/YAF_bone_neutral.wav">YAF_bone_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/193/YAF_boat_neutral.wav">YAF_boat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/194/YAF_bite_neutral.wav">YAF_bite_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/195/YAF_beg_neutral.wav">YAF_beg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/196/YAF_bean_neutral.wav">YAF_bean_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/197/YAF_bath_neutral.wav">YAF_bath_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/198/YAF_base_neutral.wav">YAF_base_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/199/YAF_bar_neutral.wav">YAF_bar_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24496/200/YAF_back_neutral.wav">YAF_back_neutral.wav</a></li></ul>
+</div>
+<div class="item-handle"><h2>Permanent link</h2><p>http://hdl.handle.net/1807/24496</p></div><ul class='item-extra-links'><li><a class="btn btn-primary" href="/handle/1807/24496?mode=full">Show complete metadata</a></li><li><a class="statisticsLink  btn btn-primary" href="/handle/1807/24496/statistics">Show Statistics <span class="glyphicon glyphicon-stats"></span></a></li></ul><script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script></div>
+
+</div>
+
+    
+
+
+
+
+
+    
+
+    <p class="item-license alert alert-info">Items in TSpace are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+		<h2 style="font-family:'EB Garamond', serif">TSpace</h2>
+		<p style="max-width:600px; margin:0 auto; font-style:italic; padding-bottom:15px">
+TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto. <a href="/about">Learn more</a>
+</p>
+		<p>&copy; 2019 University of Toronto. All rights reserved.<br/><a href="mailto:tspace@library.utoronto.ca">tspace@library.utoronto.ca</a><br/><a href="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=130+St+George+St,+Toronto,+ON&amp;sll=43.662749,-79.395962&amp;sspn=0.012962,0.018454&amp;ie=UTF8&amp;z=17&amp;iwloc=addr">University of Toronto Libraries, 130 St. George Street, Toronto, ON M5S 1A5 Canada</a></p>
+				<p class="text-muted footer-access"><a href="http://onesearch.library.utoronto.ca/university-toronto-libraries-and-online-accessibility">About University of Toronto Libraries online accessibility</a></p>
+                                <p><a href="/feedback" id="access-help" style='text-decoration:underline'>Report an accessibility issue</a></p>
+				<p class="text-muted footer-access"><a href="https://onesearch.library.utoronto.ca/online-privacy-data-collection">About online privacy and data collection</a></p>
+				<p class="dspace-link"><a href="http://www.dspace.org/">DSpace Software</a></p>
+		<div id="footer_feedback" class="pull-right">                                    
+                                <p class="text-muted triangle-border">
+                                	<a href="/feedback">Feedback</a>
+				</p>
+                                </div>
+			</div>
+                <div id='footer_feedback_mobile'>
+                    <a href='/feedback'>Share your feedback</a>
+                </div>
+            <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V9S88"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5V9S88');</script>
+            <!-- End Google Tag Manager -->
+
+    </footer>
+    <a class='htmlmap' href="/htmlmap">link to htmlmap</a>
+    </body>
+</html>
+

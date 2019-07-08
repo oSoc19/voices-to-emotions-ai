@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class='no-js' lang="en">
+    <head>
+        <title>Toronto emotional speech set (TESS) - Younger talker_Sad | TSpace Repository</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="HTML Static Page Generator" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/css/tspace.css" type="text/css" />
+        <link rel="stylesheet" href="/css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="/css/rwd.css" type="text/css" />
+	<link rel="stylesheet" href="/css/fonts.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Dupuis, Kate" xml:lang="en_US" />
+<meta name="DC.contributor" content="Pichora-Fuller, M. Kathleen" xml:lang="en_US" />
+<meta name="DCTERMS.dateAccepted" content="2010-06-24T12:59:20Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2010-06-24T12:59:20Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2010-06-21" xml:lang="en_US" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/1807/24500" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="These stimuli were modeled on the Northwestern University Auditory Test No. 6 (NU-6; Tillman &amp; Carhart, 1966). A set of 200 target words were spoken in the carrier phrase &quot;Say the word _____&quot; by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 stimuli in total. The two actresses were recruited from the Toronto area. Both actresses speak English as their first language, are university educated, and have musical training. Audiometric testing indicated that both actresses have thresholds within the normal range." xml:lang="en_US" />
+<meta name="DC.publisher" content="Toronto : University of Toronto, Psychology Department, 2010." xml:lang="en_US" />
+<meta name="DC.subject" content="Auditory perception" xml:lang="en_US" />
+<meta name="DC.title" content="Toronto emotional speech set (TESS) - Younger talker_Sad" xml:lang="en_US" />
+
+<meta name="citation_keywords" content="Auditory perception" />
+<meta name="citation_title" content="Toronto emotional speech set (TESS) - Younger talker_Sad" />
+<meta name="citation_publisher" content="Toronto : University of Toronto, Psychology Department, 2010." />
+<meta name="citation_pdf_url" content="https://tspace.library.utoronto.ca/bitstream/1807/24500/1/YAF_youth_sad.wav" />
+<meta name="citation_date" content="2010-06-21" />
+<meta name="citation_abstract_html_url" content="https://tspace.library.utoronto.ca/handle/1807/24500" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+   <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+	<script type="text/javascript" src="/static/js/tspace_home.js"> </script>
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </head>
+
+    
+    
+    <body>
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-normal">
+			<ul class="list-unstyled list-inline">
+				<li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">U of T Libraries</a></li>
+				<li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+				<li><a href="http://portal.utoronto.ca">Portal</a></li>
+				<li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+				<li><a href="http://www.utoronto.ca/campuses/maps.htm">Campus Maps</a></li>
+			</ul>
+		</div>
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-small">
+                        <ul class="list-unstyled list-inline">
+                                <li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">UTL</a></li>
+                                <li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+                                <li><a href="http://portal.utoronto.ca">Portal</a></li>
+                                <li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+                                <li><a href="http://www.utoronto.ca/campuses/maps.htm">Maps</a></li>
+                        </ul>
+                </div>
+		
+	<div class="tspaceNav">
+       <div class="navbar-header" style="background:white !important">
+         <button aria-label='mobile menu' type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+      	 <a class="navbar-brand" href="http://www.utoronto.ca" title="University of Toronto"><img height="50px" src="/image/UofTCrst.png" alt="University of Toronto" /></a> <a class="navbar-brand" href="/" title="TSpace"><h1>TSpace</h1></a>
+      	 
+      
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right" id="user_login_logout">
+         <li class="dropdown">
+         
+             <a href="/mydspace" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Login</a>
+	             
+          
+           </li>
+          </ul>
+	
+   
+    <form method="get" action="/simple-search" class="navbar-form navbar-right hidden-xs hidden-sm" scope="search">
+        <div class="form-group">
+              <label for="search-terms" class="hide-label">Search</label>
+              <input type="text" class="form-control stretcher" placeholder="Search for faculty and student research" name="query" id="search-terms" size="35" aria-label="Search for faculty and student research"/>
+        </div>
+            <button aria-label='search button' type="submit" class="btn btn-primary" id="tequery-hidden" name="tequery"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+  
+  <form method="get" action="/simple-search" class="navbar-form navbar-right visible-xs" scope="search">
+      <div class="form-group">
+            <div class="col-xs-10" style="padding-right:5px;">
+         	<label for="tequery" class="hide-label">Search</label>
+            <input type="text" class="form-control" placeholder="Search for faculty and student research" name="query" id="tequery" size="25" aria-label="Search for faculty and student research"/>
+            </div>
+          <div class="col-xs-1" style="padding-left:0;">
+          <button aria-label='search button' type="submit" class="btn btn-primary" name="search" id="search"><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+        </div>
+  </form>
+  </div>
+
+         <ul class="nav navbar-nav">
+           <!--
+           <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            -->
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Communities<br/>&amp;&nbsp;collections</a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header" >Browse items by:</li>
+        
+
+        
+                    <li><a href="/browse?type=dateissued&starts_with=A">Date</a></li>
+          
+                    <li><a href="/browse?type=author&starts_with=A">Author</a></li>
+          
+                    <li><a href="/browse?type=title&starts_with=A">Title</a></li>
+          
+                    <li><a href="/browse?type=subject&starts_with=A">Subject</a></li>
+          
+
+        
+
+            </ul>
+          </li>
+          <li ><a href="/help">Help</a></li>
+            
+
+
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+                <li>
+                    <a href="/about/"  title="About TSpace: TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto">About TSpace</a>
+                </li>
+                <li>
+                    <a href="/about/collectionpolicies.jsp"  title="TSpace usage policies page">Policies</a>
+                </li>
+                <li>
+                    <a href="/about/news.jsp"  title="TSpace news and announcements page">News</a>
+                </li>
+            </ul>
+          </li>
+            <li>
+                <a href="/help/firsttimeusers.jsp">Deposit your Research</a>
+            </li>
+       </ul>
+
+    </nav>
+
+    </div>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+                
+
+<div class="container breadcrumbs">
+                
+
+
+
+  
+
+
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">TSpace Repository</a></li>
+
+  <li><a href="/handle/1807/3044">University of Toronto Mississauga</a></li>
+
+  <li><a href="/handle/1807/24486">Department of Psychology</a></li>
+
+  <li><a href="/handle/1807/24487">Toronto emotional speech set (TESS)</a></li>
+
+
+</ol>
+
+
+</div>                
+
+
+
+        
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='item-outer-container'>
+
+
+		
+		
+		
+		
+
+
+   
+
+    <div class='item-container'>
+<tr><td class="metadataFieldLabel"><span class='item-field-label'>Title:</span>
+<h2 class='item-title'>
+Toronto&#x20;emotional&#x20;speech&#x20;set&#x20;(TESS)&#x20;-&#x20;Younger&#x20;talker_Sad</h2>
+<tr><td class="metadataFieldLabel"><div class='item-field item-author-field'>
+<span class='item-field-label'>Author:</span>
+<a class="author"href="/browse?type=author&amp;value=Dupuis%2C+Kate">Dupuis,&#x20;Kate</a>; <a class="author"href="/browse?type=author&amp;value=Pichora-Fuller%2C+M.+Kathleen">Pichora-Fuller,&#x20;M.&#x20;Kathleen</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Issue Date:</span>
+21-Jun-2010</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Publisher:</span>
+Toronto&#x20;:&#x20;University&#x20;of&#x20;Toronto,&#x20;Psychology&#x20;Department,&#x20;2010.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Description:</span>
+These&#x20;stimuli&#x20;were&#x20;modeled&#x20;on&#x20;the&#x20;Northwestern&#x20;University&#x20;Auditory&#x20;Test&#x20;No.&#x20;6&#x20;(NU-6;&#x20;Tillman&#x20;&amp;&#x20;Carhart,&#x20;1966).&#x20;A&#x20;set&#x20;of&#x20;200&#x20;target&#x20;words&#x20;were&#x20;spoken&#x20;in&#x20;the&#x20;carrier&#x20;phrase&#x20;&quot;Say&#x20;the&#x20;word&#x20;_____&quot;&#x20;by&#x20;two&#x20;actresses&#x20;(aged&#x20;26&#x20;and&#x20;64&#x20;years)&#x20;and&#x20;recordings&#x20;were&#x20;made&#x20;of&#x20;the&#x20;set&#x20;portraying&#x20;each&#x20;of&#x20;seven&#x20;emotions&#x20;(anger,&#x20;disgust,&#x20;fear,&#x20;happiness,&#x20;pleasant&#x20;surprise,&#x20;sadness,&#x20;and&#x20;neutral).&#x20;There&#x20;are&#x20;2800&#x20;stimuli&#x20;in&#x20;total.&#x20;The&#x20;two&#x20;actresses&#x20;were&#x20;recruited&#x20;from&#x20;the&#x20;Toronto&#x20;area.&#x20;Both&#x20;actresses&#x20;speak&#x20;English&#x20;as&#x20;their&#x20;first&#x20;language,&#x20;are&#x20;university&#x20;educated,&#x20;and&#x20;have&#x20;musical&#x20;training.&#x20;Audiometric&#x20;testing&#x20;indicated&#x20;that&#x20;both&#x20;actresses&#x20;have&#x20;thresholds&#x20;within&#x20;the&#x20;normal&#x20;range.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>URI:</span>
+<a href="http://hdl.handle.net/1807/24500">http:&#x2F;&#x2F;hdl.handle.net&#x2F;1807&#x2F;24500</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Keywords:</span>
+<a href="/browse?type=subject&value=Auditory+perception+">Auditory&#x20;perception</a></div>
+</table>
+</div>
+<div class="item-sidebar"><div class='item-files'>
+<h2>Files</h2>
+<ul>
+<li><a target="_blank" href="/bitstream/1807/24500/1/YAF_youth_sad.wav">YAF_youth_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/2/YAF_young_sad.wav">YAF_young_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/3/YAF_yes_sad.wav">YAF_yes_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/4/YAF_yearn_sad.wav">YAF_yearn_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/5/YAF_witch_sad.wav">YAF_witch_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/6/YAF_wire_sad.wav">YAF_wire_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/7/YAF_wife_sad.wav">YAF_wife_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/8/YAF_white_sad.wav">YAF_white_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/9/YAF_whip_sad.wav">YAF_whip_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/10/YAF_which_sad.wav">YAF_which_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/11/YAF_when_sad.wav">YAF_when_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/12/YAF_wheat_sad.wav">YAF_wheat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/13/YAF_week_sad.wav">YAF_week_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/14/YAF_wash_sad.wav">YAF_wash_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/15/YAF_walk_sad.wav">YAF_walk_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/16/YAF_wag_sad.wav">YAF_wag_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/17/YAF_vote_sad.wav">YAF_vote_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/18/YAF_void_sad.wav">YAF_void_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/19/YAF_voice_sad.wav">YAF_voice_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/20/YAF_vine_sad.wav">YAF_vine_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/21/YAF_turn_sad.wav">YAF_turn_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/22/YAF_tough_sad.wav">YAF_tough_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/23/YAF_tool_sad.wav">YAF_tool_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/24/YAF_ton_sad.wav">YAF_ton_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/25/YAF_tire_sad.wav">YAF_tire_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/26/YAF_tip_sad.wav">YAF_tip_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/27/YAF_time_sad.wav">YAF_time_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/28/YAF_thumb_sad.wav">YAF_thumb_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/29/YAF_thought_sad.wav">YAF_thought_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/30/YAF_third_sad.wav">YAF_third_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/31/YAF_thin_sad.wav">YAF_thin_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/32/YAF_tell_sad.wav">YAF_tell_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/33/YAF_team_sad.wav">YAF_team_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/34/YAF_tape_sad.wav">YAF_tape_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/35/YAF_talk_sad.wav">YAF_talk_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/36/YAF_take_sad.wav">YAF_take_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/37/YAF_sure_sad.wav">YAF_sure_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/38/YAF_such_sad.wav">YAF_such_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/39/YAF_sub_sad.wav">YAF_sub_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/40/YAF_south_sad.wav">YAF_south_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/41/YAF_sour_sad.wav">YAF_sour_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/42/YAF_soup_sad.wav">YAF_soup_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/43/YAF_soap_sad.wav">YAF_soap_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/44/YAF_size_sad.wav">YAF_size_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/45/YAF_shout_sad.wav">YAF_shout_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/46/YAF_should_sad.wav">YAF_should_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/47/YAF_shirt_sad.wav">YAF_shirt_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/48/YAF_sheep_sad.wav">YAF_sheep_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/49/YAF_shawl_sad.wav">YAF_shawl_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/50/YAF_shall_sad.wav">YAF_shall_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/51/YAF_shack_sad.wav">YAF_shack_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/52/YAF_sell_sad.wav">YAF_sell_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/53/YAF_seize_sad.wav">YAF_seize_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/54/YAF_search_sad.wav">YAF_search_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/55/YAF_sail_sad.wav">YAF_sail_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/56/YAF_said_sad.wav">YAF_said_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/57/YAF_rush_sad.wav">YAF_rush_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/58/YAF_rough_sad.wav">YAF_rough_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/59/YAF_rot_sad.wav">YAF_rot_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/60/YAF_rose_sad.wav">YAF_rose_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/61/YAF_room_sad.wav">YAF_room_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/62/YAF_road_sad.wav">YAF_road_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/63/YAF_ripe_sad.wav">YAF_ripe_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/64/YAF_ring_sad.wav">YAF_ring_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/65/YAF_red_sad.wav">YAF_red_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/66/YAF_read_sad.wav">YAF_read_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/67/YAF_reach_sad.wav">YAF_reach_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/68/YAF_rat_sad.wav">YAF_rat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/69/YAF_raise_sad.wav">YAF_raise_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/70/YAF_rain_sad.wav">YAF_rain_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/71/YAF_raid_sad.wav">YAF_raid_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/72/YAF_rag_sad.wav">YAF_rag_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/73/YAF_puff_sad.wav">YAF_puff_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/74/YAF_pool_sad.wav">YAF_pool_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/75/YAF_pole_sad.wav">YAF_pole_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/76/YAF_pike_sad.wav">YAF_pike_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/77/YAF_pick_sad.wav">YAF_pick_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/78/YAF_phone_sad.wav">YAF_phone_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/79/YAF_perch_sad.wav">YAF_perch_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/80/YAF_peg_sad.wav">YAF_peg_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/81/YAF_pearl_sad.wav">YAF_pearl_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/82/YAF_pass_sad.wav">YAF_pass_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/83/YAF_pain_sad.wav">YAF_pain_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/84/YAF_page_sad.wav">YAF_page_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/85/YAF_pad_sad.wav">YAF_pad_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/86/YAF_numb_sad.wav">YAF_numb_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/87/YAF_note_sad.wav">YAF_note_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/88/YAF_nice_sad.wav">YAF_nice_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/89/YAF_neat_sad.wav">YAF_neat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/90/YAF_near_sad.wav">YAF_near_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/91/YAF_name_sad.wav">YAF_name_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/92/YAF_nag_sad.wav">YAF_nag_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/93/YAF_mouse_sad.wav">YAF_mouse_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/94/YAF_mop_sad.wav">YAF_mop_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/95/YAF_moon_sad.wav">YAF_moon_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/96/YAF_mood_sad.wav">YAF_mood_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/97/YAF_mode_sad.wav">YAF_mode_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/98/YAF_mob_sad.wav">YAF_mob_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/99/YAF_mill_sad.wav">YAF_mill_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/100/YAF_met_sad.wav">YAF_met_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/101/YAF_mess_sad.wav">YAF_mess_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/102/YAF_merge_sad.wav">YAF_merge_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/103/YAF_match_sad.wav">YAF_match_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/104/YAF_make_sad.wav">YAF_make_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/105/YAF_luck_sad.wav">YAF_luck_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/106/YAF_love_sad.wav">YAF_love_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/107/YAF_lot_sad.wav">YAF_lot_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/108/YAF_lose_sad.wav">YAF_lose_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/109/YAF_lore_sad.wav">YAF_lore_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/110/YAF_long_sad.wav">YAF_long_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/111/YAF_loaf_sad.wav">YAF_loaf_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/112/YAF_live_sad.wav">YAF_live_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/113/YAF_limb_sad.wav">YAF_limb_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/114/YAF_life_sad.wav">YAF_life_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/115/YAF_lid_sad.wav">YAF_lid_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/116/YAF_lease_sad.wav">YAF_lease_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/117/YAF_learn_sad.wav">YAF_learn_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/118/YAF_lean_sad.wav">YAF_lean_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/119/YAF_laud_sad.wav">YAF_laud_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/120/YAF_late_sad.wav">YAF_late_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/121/YAF_knock_sad.wav">YAF_knock_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/122/YAF_kite_sad.wav">YAF_kite_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/123/YAF_king_sad.wav">YAF_king_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/124/YAF_kill_sad.wav">YAF_kill_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/125/YAF_kick_sad.wav">YAF_kick_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/126/YAF_keg_sad.wav">YAF_keg_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/127/YAF_keep_sad.wav">YAF_keep_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/128/YAF_keen_sad.wav">YAF_keen_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/129/YAF_juice_sad.wav">YAF_juice_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/130/YAF_jug_sad.wav">YAF_jug_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/131/YAF_judge_sad.wav">YAF_judge_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/132/YAF_join_sad.wav">YAF_join_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/133/YAF_jar_sad.wav">YAF_jar_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/134/YAF_jail_sad.wav">YAF_jail_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/135/YAF_hush_sad.wav">YAF_hush_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/136/YAF_hurl_sad.wav">YAF_hurl_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/137/YAF_home_sad.wav">YAF_home_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/138/YAF_hole_sad.wav">YAF_hole_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/139/YAF_hit_sad.wav">YAF_hit_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/140/YAF_hire_sad.wav">YAF_hire_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/141/YAF_haze_sad.wav">YAF_haze_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/142/YAF_have_sad.wav">YAF_have_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/143/YAF_hate_sad.wav">YAF_hate_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/144/YAF_hash_sad.wav">YAF_hash_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/145/YAF_hall_sad.wav">YAF_hall_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/146/YAF_half_sad.wav">YAF_half_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/147/YAF_gun_sad.wav">YAF_gun_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/148/YAF_goose_sad.wav">YAF_goose_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/149/YAF_good_sad.wav">YAF_good_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/150/YAF_goal_sad.wav">YAF_goal_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/151/YAF_gin_sad.wav">YAF_gin_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/152/YAF_get_sad.wav">YAF_get_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/153/YAF_germ_sad.wav">YAF_germ_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/154/YAF_gaze_sad.wav">YAF_gaze_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/155/YAF_gas_sad.wav">YAF_gas_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/156/YAF_gap_sad.wav">YAF_gap_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/157/YAF_food_sad.wav">YAF_food_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/158/YAF_five_sad.wav">YAF_five_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/159/YAF_fit_sad.wav">YAF_fit_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/160/YAF_fat_sad.wav">YAF_fat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/161/YAF_far_sad.wav">YAF_far_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/162/YAF_fall_sad.wav">YAF_fall_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/163/YAF_fail_sad.wav">YAF_fail_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/164/YAF_door_sad.wav">YAF_door_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/165/YAF_doll_sad.wav">YAF_doll_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/166/YAF_dog_sad.wav">YAF_dog_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/167/YAF_dodge_sad.wav">YAF_dodge_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/168/YAF_ditch_sad.wav">YAF_ditch_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/169/YAF_dip_sad.wav">YAF_dip_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/170/YAF_dime_sad.wav">YAF_dime_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/171/YAF_deep_sad.wav">YAF_deep_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/172/YAF_death_sad.wav">YAF_death_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/173/YAF_dead_sad.wav">YAF_dead_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/174/YAF_date_sad.wav">YAF_date_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/175/YAF_dab_sad.wav">YAF_dab_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/176/YAF_cool_sad.wav">YAF_cool_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/177/YAF_choice_sad.wav">YAF_choice_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/178/YAF_chief_sad.wav">YAF_chief_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/179/YAF_cheek_sad.wav">YAF_cheek_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/180/YAF_check_sad.wav">YAF_check_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/181/YAF_chat_sad.wav">YAF_chat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/182/YAF_chalk_sad.wav">YAF_chalk_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/183/YAF_chair_sad.wav">YAF_chair_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/184/YAF_chain_sad.wav">YAF_chain_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/185/YAF_cause_sad.wav">YAF_cause_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/186/YAF_came_sad.wav">YAF_came_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/187/YAF_calm_sad.wav">YAF_calm_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/188/YAF_cab_sad.wav">YAF_cab_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/189/YAF_burn_sad.wav">YAF_burn_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/190/YAF_bought_sad.wav">YAF_bought_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/191/YAF_book_sad.wav">YAF_book_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/192/YAF_bone_sad.wav">YAF_bone_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/193/YAF_boat_sad.wav">YAF_boat_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/194/YAF_bite_sad.wav">YAF_bite_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/195/YAF_beg_sad.wav">YAF_beg_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/196/YAF_bean_sad.wav">YAF_bean_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/197/YAF_bath_sad.wav">YAF_bath_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/198/YAF_base_sad.wav">YAF_base_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/199/YAF_bar_sad.wav">YAF_bar_sad.wav</a></li><li><a target="_blank" href="/bitstream/1807/24500/200/YAF_back_sad.wav">YAF_back_sad.wav</a></li></ul>
+</div>
+<div class="item-handle"><h2>Permanent link</h2><p>http://hdl.handle.net/1807/24500</p></div><ul class='item-extra-links'><li><a class="btn btn-primary" href="/handle/1807/24500?mode=full">Show complete metadata</a></li><li><a class="statisticsLink  btn btn-primary" href="/handle/1807/24500/statistics">Show Statistics <span class="glyphicon glyphicon-stats"></span></a></li></ul><script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script></div>
+
+</div>
+
+    
+
+
+
+
+
+    
+
+    <p class="item-license alert alert-info">Items in TSpace are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+		<h2 style="font-family:'EB Garamond', serif">TSpace</h2>
+		<p style="max-width:600px; margin:0 auto; font-style:italic; padding-bottom:15px">
+TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto. <a href="/about">Learn more</a>
+</p>
+		<p>&copy; 2019 University of Toronto. All rights reserved.<br/><a href="mailto:tspace@library.utoronto.ca">tspace@library.utoronto.ca</a><br/><a href="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=130+St+George+St,+Toronto,+ON&amp;sll=43.662749,-79.395962&amp;sspn=0.012962,0.018454&amp;ie=UTF8&amp;z=17&amp;iwloc=addr">University of Toronto Libraries, 130 St. George Street, Toronto, ON M5S 1A5 Canada</a></p>
+				<p class="text-muted footer-access"><a href="http://onesearch.library.utoronto.ca/university-toronto-libraries-and-online-accessibility">About University of Toronto Libraries online accessibility</a></p>
+                                <p><a href="/feedback" id="access-help" style='text-decoration:underline'>Report an accessibility issue</a></p>
+				<p class="text-muted footer-access"><a href="https://onesearch.library.utoronto.ca/online-privacy-data-collection">About online privacy and data collection</a></p>
+				<p class="dspace-link"><a href="http://www.dspace.org/">DSpace Software</a></p>
+		<div id="footer_feedback" class="pull-right">                                    
+                                <p class="text-muted triangle-border">
+                                	<a href="/feedback">Feedback</a>
+				</p>
+                                </div>
+			</div>
+                <div id='footer_feedback_mobile'>
+                    <a href='/feedback'>Share your feedback</a>
+                </div>
+            <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V9S88"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5V9S88');</script>
+            <!-- End Google Tag Manager -->
+
+    </footer>
+    <a class='htmlmap' href="/htmlmap">link to htmlmap</a>
+    </body>
+</html>
+

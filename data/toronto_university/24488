@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class='no-js' lang="en">
+    <head>
+        <title>Toronto emotional speech set (TESS) - Older talker_Neutral | TSpace Repository</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="HTML Static Page Generator" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/css/tspace.css" type="text/css" />
+        <link rel="stylesheet" href="/css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="/css/rwd.css" type="text/css" />
+	<link rel="stylesheet" href="/css/fonts.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Dupuis, Kate" xml:lang="en_US" />
+<meta name="DC.contributor" content="Pichora-Fuller, M. Kathleen" xml:lang="en_US" />
+<meta name="DCTERMS.dateAccepted" content="2010-06-24T12:57:03Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2010-06-24T12:57:03Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2010-06-21" xml:lang="en_US" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/1807/24488" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="These stimuli were modeled on the Northwestern University Auditory Test No. 6 (NU-6; Tillman &amp; Carhart, 1966). A set of 200 target words were spoken in the carrier phrase &quot;Say the word _____&quot; by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 stimuli in total. The two actresses were recruited from the Toronto area. Both actresses speak English as their first language, are university educated, and have musical training. Audiometric testing indicated that both actresses have thresholds within the normal range." xml:lang="en_US" />
+<meta name="DC.publisher" content="Toronto : University of Toronto, Psychology Department, 2010." xml:lang="en_US" />
+<meta name="DC.subject" content="Auditory perception" xml:lang="en_US" />
+<meta name="DC.title" content="Toronto emotional speech set (TESS) - Older talker_Neutral" xml:lang="en_US" />
+
+<meta name="citation_keywords" content="Auditory perception" />
+<meta name="citation_title" content="Toronto emotional speech set (TESS) - Older talker_Neutral" />
+<meta name="citation_publisher" content="Toronto : University of Toronto, Psychology Department, 2010." />
+<meta name="citation_pdf_url" content="https://tspace.library.utoronto.ca/bitstream/1807/24488/1/OAF_youth_neutral.wav" />
+<meta name="citation_date" content="2010-06-21" />
+<meta name="citation_abstract_html_url" content="https://tspace.library.utoronto.ca/handle/1807/24488" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+   <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+	<script type="text/javascript" src="/static/js/tspace_home.js"> </script>
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </head>
+
+    
+    
+    <body>
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-normal">
+			<ul class="list-unstyled list-inline">
+				<li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">U of T Libraries</a></li>
+				<li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+				<li><a href="http://portal.utoronto.ca">Portal</a></li>
+				<li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+				<li><a href="http://www.utoronto.ca/campuses/maps.htm">Campus Maps</a></li>
+			</ul>
+		</div>
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-small">
+                        <ul class="list-unstyled list-inline">
+                                <li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">UTL</a></li>
+                                <li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+                                <li><a href="http://portal.utoronto.ca">Portal</a></li>
+                                <li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+                                <li><a href="http://www.utoronto.ca/campuses/maps.htm">Maps</a></li>
+                        </ul>
+                </div>
+		
+	<div class="tspaceNav">
+       <div class="navbar-header" style="background:white !important">
+         <button aria-label='mobile menu' type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+      	 <a class="navbar-brand" href="http://www.utoronto.ca" title="University of Toronto"><img height="50px" src="/image/UofTCrst.png" alt="University of Toronto" /></a> <a class="navbar-brand" href="/" title="TSpace"><h1>TSpace</h1></a>
+      	 
+      
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right" id="user_login_logout">
+         <li class="dropdown">
+         
+             <a href="/mydspace" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Login</a>
+	             
+          
+           </li>
+          </ul>
+	
+   
+    <form method="get" action="/simple-search" class="navbar-form navbar-right hidden-xs hidden-sm" scope="search">
+        <div class="form-group">
+              <label for="search-terms" class="hide-label">Search</label>
+              <input type="text" class="form-control stretcher" placeholder="Search for faculty and student research" name="query" id="search-terms" size="35" aria-label="Search for faculty and student research"/>
+        </div>
+            <button aria-label='search button' type="submit" class="btn btn-primary" id="tequery-hidden" name="tequery"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+  
+  <form method="get" action="/simple-search" class="navbar-form navbar-right visible-xs" scope="search">
+      <div class="form-group">
+            <div class="col-xs-10" style="padding-right:5px;">
+         	<label for="tequery" class="hide-label">Search</label>
+            <input type="text" class="form-control" placeholder="Search for faculty and student research" name="query" id="tequery" size="25" aria-label="Search for faculty and student research"/>
+            </div>
+          <div class="col-xs-1" style="padding-left:0;">
+          <button aria-label='search button' type="submit" class="btn btn-primary" name="search" id="search"><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+        </div>
+  </form>
+  </div>
+
+         <ul class="nav navbar-nav">
+           <!--
+           <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            -->
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Communities<br/>&amp;&nbsp;collections</a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header" >Browse items by:</li>
+        
+
+        
+                    <li><a href="/browse?type=dateissued&starts_with=A">Date</a></li>
+          
+                    <li><a href="/browse?type=author&starts_with=A">Author</a></li>
+          
+                    <li><a href="/browse?type=title&starts_with=A">Title</a></li>
+          
+                    <li><a href="/browse?type=subject&starts_with=A">Subject</a></li>
+          
+
+        
+
+            </ul>
+          </li>
+          <li ><a href="/help">Help</a></li>
+            
+
+
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+                <li>
+                    <a href="/about/"  title="About TSpace: TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto">About TSpace</a>
+                </li>
+                <li>
+                    <a href="/about/collectionpolicies.jsp"  title="TSpace usage policies page">Policies</a>
+                </li>
+                <li>
+                    <a href="/about/news.jsp"  title="TSpace news and announcements page">News</a>
+                </li>
+            </ul>
+          </li>
+            <li>
+                <a href="/help/firsttimeusers.jsp">Deposit your Research</a>
+            </li>
+       </ul>
+
+    </nav>
+
+    </div>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+                
+
+<div class="container breadcrumbs">
+                
+
+
+
+  
+
+
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">TSpace Repository</a></li>
+
+  <li><a href="/handle/1807/3044">University of Toronto Mississauga</a></li>
+
+  <li><a href="/handle/1807/24486">Department of Psychology</a></li>
+
+  <li><a href="/handle/1807/24487">Toronto emotional speech set (TESS)</a></li>
+
+
+</ol>
+
+
+</div>                
+
+
+
+        
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='item-outer-container'>
+
+
+		
+		
+		
+		
+
+
+   
+
+    <div class='item-container'>
+<tr><td class="metadataFieldLabel"><span class='item-field-label'>Title:</span>
+<h2 class='item-title'>
+Toronto&#x20;emotional&#x20;speech&#x20;set&#x20;(TESS)&#x20;-&#x20;Older&#x20;talker_Neutral</h2>
+<tr><td class="metadataFieldLabel"><div class='item-field item-author-field'>
+<span class='item-field-label'>Author:</span>
+<a class="author"href="/browse?type=author&amp;value=Dupuis%2C+Kate">Dupuis,&#x20;Kate</a>; <a class="author"href="/browse?type=author&amp;value=Pichora-Fuller%2C+M.+Kathleen">Pichora-Fuller,&#x20;M.&#x20;Kathleen</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Issue Date:</span>
+21-Jun-2010</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Publisher:</span>
+Toronto&#x20;:&#x20;University&#x20;of&#x20;Toronto,&#x20;Psychology&#x20;Department,&#x20;2010.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Description:</span>
+These&#x20;stimuli&#x20;were&#x20;modeled&#x20;on&#x20;the&#x20;Northwestern&#x20;University&#x20;Auditory&#x20;Test&#x20;No.&#x20;6&#x20;(NU-6;&#x20;Tillman&#x20;&amp;&#x20;Carhart,&#x20;1966).&#x20;A&#x20;set&#x20;of&#x20;200&#x20;target&#x20;words&#x20;were&#x20;spoken&#x20;in&#x20;the&#x20;carrier&#x20;phrase&#x20;&quot;Say&#x20;the&#x20;word&#x20;_____&quot;&#x20;by&#x20;two&#x20;actresses&#x20;(aged&#x20;26&#x20;and&#x20;64&#x20;years)&#x20;and&#x20;recordings&#x20;were&#x20;made&#x20;of&#x20;the&#x20;set&#x20;portraying&#x20;each&#x20;of&#x20;seven&#x20;emotions&#x20;(anger,&#x20;disgust,&#x20;fear,&#x20;happiness,&#x20;pleasant&#x20;surprise,&#x20;sadness,&#x20;and&#x20;neutral).&#x20;There&#x20;are&#x20;2800&#x20;stimuli&#x20;in&#x20;total.&#x20;The&#x20;two&#x20;actresses&#x20;were&#x20;recruited&#x20;from&#x20;the&#x20;Toronto&#x20;area.&#x20;Both&#x20;actresses&#x20;speak&#x20;English&#x20;as&#x20;their&#x20;first&#x20;language,&#x20;are&#x20;university&#x20;educated,&#x20;and&#x20;have&#x20;musical&#x20;training.&#x20;Audiometric&#x20;testing&#x20;indicated&#x20;that&#x20;both&#x20;actresses&#x20;have&#x20;thresholds&#x20;within&#x20;the&#x20;normal&#x20;range.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>URI:</span>
+<a href="http://hdl.handle.net/1807/24488">http:&#x2F;&#x2F;hdl.handle.net&#x2F;1807&#x2F;24488</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Keywords:</span>
+<a href="/browse?type=subject&value=Auditory+perception+">Auditory&#x20;perception</a></div>
+</table>
+</div>
+<div class="item-sidebar"><div class='item-files'>
+<h2>Files</h2>
+<ul>
+<li><a target="_blank" href="/bitstream/1807/24488/1/OAF_youth_neutral.wav">OAF_youth_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/2/OAF_young_neutral.wav">OAF_young_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/3/OAF_yes_neutral.wav">OAF_yes_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/4/OAF_yearn_neutral.wav">OAF_yearn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/5/OAF_witch_neutral.wav">OAF_witch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/6/OAF_wire_neutral.wav">OAF_wire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/7/OAF_wife_neutral.wav">OAF_wife_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/8/OAF_white_neutral.wav">OAF_white_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/9/OAF_whip_neutral.wav">OAF_whip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/10/OAF_which_neutral.wav">OAF_which_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/11/OAF_when_neutral.wav">OAF_when_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/12/OAF_wheat_neutral.wav">OAF_wheat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/13/OAF_week_neutral.wav">OAF_week_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/14/OAF_wash_neutral.wav">OAF_wash_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/15/OAF_walk_neutral.wav">OAF_walk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/16/OAF_wag_neutral.wav">OAF_wag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/17/OAF_vote_neutral.wav">OAF_vote_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/18/OAF_void_neutral.wav">OAF_void_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/19/OAF_voice_neutral.wav">OAF_voice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/20/OAF_vine_neutral.wav">OAF_vine_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/21/OAF_turn_neutral.wav">OAF_turn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/22/OAF_tough_neutral.wav">OAF_tough_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/23/OAF_tool_neutral.wav">OAF_tool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/24/OAF_ton_neutral.wav">OAF_ton_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/25/OAF_tire_neutral.wav">OAF_tire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/26/OAF_tip_neutral.wav">OAF_tip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/27/OAF_time_neutral.wav">OAF_time_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/28/OAF_thumb_neutral.wav">OAF_thumb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/29/OAF_thought_neutral.wav">OAF_thought_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/30/OAF_third_neutral.wav">OAF_third_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/31/OAF_thin_neutral.wav">OAF_thin_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/32/OAF_tell_neutral.wav">OAF_tell_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/33/OAF_team_neutral.wav">OAF_team_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/34/OAF_tape_neutral.wav">OAF_tape_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/35/OAF_talk_neutral.wav">OAF_talk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/36/OAF_take_neutral.wav">OAF_take_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/37/OAF_sure_neutral.wav">OAF_sure_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/38/OAF_such_neutral.wav">OAF_such_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/39/OAF_sub_neutral.wav">OAF_sub_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/40/OAF_south_neutral.wav">OAF_south_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/41/OAF_sour_neutral.wav">OAF_sour_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/42/OAF_soup_neutral.wav">OAF_soup_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/43/OAF_soap_neutral.wav">OAF_soap_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/44/OAF_size_neutral.wav">OAF_size_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/45/OAF_shout_neutral.wav">OAF_shout_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/46/OAF_should_neutral.wav">OAF_should_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/47/OAF_shirt_neutral.wav">OAF_shirt_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/48/OAF_sheep_neutral.wav">OAF_sheep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/49/OAF_shawl_neutral.wav">OAF_shawl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/50/OAF_shall_neutral.wav">OAF_shall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/51/OAF_shack_neutral.wav">OAF_shack_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/52/OAF_sell_neutral.wav">OAF_sell_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/53/OAF_seize_neutral.wav">OAF_seize_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/54/OAF_search_neutral.wav">OAF_search_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/55/OAF_sail_neutral.wav">OAF_sail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/56/OAF_said_neutral.wav">OAF_said_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/57/OAF_rush_neutral.wav">OAF_rush_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/58/OAF_rough_neutral.wav">OAF_rough_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/59/OAF_rot_neutral.wav">OAF_rot_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/60/OAF_rose_neutral.wav">OAF_rose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/61/OAF_room_neutral.wav">OAF_room_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/62/OAF_road_neutral.wav">OAF_road_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/63/OAF_ripe_neutral.wav">OAF_ripe_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/64/OAF_ring_neutral.wav">OAF_ring_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/65/OAF_red_neutral.wav">OAF_red_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/66/OAF_read_neutral.wav">OAF_read_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/67/OAF_reach_neutral.wav">OAF_reach_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/68/OAF_rat_neutral.wav">OAF_rat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/69/OAF_raise_neutral.wav">OAF_raise_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/70/OAF_rain_neutral.wav">OAF_rain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/71/OAF_raid_neutral.wav">OAF_raid_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/72/OAF_rag_neutral.wav">OAF_rag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/73/OAF_puff_neutral.wav">OAF_puff_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/74/OAF_pool_neutral.wav">OAF_pool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/75/OAF_pole_neutral.wav">OAF_pole_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/76/OAF_pike_neutral.wav">OAF_pike_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/77/OAF_pick_neutral.wav">OAF_pick_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/78/OAF_phone_neutral.wav">OAF_phone_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/79/OAF_perch_neutral.wav">OAF_perch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/80/OAF_peg_neutral.wav">OAF_peg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/81/OAF_pearl_neutral.wav">OAF_pearl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/82/OAF_pass_neutral.wav">OAF_pass_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/83/OAF_pain_neutral.wav">OAF_pain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/84/OAF_page_neutral.wav">OAF_page_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/85/OAF_pad_neutral.wav">OAF_pad_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/86/OAF_numb_neutral.wav">OAF_numb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/87/OAF_note_neutral.wav">OAF_note_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/88/OAF_nice_neutral.wav">OAF_nice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/89/OAF_neat_neutral.wav">OAF_neat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/90/OAF_near_neutral.wav">OAF_near_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/91/OAF_name_neutral.wav">OAF_name_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/92/OAF_nag_neutral.wav">OAF_nag_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/93/OAF_mouse_neutral.wav">OAF_mouse_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/94/OAF_mop_neutral.wav">OAF_mop_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/95/OAF_moon_neutral.wav">OAF_moon_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/96/OAF_mood_neutral.wav">OAF_mood_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/97/OAF_mode_neutral.wav">OAF_mode_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/98/OAF_mob_neutral.wav">OAF_mob_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/99/OAF_mill_neutral.wav">OAF_mill_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/100/OAF_met_neutral.wav">OAF_met_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/101/OAF_mess_neutral.wav">OAF_mess_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/102/OAF_merge_neutral.wav">OAF_merge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/103/OAF_match_neutral.wav">OAF_match_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/104/OAF_make_neutral.wav">OAF_make_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/105/OAF_luck_neutral.wav">OAF_luck_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/106/OAF_love_neutral.wav">OAF_love_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/107/OAF_lot_neutral.wav">OAF_lot_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/108/OAF_lose_neutral.wav">OAF_lose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/109/OAF_lore_neutral.wav">OAF_lore_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/110/OAF_long_neutral.wav">OAF_long_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/111/OAF_loaf_neutral.wav">OAF_loaf_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/112/OAF_live_neutral.wav">OAF_live_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/113/OAF_limb_neutral.wav">OAF_limb_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/114/OAF_life_neutral.wav">OAF_life_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/115/OAF_lid_neutral.wav">OAF_lid_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/116/OAF_lease_neutral.wav">OAF_lease_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/117/OAF_learn_neutral.wav">OAF_learn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/118/OAF_lean_neutral.wav">OAF_lean_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/119/OAF_laud_neutral.wav">OAF_laud_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/120/OAF_late_neutral.wav">OAF_late_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/121/OAF_knock_neutral.wav">OAF_knock_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/122/OAF_kite_neutral.wav">OAF_kite_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/123/OAF_king_neutral.wav">OAF_king_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/124/OAF_kill_neutral.wav">OAF_kill_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/125/OAF_kick_neutral.wav">OAF_kick_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/126/OAF_keg_neutral.wav">OAF_keg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/127/OAF_keep_neutral.wav">OAF_keep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/128/OAF_keen_neutral.wav">OAF_keen_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/129/OAF_juice_neutral.wav">OAF_juice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/130/OAF_jug_neutral.wav">OAF_jug_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/131/OAF_judge_neutral.wav">OAF_judge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/132/OAF_join_neutral.wav">OAF_join_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/133/OAF_jar_neutral.wav">OAF_jar_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/134/OAF_jail_neutral.wav">OAF_jail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/135/OAF_hush_neutral.wav">OAF_hush_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/136/OAF_hurl_neutral.wav">OAF_hurl_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/137/OAF_home_neutral.wav">OAF_home_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/138/OAF_hole_neutral.wav">OAF_hole_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/139/OAF_hit_neutral.wav">OAF_hit_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/140/OAF_hire_neutral.wav">OAF_hire_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/141/OAF_haze_neutral.wav">OAF_haze_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/142/OAF_have_neutral.wav">OAF_have_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/143/OAF_hate_neutral.wav">OAF_hate_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/144/OAF_hash_neutral.wav">OAF_hash_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/145/OAF_hall_neutral.wav">OAF_hall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/146/OAF_half_neutral.wav">OAF_half_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/147/OAF_gun_neutral.wav">OAF_gun_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/148/OAF_goose_neutral.wav">OAF_goose_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/149/OAF_good_neutral.wav">OAF_good_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/150/OAF_goal_neutral.wav">OAF_goal_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/151/OAF_gin_neutral.wav">OAF_gin_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/152/OAF_get_neutral.wav">OAF_get_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/153/OAF_germ_neutral.wav">OAF_germ_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/154/OAF_gaze_neutral.wav">OAF_gaze_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/155/OAF_gas_neutral.wav">OAF_gas_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/156/OAF_gap_neutral.wav">OAF_gap_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/157/OAF_food_neutral.wav">OAF_food_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/158/OAF_five_neutral.wav">OAF_five_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/159/OAF_fit_neutral.wav">OAF_fit_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/160/OAF_fat_neutral.wav">OAF_fat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/161/OAF_far_neutral.wav">OAF_far_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/162/OAF_fall_neutral.wav">OAF_fall_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/163/OAF_fail_neutral.wav">OAF_fail_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/164/OAF_door_neutral.wav">OAF_door_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/165/OAF_doll_neutral.wav">OAF_doll_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/166/OAF_dog_neutral.wav">OAF_dog_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/167/OAF_dodge_neutral.wav">OAF_dodge_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/168/OAF_ditch_neutral.wav">OAF_ditch_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/169/OAF_dip_neutral.wav">OAF_dip_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/170/OAF_dime_neutral.wav">OAF_dime_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/171/OAF_deep_neutral.wav">OAF_deep_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/172/OAF_death_neutral.wav">OAF_death_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/173/OAF_dead_neutral.wav">OAF_dead_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/174/OAF_date_neutral.wav">OAF_date_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/175/OAF_dab_neutral.wav">OAF_dab_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/176/OAF_cool_neutral.wav">OAF_cool_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/177/OAF_choice_neutral.wav">OAF_choice_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/178/OAF_chief_neutral.wav">OAF_chief_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/179/OAF_cheek_neutral.wav">OAF_cheek_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/180/OAF_check_neutral.wav">OAF_check_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/181/OAF_chat_neutral.wav">OAF_chat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/182/OAF_chalk_neutral.wav">OAF_chalk_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/183/OAF_chair_neutral.wav">OAF_chair_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/184/OAF_chain_neutral.wav">OAF_chain_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/185/OAF_cause_neutral.wav">OAF_cause_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/186/OAF_came_neutral.wav">OAF_came_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/187/OAF_calm_neutral.wav">OAF_calm_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/188/OAF_cab_neutral.wav">OAF_cab_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/189/OAF_burn_neutral.wav">OAF_burn_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/190/OAF_bought_neutral.wav">OAF_bought_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/191/OAF_book_neutral.wav">OAF_book_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/192/OAF_bone_neutral.wav">OAF_bone_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/193/OAF_boat_neutral.wav">OAF_boat_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/194/OAF_beg_neutral.wav">OAF_beg_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/195/OAF_bean_neutral.wav">OAF_bean_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/196/OAF_bath_neutral.wav">OAF_bath_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/197/OAF_base_neutral.wav">OAF_base_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/198/OAF_bar_neutral.wav">OAF_bar_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/199/OAF_back_neutral.wav">OAF_back_neutral.wav</a></li><li><a target="_blank" href="/bitstream/1807/24488/200/OA_bite_neutral.wav">OA_bite_neutral.wav</a></li></ul>
+</div>
+<div class="item-handle"><h2>Permanent link</h2><p>http://hdl.handle.net/1807/24488</p></div><ul class='item-extra-links'><li><a class="btn btn-primary" href="/handle/1807/24488?mode=full">Show complete metadata</a></li><li><a class="statisticsLink  btn btn-primary" href="/handle/1807/24488/statistics">Show Statistics <span class="glyphicon glyphicon-stats"></span></a></li></ul><script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script></div>
+
+</div>
+
+    
+
+
+
+
+
+    
+
+    <p class="item-license alert alert-info">Items in TSpace are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+		<h2 style="font-family:'EB Garamond', serif">TSpace</h2>
+		<p style="max-width:600px; margin:0 auto; font-style:italic; padding-bottom:15px">
+TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto. <a href="/about">Learn more</a>
+</p>
+		<p>&copy; 2019 University of Toronto. All rights reserved.<br/><a href="mailto:tspace@library.utoronto.ca">tspace@library.utoronto.ca</a><br/><a href="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=130+St+George+St,+Toronto,+ON&amp;sll=43.662749,-79.395962&amp;sspn=0.012962,0.018454&amp;ie=UTF8&amp;z=17&amp;iwloc=addr">University of Toronto Libraries, 130 St. George Street, Toronto, ON M5S 1A5 Canada</a></p>
+				<p class="text-muted footer-access"><a href="http://onesearch.library.utoronto.ca/university-toronto-libraries-and-online-accessibility">About University of Toronto Libraries online accessibility</a></p>
+                                <p><a href="/feedback" id="access-help" style='text-decoration:underline'>Report an accessibility issue</a></p>
+				<p class="text-muted footer-access"><a href="https://onesearch.library.utoronto.ca/online-privacy-data-collection">About online privacy and data collection</a></p>
+				<p class="dspace-link"><a href="http://www.dspace.org/">DSpace Software</a></p>
+		<div id="footer_feedback" class="pull-right">                                    
+                                <p class="text-muted triangle-border">
+                                	<a href="/feedback">Feedback</a>
+				</p>
+                                </div>
+			</div>
+                <div id='footer_feedback_mobile'>
+                    <a href='/feedback'>Share your feedback</a>
+                </div>
+            <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V9S88"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5V9S88');</script>
+            <!-- End Google Tag Manager -->
+
+    </footer>
+    <a class='htmlmap' href="/htmlmap">link to htmlmap</a>
+    </body>
+</html>
+

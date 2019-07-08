@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class='no-js' lang="en">
+    <head>
+        <title>Toronto emotional speech set (TESS) - Older talker_Happy | TSpace Repository</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="HTML Static Page Generator" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/css/tspace.css" type="text/css" />
+        <link rel="stylesheet" href="/css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="/css/rwd.css" type="text/css" />
+	<link rel="stylesheet" href="/css/fonts.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Dupuis, Kate" xml:lang="en_US" />
+<meta name="DC.contributor" content="Pichora-Fuller, M. Kathleen" xml:lang="en_US" />
+<meta name="DCTERMS.dateAccepted" content="2010-06-24T12:59:30Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2010-06-24T12:59:30Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2010-06-21" xml:lang="en_US" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/1807/24501" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="These stimuli were modeled on the Northwestern University Auditory Test No. 6 (NU-6; Tillman &amp; Carhart, 1966). A set of 200 target words were spoken in the carrier phrase &quot;Say the word _____&quot; by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 stimuli in total. The two actresses were recruited from the Toronto area. Both actresses speak English as their first language, are university educated, and have musical training. Audiometric testing indicated that both actresses have thresholds within the normal range." xml:lang="en_US" />
+<meta name="DC.publisher" content="Toronto : University of Toronto, Psychology Department, 2010." xml:lang="en_US" />
+<meta name="DC.subject" content="Auditory perception" xml:lang="en_US" />
+<meta name="DC.title" content="Toronto emotional speech set (TESS) - Older talker_Happy" xml:lang="en_US" />
+
+<meta name="citation_keywords" content="Auditory perception" />
+<meta name="citation_title" content="Toronto emotional speech set (TESS) - Older talker_Happy" />
+<meta name="citation_publisher" content="Toronto : University of Toronto, Psychology Department, 2010." />
+<meta name="citation_pdf_url" content="https://tspace.library.utoronto.ca/bitstream/1807/24501/1/OAF_youth_happy.wav" />
+<meta name="citation_date" content="2010-06-21" />
+<meta name="citation_abstract_html_url" content="https://tspace.library.utoronto.ca/handle/1807/24501" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+   <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+	<script type="text/javascript" src="/static/js/tspace_home.js"> </script>
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </head>
+
+    
+    
+    <body>
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-normal">
+			<ul class="list-unstyled list-inline">
+				<li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">U of T Libraries</a></li>
+				<li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+				<li><a href="http://portal.utoronto.ca">Portal</a></li>
+				<li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+				<li><a href="http://www.utoronto.ca/campuses/maps.htm">Campus Maps</a></li>
+			</ul>
+		</div>
+
+		<div class="pull-right col-md-12 utlinks" id="utlinks-small">
+                        <ul class="list-unstyled list-inline">
+                                <li><a href="http://onesearch.library.utoronto.ca" title="University of Toronto Libraries Home">UTL</a></li>
+                                <li><a href="http://www.utoronto.ca" title="University of Toronto Home">U of T Home</a></li>
+                                <li><a href="http://portal.utoronto.ca">Portal</a></li>
+                                <li><a href="http://www.rosi.utoronto.ca">ROSI</a></li>
+                                <li><a href="http://www.utoronto.ca/campuses/maps.htm">Maps</a></li>
+                        </ul>
+                </div>
+		
+	<div class="tspaceNav">
+       <div class="navbar-header" style="background:white !important">
+         <button aria-label='mobile menu' type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+      	 <a class="navbar-brand" href="http://www.utoronto.ca" title="University of Toronto"><img height="50px" src="/image/UofTCrst.png" alt="University of Toronto" /></a> <a class="navbar-brand" href="/" title="TSpace"><h1>TSpace</h1></a>
+      	 
+      
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right" id="user_login_logout">
+         <li class="dropdown">
+         
+             <a href="/mydspace" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Login</a>
+	             
+          
+           </li>
+          </ul>
+	
+   
+    <form method="get" action="/simple-search" class="navbar-form navbar-right hidden-xs hidden-sm" scope="search">
+        <div class="form-group">
+              <label for="search-terms" class="hide-label">Search</label>
+              <input type="text" class="form-control stretcher" placeholder="Search for faculty and student research" name="query" id="search-terms" size="35" aria-label="Search for faculty and student research"/>
+        </div>
+            <button aria-label='search button' type="submit" class="btn btn-primary" id="tequery-hidden" name="tequery"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+  
+  <form method="get" action="/simple-search" class="navbar-form navbar-right visible-xs" scope="search">
+      <div class="form-group">
+            <div class="col-xs-10" style="padding-right:5px;">
+         	<label for="tequery" class="hide-label">Search</label>
+            <input type="text" class="form-control" placeholder="Search for faculty and student research" name="query" id="tequery" size="25" aria-label="Search for faculty and student research"/>
+            </div>
+          <div class="col-xs-1" style="padding-left:0;">
+          <button aria-label='search button' type="submit" class="btn btn-primary" name="search" id="search"><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+        </div>
+  </form>
+  </div>
+
+         <ul class="nav navbar-nav">
+           <!--
+           <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            -->
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Communities<br/>&amp;&nbsp;collections</a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header" >Browse items by:</li>
+        
+
+        
+                    <li><a href="/browse?type=dateissued&starts_with=A">Date</a></li>
+          
+                    <li><a href="/browse?type=author&starts_with=A">Author</a></li>
+          
+                    <li><a href="/browse?type=title&starts_with=A">Title</a></li>
+          
+                    <li><a href="/browse?type=subject&starts_with=A">Subject</a></li>
+          
+
+        
+
+            </ul>
+          </li>
+          <li ><a href="/help">Help</a></li>
+            
+
+
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+                <li>
+                    <a href="/about/"  title="About TSpace: TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto">About TSpace</a>
+                </li>
+                <li>
+                    <a href="/about/collectionpolicies.jsp"  title="TSpace usage policies page">Policies</a>
+                </li>
+                <li>
+                    <a href="/about/news.jsp"  title="TSpace news and announcements page">News</a>
+                </li>
+            </ul>
+          </li>
+            <li>
+                <a href="/help/firsttimeusers.jsp">Deposit your Research</a>
+            </li>
+       </ul>
+
+    </nav>
+
+    </div>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+                
+
+<div class="container breadcrumbs">
+                
+
+
+
+  
+
+
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">TSpace Repository</a></li>
+
+  <li><a href="/handle/1807/3044">University of Toronto Mississauga</a></li>
+
+  <li><a href="/handle/1807/24486">Department of Psychology</a></li>
+
+  <li><a href="/handle/1807/24487">Toronto emotional speech set (TESS)</a></li>
+
+
+</ol>
+
+
+</div>                
+
+
+
+        
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='item-outer-container'>
+
+
+		
+		
+		
+		
+
+
+   
+
+    <div class='item-container'>
+<tr><td class="metadataFieldLabel"><span class='item-field-label'>Title:</span>
+<h2 class='item-title'>
+Toronto&#x20;emotional&#x20;speech&#x20;set&#x20;(TESS)&#x20;-&#x20;Older&#x20;talker_Happy</h2>
+<tr><td class="metadataFieldLabel"><div class='item-field item-author-field'>
+<span class='item-field-label'>Author:</span>
+<a class="author"href="/browse?type=author&amp;value=Dupuis%2C+Kate">Dupuis,&#x20;Kate</a>; <a class="author"href="/browse?type=author&amp;value=Pichora-Fuller%2C+M.+Kathleen">Pichora-Fuller,&#x20;M.&#x20;Kathleen</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Issue Date:</span>
+21-Jun-2010</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Publisher:</span>
+Toronto&#x20;:&#x20;University&#x20;of&#x20;Toronto,&#x20;Psychology&#x20;Department,&#x20;2010.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Description:</span>
+These&#x20;stimuli&#x20;were&#x20;modeled&#x20;on&#x20;the&#x20;Northwestern&#x20;University&#x20;Auditory&#x20;Test&#x20;No.&#x20;6&#x20;(NU-6;&#x20;Tillman&#x20;&amp;&#x20;Carhart,&#x20;1966).&#x20;A&#x20;set&#x20;of&#x20;200&#x20;target&#x20;words&#x20;were&#x20;spoken&#x20;in&#x20;the&#x20;carrier&#x20;phrase&#x20;&quot;Say&#x20;the&#x20;word&#x20;_____&quot;&#x20;by&#x20;two&#x20;actresses&#x20;(aged&#x20;26&#x20;and&#x20;64&#x20;years)&#x20;and&#x20;recordings&#x20;were&#x20;made&#x20;of&#x20;the&#x20;set&#x20;portraying&#x20;each&#x20;of&#x20;seven&#x20;emotions&#x20;(anger,&#x20;disgust,&#x20;fear,&#x20;happiness,&#x20;pleasant&#x20;surprise,&#x20;sadness,&#x20;and&#x20;neutral).&#x20;There&#x20;are&#x20;2800&#x20;stimuli&#x20;in&#x20;total.&#x20;The&#x20;two&#x20;actresses&#x20;were&#x20;recruited&#x20;from&#x20;the&#x20;Toronto&#x20;area.&#x20;Both&#x20;actresses&#x20;speak&#x20;English&#x20;as&#x20;their&#x20;first&#x20;language,&#x20;are&#x20;university&#x20;educated,&#x20;and&#x20;have&#x20;musical&#x20;training.&#x20;Audiometric&#x20;testing&#x20;indicated&#x20;that&#x20;both&#x20;actresses&#x20;have&#x20;thresholds&#x20;within&#x20;the&#x20;normal&#x20;range.</div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>URI:</span>
+<a href="http://hdl.handle.net/1807/24501">http:&#x2F;&#x2F;hdl.handle.net&#x2F;1807&#x2F;24501</a></div>
+<tr><td class="metadataFieldLabel"><div class='item-field'>
+<span class='item-field-label'>Keywords:</span>
+<a href="/browse?type=subject&value=Auditory+perception+">Auditory&#x20;perception</a></div>
+</table>
+</div>
+<div class="item-sidebar"><div class='item-files'>
+<h2>Files</h2>
+<ul>
+<li><a target="_blank" href="/bitstream/1807/24501/1/OAF_youth_happy.wav">OAF_youth_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/2/OAF_young_happy.wav">OAF_young_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/3/OAF_yes_happy.wav">OAF_yes_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/4/OAF_yearn_happy.wav">OAF_yearn_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/5/OAF_witch_happy.wav">OAF_witch_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/6/OAF_wire_happy.wav">OAF_wire_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/7/OAF_wife_happy.wav">OAF_wife_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/8/OAF_white_happy.wav">OAF_white_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/9/OAF_whip_happy.wav">OAF_whip_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/10/OAF_which_happy.wav">OAF_which_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/11/OAF_when_happy.wav">OAF_when_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/12/OAF_wheat_happy.wav">OAF_wheat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/13/OAF_week_happy.wav">OAF_week_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/14/OAF_wash_happy.wav">OAF_wash_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/15/OAF_walk_happy.wav">OAF_walk_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/16/OAF_wag_happy.wav">OAF_wag_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/17/OAF_vote_happy.wav">OAF_vote_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/18/OAF_void_happy.wav">OAF_void_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/19/OAF_voice_happy.wav">OAF_voice_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/20/OAF_vine_happy.wav">OAF_vine_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/21/OAF_turn_happy.wav">OAF_turn_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/22/OAF_tough_happy.wav">OAF_tough_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/23/OAF_tool_happy.wav">OAF_tool_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/24/OAF_ton_happy.wav">OAF_ton_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/25/OAF_tire_happy.wav">OAF_tire_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/26/OAF_tip_happy.wav">OAF_tip_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/27/OAF_time_happy.wav">OAF_time_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/28/OAF_thumb_happy.wav">OAF_thumb_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/29/OAF_thought_happy.wav">OAF_thought_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/30/OAF_third_happy.wav">OAF_third_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/31/OAF_thin_happy.wav">OAF_thin_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/32/OAF_tell_happy.wav">OAF_tell_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/33/OAF_team_happy.wav">OAF_team_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/34/OAF_tape_happy.wav">OAF_tape_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/35/OAF_talk_happy.wav">OAF_talk_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/36/OAF_take_happy.wav">OAF_take_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/37/OAF_sure_happy.wav">OAF_sure_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/38/OAF_such_happy.wav">OAF_such_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/39/OAF_sub_happy.wav">OAF_sub_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/40/OAF_south_happy.wav">OAF_south_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/41/OAF_sour_happy.wav">OAF_sour_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/42/OAF_soup_happy.wav">OAF_soup_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/43/OAF_soap_happy.wav">OAF_soap_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/44/OAF_size_happy.wav">OAF_size_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/45/OAF_shout_happy.wav">OAF_shout_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/46/OAF_should_happy.wav">OAF_should_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/47/OAF_shirt_happy.wav">OAF_shirt_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/48/OAF_sheep_happy.wav">OAF_sheep_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/49/OAF_shawl_happy.wav">OAF_shawl_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/50/OAF_shall_happy.wav">OAF_shall_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/51/OAF_shack_happy.wav">OAF_shack_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/52/OAF_sell_happy.wav">OAF_sell_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/53/OAF_seize_happy.wav">OAF_seize_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/54/OAF_search_happy.wav">OAF_search_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/55/OAF_sail_happy.wav">OAF_sail_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/56/OAF_said_happy.wav">OAF_said_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/57/OAF_rush_happy.wav">OAF_rush_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/58/OAF_rough_happy.wav">OAF_rough_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/59/OAF_rot_happy.wav">OAF_rot_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/60/OAF_rose_happy.wav">OAF_rose_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/61/OAF_room_happy.wav">OAF_room_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/62/OAF_road_happy.wav">OAF_road_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/63/OAF_ripe_happy.wav">OAF_ripe_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/64/OAF_ring_happy.wav">OAF_ring_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/65/OAF_red_happy.wav">OAF_red_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/66/OAF_read_happy.wav">OAF_read_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/67/OAF_reach_happy.wav">OAF_reach_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/68/OAF_rat_happy.wav">OAF_rat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/69/OAF_raise_happy.wav">OAF_raise_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/70/OAF_rain_happy.wav">OAF_rain_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/71/OAF_raid_happy.wav">OAF_raid_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/72/OAF_rag_happy.wav">OAF_rag_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/73/OAF_puff_happy.wav">OAF_puff_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/74/OAF_pool_happy.wav">OAF_pool_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/75/OAF_pole_happy.wav">OAF_pole_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/76/OAF_pike_happy.wav">OAF_pike_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/77/OAF_pick_happy.wav">OAF_pick_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/78/OAF_phone_happy.wav">OAF_phone_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/79/OAF_perch_happy.wav">OAF_perch_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/80/OAF_peg_happy.wav">OAF_peg_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/81/OAF_pearl_happy.wav">OAF_pearl_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/82/OAF_pass_happy.wav">OAF_pass_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/83/OAF_pain_happy.wav">OAF_pain_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/84/OAF_page_happy.wav">OAF_page_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/85/OAF_pad_happy.wav">OAF_pad_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/86/OAF_numb_happy.wav">OAF_numb_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/87/OAF_note_happy.wav">OAF_note_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/88/OAF_nice_happy.wav">OAF_nice_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/89/OAF_neat_happy.wav">OAF_neat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/90/OAF_near_happy.wav">OAF_near_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/91/OAF_name_happy.wav">OAF_name_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/92/OAF_nag_happy.wav">OAF_nag_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/93/OAF_mouse_happy.wav">OAF_mouse_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/94/OAF_mop_happy.wav">OAF_mop_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/95/OAF_moon_happy.wav">OAF_moon_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/96/OAF_mood_happy.wav">OAF_mood_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/97/OAF_mode_happy.wav">OAF_mode_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/98/OAF_mob_happy.wav">OAF_mob_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/99/OAF_mill_happy.wav">OAF_mill_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/100/OAF_met_happy.wav">OAF_met_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/101/OAF_mess_happy.wav">OAF_mess_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/102/OAF_merge_happy.wav">OAF_merge_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/103/OAF_match_happy.wav">OAF_match_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/104/OAF_make_happy.wav">OAF_make_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/105/OAF_luck_happy.wav">OAF_luck_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/106/OAF_love_happy.wav">OAF_love_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/107/OAF_lot_happy.wav">OAF_lot_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/108/OAF_lose_happy.wav">OAF_lose_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/109/OAF_lore_happy.wav">OAF_lore_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/110/OAF_long_happy.wav">OAF_long_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/111/OAF_loaf_happy.wav">OAF_loaf_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/112/OAF_live_happy.wav">OAF_live_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/113/OAF_limb_happy.wav">OAF_limb_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/114/OAF_life_happy.wav">OAF_life_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/115/OAF_lid_happy.wav">OAF_lid_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/116/OAF_lease_happy.wav">OAF_lease_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/117/OAF_learn_happy.wav">OAF_learn_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/118/OAF_lean_happy.wav">OAF_lean_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/119/OAF_laud_happy.wav">OAF_laud_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/120/OAF_late_happy.wav">OAF_late_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/121/OAF_knock_happy.wav">OAF_knock_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/122/OAF_kite_happy.wav">OAF_kite_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/123/OAF_king_happy.wav">OAF_king_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/124/OAF_kill_happy.wav">OAF_kill_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/125/OAF_kick_happy.wav">OAF_kick_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/126/OAF_keg_happy.wav">OAF_keg_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/127/OAF_keep_happy.wav">OAF_keep_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/128/OAF_keen_happy.wav">OAF_keen_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/129/OAF_juice_happy.wav">OAF_juice_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/130/OAF_jug_happy.wav">OAF_jug_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/131/OAF_judge_happy.wav">OAF_judge_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/132/OAF_join_happy.wav">OAF_join_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/133/OAF_jar_happy.wav">OAF_jar_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/134/OAF_jail_happy.wav">OAF_jail_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/135/OAF_hush_happy.wav">OAF_hush_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/136/OAF_hurl_happy.wav">OAF_hurl_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/137/OAF_home_happy.wav">OAF_home_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/138/OAF_hole_happy.wav">OAF_hole_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/139/OAF_hit_happy.wav">OAF_hit_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/140/OAF_hire_happy.wav">OAF_hire_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/141/OAF_haze_happy.wav">OAF_haze_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/142/OAF_have_happy.wav">OAF_have_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/143/OAF_hate_happy.wav">OAF_hate_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/144/OAF_hash_happy.wav">OAF_hash_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/145/OAF_hall_happy.wav">OAF_hall_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/146/OAF_half_happy.wav">OAF_half_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/147/OAF_gun_happy.wav">OAF_gun_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/148/OAF_goose_happy.wav">OAF_goose_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/149/OAF_good_happy.wav">OAF_good_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/150/OAF_goal_happy.wav">OAF_goal_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/151/OAF_gin_happy.wav">OAF_gin_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/152/OAF_get_happy.wav">OAF_get_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/153/OAF_germ_happy.wav">OAF_germ_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/154/OAF_gaze_happy.wav">OAF_gaze_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/155/OAF_gas_happy.wav">OAF_gas_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/156/OAF_gap_happy.wav">OAF_gap_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/157/OAF_food_happy.wav">OAF_food_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/158/OAF_five_happy.wav">OAF_five_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/159/OAF_fit_happy.wav">OAF_fit_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/160/OAF_fat_happy.wav">OAF_fat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/161/OAF_far_happy.wav">OAF_far_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/162/OAF_fall_happy.wav">OAF_fall_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/163/OAF_fail_happy.wav">OAF_fail_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/164/OAF_door_happy.wav">OAF_door_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/165/OAF_doll_happy.wav">OAF_doll_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/166/OAF_dog_happy.wav">OAF_dog_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/167/OAF_dodge_happy.wav">OAF_dodge_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/168/OAF_ditch_happy.wav">OAF_ditch_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/169/OAF_dip_happy.wav">OAF_dip_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/170/OAF_dime_happy.wav">OAF_dime_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/171/OAF_deep_happy.wav">OAF_deep_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/172/OAF_death_happy.wav">OAF_death_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/173/OAF_dead_happy.wav">OAF_dead_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/174/OAF_date_happy.wav">OAF_date_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/175/OAF_dab_happy.wav">OAF_dab_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/176/OAF_cool_happy.wav">OAF_cool_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/177/OAF_choice_happy.wav">OAF_choice_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/178/OAF_chief_happy.wav">OAF_chief_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/179/OAF_cheek_happy.wav">OAF_cheek_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/180/OAF_check_happy.wav">OAF_check_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/181/OAF_chat_happy.wav">OAF_chat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/182/OAF_chalk_happy.wav">OAF_chalk_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/183/OAF_chair_happy.wav">OAF_chair_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/184/OAF_chain_happy.wav">OAF_chain_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/185/OAF_cause_happy.wav">OAF_cause_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/186/OAF_came_happy.wav">OAF_came_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/187/OAF_calm_happy.wav">OAF_calm_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/188/OAF_cab_happy.wav">OAF_cab_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/189/OAF_burn_happy.wav">OAF_burn_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/190/OAF_bought_happy.wav">OAF_bought_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/191/OAF_book_happy.wav">OAF_book_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/192/OAF_bone_happy.wav">OAF_bone_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/193/OAF_boat_happy.wav">OAF_boat_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/194/OAF_bite_happy.wav">OAF_bite_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/195/OAF_beg_happy.wav">OAF_beg_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/196/OAF_bean_happy.wav">OAF_bean_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/197/OAF_bath_happy.wav">OAF_bath_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/198/OAF_base_happy.wav">OAF_base_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/199/OAF_bar_happy.wav">OAF_bar_happy.wav</a></li><li><a target="_blank" href="/bitstream/1807/24501/200/OAF_back_happy.wav">OAF_back_happy.wav</a></li></ul>
+</div>
+<div class="item-handle"><h2>Permanent link</h2><p>http://hdl.handle.net/1807/24501</p></div><ul class='item-extra-links'><li><a class="btn btn-primary" href="/handle/1807/24501?mode=full">Show complete metadata</a></li><li><a class="statisticsLink  btn btn-primary" href="/handle/1807/24501/statistics">Show Statistics <span class="glyphicon glyphicon-stats"></span></a></li></ul><script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script></div>
+
+</div>
+
+    
+
+
+
+
+
+    
+
+    <p class="item-license alert alert-info">Items in TSpace are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+		<h2 style="font-family:'EB Garamond', serif">TSpace</h2>
+		<p style="max-width:600px; margin:0 auto; font-style:italic; padding-bottom:15px">
+TSpace is a free and secure research repository established by University of Toronto Libraries to disseminate and preserve the scholarly record of University of Toronto. <a href="/about">Learn more</a>
+</p>
+		<p>&copy; 2019 University of Toronto. All rights reserved.<br/><a href="mailto:tspace@library.utoronto.ca">tspace@library.utoronto.ca</a><br/><a href="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=130+St+George+St,+Toronto,+ON&amp;sll=43.662749,-79.395962&amp;sspn=0.012962,0.018454&amp;ie=UTF8&amp;z=17&amp;iwloc=addr">University of Toronto Libraries, 130 St. George Street, Toronto, ON M5S 1A5 Canada</a></p>
+				<p class="text-muted footer-access"><a href="http://onesearch.library.utoronto.ca/university-toronto-libraries-and-online-accessibility">About University of Toronto Libraries online accessibility</a></p>
+                                <p><a href="/feedback" id="access-help" style='text-decoration:underline'>Report an accessibility issue</a></p>
+				<p class="text-muted footer-access"><a href="https://onesearch.library.utoronto.ca/online-privacy-data-collection">About online privacy and data collection</a></p>
+				<p class="dspace-link"><a href="http://www.dspace.org/">DSpace Software</a></p>
+		<div id="footer_feedback" class="pull-right">                                    
+                                <p class="text-muted triangle-border">
+                                	<a href="/feedback">Feedback</a>
+				</p>
+                                </div>
+			</div>
+                <div id='footer_feedback_mobile'>
+                    <a href='/feedback'>Share your feedback</a>
+                </div>
+            <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V9S88"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5V9S88');</script>
+            <!-- End Google Tag Manager -->
+
+    </footer>
+    <a class='htmlmap' href="/htmlmap">link to htmlmap</a>
+    </body>
+</html>
+
