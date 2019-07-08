@@ -2,6 +2,7 @@ import os
 import librosa
 import numpy as np
 import math
+from random import randint
 
 data_dir = os.path.abspath('./data')
 
@@ -12,7 +13,7 @@ def dense_to_one_hot(labels_dense, num_classes=8):
 
 
 def load_audio_data(file_path, mfcc_features=64):
-    wave, sr = librosa.load(file_path, mono=True)
+    wave, sr = librosa.load(file_path, mono=True, sr=randint(2000, 22050))
     wave_frag_offsets = librosa.effects.split(wave, top_db=35)
 
     results = []
