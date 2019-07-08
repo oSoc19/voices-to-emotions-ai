@@ -85,6 +85,34 @@ def rename_german_data():
             copyfile(file_path, dst_path)
 
 
+def rename_toronto_data():
+    dir_path = os.path.abspath('./data/toronto_university')
+
+    toronto_emotion_dict = {
+        'neutral': '01',
+        'Calm': '02',
+        'happy': '03',
+        'sad': '04',
+        'angry': '05',
+        'fear': '06',
+        'disgust': '07',
+        'ps': '08'
+    }
+
+    for file_path in get_files_recursive(dir_path):
+        file_name = os.path.basename(file_path)
+
+        if file_name.endswith('.wav'):
+            file_name_parts = file_name.replace('.wav', '').split('_')
+
+            gender = 'N'
+            emotion = toronto_emotion_dict[file_name_parts[2]]
+            # print(emotion)
+            file_hash = filehash(file_path)
+            dst_file_name = emotion + '-' + gender + '-' + 'EN' + '-' + file_hash + '.wav'
+            dst_path = os.path.join(target_dir, dst_file_name)
+            copyfile(file_path, dst_path)
+
 def rename_engie_data():
     dir_path = os.path.abspath('./data/engie')
 
@@ -106,3 +134,4 @@ def rename_engie_data():
 
 # rename_german_data()
 # rename_engie_data()
+rename_toronto_data()
