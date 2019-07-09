@@ -28,26 +28,28 @@ model.load(model_path)
 
 gc.collect()
 
+
 # Train model
 def train():
     try:
-        while True:
-            print('Loading data...')
+        print('Loading data...')
 
-            shuffle(dataset)
-            trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
+        shuffle(dataset)
+        trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
-            shuffle(dataset)
-            testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
+        shuffle(dataset)
+        testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
-            model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
-                      batch_size=batch_size)
+        model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
+                  batch_size=batch_size)
 
-            # Save model
-            print('Saving model...')
-            model.save(model_path)
+        # Save model
+        print('Saving model...')
+        model.save(model_path)
 
-            gc.collect()
+        gc.collect()
+
+        train()
 
     except KeyboardInterrupt:
         print("KeyboardInterrupt has been caught.")
@@ -56,6 +58,9 @@ def train():
         e = sys.exc_info()[0]
         print(e)
         train()
+
+
+train()
 
 # Evaluate model
 print('Evaluating model...')
