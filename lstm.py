@@ -4,7 +4,7 @@ import numpy as np
 from random import shuffle
 
 learning_rate = 0.0001
-training_epochs = 100
+training_epochs = 250
 batch_size = 1000
 model_path = 'model-lstm.tflearn'
 
