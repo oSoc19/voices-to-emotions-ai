@@ -32,11 +32,11 @@ gc.collect()
 # Train model
 def train():
     try:
-        print('Loading data...')
-
+        print('Loading Training Data...')
         shuffle(dataset)
         trainX, trainY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
+        print('Loading Validation Data...')
         shuffle(dataset)
         testX, testY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
 
