@@ -4,8 +4,8 @@ import numpy as np
 from random import shuffle
 
 learning_rate = 0.0001
-training_epochs = 25
-batch_size = 256
+training_epochs = 100
+batch_size = 1000
 model_path = 'model-lstm.tflearn'
 
 mfcc_features = 20  # mfcc features

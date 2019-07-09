@@ -2,7 +2,6 @@ import os
 import librosa
 import numpy as np
 import math
-from random import randint
 
 data_dir = os.path.abspath('./data')
 
