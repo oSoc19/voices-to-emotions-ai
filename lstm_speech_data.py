@@ -13,7 +13,8 @@ def dense_to_one_hot(labels_dense, num_classes=8):
 
 
 def load_audio_data(file_path, mfcc_features=64):
-    wave, sr = librosa.load(file_path, mono=True, sr=12000)
+    # 16000 Hz = VoIP
+    wave, sr = librosa.load(file_path, mono=True, sr=16000)
     wave_frag_offsets = librosa.effects.split(wave, top_db=35)
 
     results = []
