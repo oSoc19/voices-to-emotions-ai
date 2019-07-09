@@ -1,8 +1,6 @@
 from __future__ import division, print_function, absolute_import
-import tflearn
-import lstm_speech_data
+import tflearn, gc, sys, lstm_speech_data
 import numpy as np
-import gc
 from random import shuffle
 
 learning_rate = 0.0001
@@ -30,9 +28,10 @@ model.load(model_path)
 
 gc.collect()
 
+
 # Train model
-try:
-    while True:
+def train():
+    try:
         print('Loading data...')
 
         shuffle(dataset)
@@ -50,8 +49,18 @@ try:
 
         gc.collect()
 
-except KeyboardInterrupt:
-    print("KeyboardInterrupt has been caught.")
+        train()
+
+    except KeyboardInterrupt:
+        print("KeyboardInterrupt has been caught.")
+
+    except:
+        e = sys.exc_info()[0]
+        print(e)
+        train()
+
+
+train()
 
 # Evaluate model
 print('Evaluating model...')
