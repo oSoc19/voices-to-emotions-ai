@@ -53,6 +53,9 @@ def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_
             labels.append(label)
             batch_features.append(mfcc)
 
+            if len(batch_features) % 25 == 0:
+                print('Loading Data Progress:', len(batch_features), '/', batch_size)
+
             # Return early if the batch_size has been satisfied
             if len(batch_features) >= batch_size:
                 return batch_features, labels
