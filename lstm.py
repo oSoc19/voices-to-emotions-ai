@@ -1,11 +1,12 @@
 from __future__ import division, print_function, absolute_import
-import tflearn, gc, sys, lstm_speech_data
 from random import shuffle
+import tflearn, gc, sys, lstm_speech_data
+import tensorflow as tf
 
 learning_rate = 0.0001
 training_epochs = 50
 batch_size = 1000
-model_path = 'model-lstm.tflearn'
+model_path = 'model/model.tflearn'
 
 mfcc_features = 20  # mfcc features
 height = 500  # (max) length of utterance
@@ -18,8 +19,12 @@ net = tflearn.lstm(net, 128, dropout=0.8)
 net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
 
+config = tf.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.8
+sess = tf.Session(config=config)
+
 # Training
-model = tflearn.DNN(net, tensorboard_verbose=1)
+model = tflearn.DNN(net, tensorboard_verbose=1, session=sess)
 
 # Load previous model to improve training
 print('Loading model...')
@@ -43,6 +48,8 @@ while True:
 
         # Save model
         print('Saving model...')
+
+        del tf.get_collection_ref(tf.GraphKeys.TRAIN_OPS)[:]
         model.save(model_path)
 
         gc.collect()
