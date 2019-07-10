@@ -20,6 +20,7 @@ librosa = "*"
 opencv-python = "*"
 tflearn = "*"
 future = "*"
+pydub = "*"
 
 [requires]
 python_version = "3"

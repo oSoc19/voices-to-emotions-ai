@@ -39,11 +39,18 @@ def load_audio_data(file_path, mfcc_features=64):
     return results
 
 
-def load_dataset(dataset_folder=os.path.join(data_dir, 'train')):
-    return os.listdir(dataset_folder)
+def load_dataset():
+    dataset = []
+    for p in os.listdir(os.path.join(data_dir, 'train')):
+        dataset.append(os.path.join(os.path.join(data_dir, 'train'), p))
+
+    for p in os.listdir(os.path.join(data_dir, 'train_noisy')):
+        dataset.append(os.path.join(os.path.join(data_dir, 'train_noisy'), p))
+
+    return dataset
 
 
-def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_size=10, mfcc_features=20):
+def mfcc_get_batch(files, batch_size=10, mfcc_features=20):
     batch_features = []
     labels = []
 
@@ -51,11 +58,10 @@ def mfcc_get_batch(files, dataset_folder=os.path.join(data_dir, 'train'), batch_
         if not wav.endswith(".wav"):
             continue
 
-        file_path = os.path.join(dataset_folder, wav)
         # Our data is labeled 01-... but labels should be an int starting at 0
         emotion = int(os.path.basename(wav).split('-')[0]) - 1
         label = dense_to_one_hot(emotion, num_classes=8)
-        audio_data = load_audio_data(file_path, mfcc_features=mfcc_features)
+        audio_data = load_audio_data(wav, mfcc_features=mfcc_features)
 
         for mfcc in audio_data:
             labels.append(label)

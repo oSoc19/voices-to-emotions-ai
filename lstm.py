@@ -1,6 +1,6 @@
 from __future__ import division, print_function, absolute_import
 from random import shuffle
-import tflearn, gc, sys, lstm_speech_data
+import tflearn, gc, lstm_speech_data
 import tensorflow as tf
 
 learning_rate = 0.0001
