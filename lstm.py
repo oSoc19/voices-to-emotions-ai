@@ -1,6 +1,5 @@
 from __future__ import division, print_function, absolute_import
 import tflearn, gc, sys, lstm_speech_data
-import numpy as np
 from random import shuffle
 
 learning_rate = 0.0001
@@ -28,9 +27,8 @@ model.load(model_path)
 
 gc.collect()
 
-
 # Train model
-def train():
+while True:
     try:
         print('Loading Training Data...')
         shuffle(dataset)
@@ -49,34 +47,10 @@ def train():
 
         gc.collect()
 
-        train()
-
     except KeyboardInterrupt:
         print("KeyboardInterrupt has been caught.")
 
     except:
         e = sys.exc_info()[0]
         print(e)
-        train()
-
-
-train()
-
-# Evaluate model
-print('Evaluating model...')
-
-shuffle(dataset)
-evalX, evalY = lstm_speech_data.mfcc_get_batch(dataset, batch_size=batch_size, mfcc_features=mfcc_features)
-
-predictions = model.predict(evalX)
-
-accuracy = 0
-for prediction, actual in zip(predictions, evalY):
-    predicted_class = np.argmax(prediction)
-    actual_class = np.argmax(actual)
-    if (predicted_class == actual_class):
-        accuracy += 1
-
-accuracy = accuracy / len(evalY)
-
-print("AVG Model Accuracy:", str(round(accuracy * 10000) / 100), '%')
+        break
