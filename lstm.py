@@ -59,5 +59,4 @@ while True:
         break
 
     except:
-        e = sys.exc_info()[0]
-        print(e)
+        print('An error occured')
