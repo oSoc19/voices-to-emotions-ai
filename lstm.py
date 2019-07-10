@@ -6,7 +6,7 @@ import tensorflow as tf
 learning_rate = 0.0001
 training_epochs = 50
 batch_size = 1000
-model_path = 'model/model.tflearn'
+model_path = 'model/model'
 
 mfcc_features = 20  # mfcc features
 height = 500  # (max) length of utterance
@@ -56,8 +56,8 @@ while True:
 
     except KeyboardInterrupt:
         print("KeyboardInterrupt has been caught.")
+        break
 
     except:
         e = sys.exc_info()[0]
         print(e)
-        break
