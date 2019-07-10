@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/jasper/voices-to-emotions-ai/model/model.tflearn"
-all_model_checkpoint_paths: "/home/jasper/voices-to-emotions-ai/model/model.tflearn"
+model_checkpoint_path: "/home/jasper/voices-to-emotions-ai/model/model"
+all_model_checkpoint_paths: "/home/jasper/voices-to-emotions-ai/model/model"
