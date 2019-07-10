@@ -1,7 +1,5 @@
-import os
-import librosa
 import numpy as np
-import math
+import os, librosa, math, json
 
 data_dir = os.path.abspath('./data')
 
@@ -12,6 +10,12 @@ def dense_to_one_hot(labels_dense, num_classes=8):
 
 
 def load_audio_data(file_path, mfcc_features=64):
+    json_file_path = file_path + '.json'
+    if os.path.exists(json_file_path):
+        with open(json_file_path, 'r') as file:
+            json_data = file.read()
+            return json.loads(json_data)
+
     # 16000 Hz = VoIP
     wave, sr = librosa.load(file_path, mono=True, sr=16000)
     wave_frag_offsets = librosa.effects.split(wave, top_db=35)
@@ -26,7 +30,11 @@ def load_audio_data(file_path, mfcc_features=64):
 
         for short_mfcc in splitted_mfcc:
             short_mfcc = np.pad(short_mfcc, ((0, 0), (0, 500 - len(short_mfcc[0]))), mode='constant', constant_values=0)
-            results.append(np.array(short_mfcc))
+            results.append(np.array(short_mfcc).tolist())
+
+    json_dump = json.dumps(results, separators=(',', ':'))
+    with open(json_file_path, 'w') as file:
+        file.write(json_dump)
 
     return results
 
