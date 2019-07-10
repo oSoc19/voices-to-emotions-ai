@@ -1,1 +1,2 @@
 train_noisy/*.wav
+train_noisy/*.json
