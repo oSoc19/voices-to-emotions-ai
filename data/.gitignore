@@ -1,2 +1,2 @@
-train_noisy/*.wav
-train_noisy/*.json
+train_noisy
+validate_noisy

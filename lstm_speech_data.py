@@ -1,8 +1,6 @@
 import numpy as np
 import os, librosa, math, json
 
-data_dir = os.path.abspath('./data')
-
 
 def dense_to_one_hot(labels_dense, num_classes=8):
     """Convert class labels from scalars to one-hot vectors."""
@@ -39,13 +37,10 @@ def load_audio_data(file_path, mfcc_features=64):
     return results
 
 
-def load_dataset():
+def load_dataset(dir_path):
     dataset = []
-    for p in os.listdir(os.path.join(data_dir, 'train')):
-        dataset.append(os.path.join(os.path.join(data_dir, 'train'), p))
-
-    for p in os.listdir(os.path.join(data_dir, 'train_noisy')):
-        dataset.append(os.path.join(os.path.join(data_dir, 'train_noisy'), p))
+    for p in os.listdir(dir_path):
+        dataset.append(os.path.join(dir_path, p))
 
     return dataset
 
