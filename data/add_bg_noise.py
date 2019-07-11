@@ -51,7 +51,7 @@ train_noisy_dir = "./train_noisy/"
 validate_dir = "./validate/"
 validate_noisy_dir = "./validate_noisy/"
 
-multiplier = 1
+multiplier = 2
 
 if not os.path.exists(train_noisy_dir):
     os.makedirs(train_noisy_dir)

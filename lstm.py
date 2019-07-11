@@ -15,8 +15,6 @@ height = 500  # (max) length of utterance
 classes = 8
 train_dataset = lstm_speech_data.load_dataset(os.path.join(data_dir, 'train')) + lstm_speech_data.load_dataset(
     os.path.join(data_dir, 'train_noisy'))
-validate_dataset = lstm_speech_data.load_dataset(os.path.join(data_dir, 'validate')) + lstm_speech_data.load_dataset(
-    os.path.join(data_dir, 'validate_noisy'))
 
 # Network building
 net = tflearn.input_data([None, mfcc_features, height])
@@ -46,8 +44,8 @@ while True:
                                                          mfcc_features=mfcc_features)
 
         print('Loading Validation Data...')
-        shuffle(validate_dataset)
-        testX, testY = lstm_speech_data.mfcc_get_batch(validate_dataset, batch_size=batch_size,
+        shuffle(train_dataset)
+        testX, testY = lstm_speech_data.mfcc_get_batch(train_dataset, batch_size=batch_size,
                                                        mfcc_features=mfcc_features)
 
         model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
