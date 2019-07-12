@@ -1,11 +1,10 @@
-import os
+import os, shutil
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
-from tensorflow.python.framework import graph_util
 
 
-def freeze_graph(model_folder, output_graph):
+def freeze_graph(model_folder, output_folder):
     # We retrieve our checkpoint fullpath
     try:
         checkpoint = tf.train.get_checkpoint_state(model_folder)
@@ -15,43 +14,61 @@ def freeze_graph(model_folder, output_graph):
         input_checkpoint = model_folder
         print("[INFO] Model folder", model_folder)
 
-    # Before exporting our graph, we need to precise what is our output node
-    # This is how TF decides what part of the Graph he has to keep and what part it can dump
-    # TODO: Ensure this is the correct output node
-    output_node_names = "FullyConnected/Softmax"
-
     # We clear devices to allow TensorFlow to control on which device it will load operations
     clear_devices = True
 
     # We import the meta graph and retrieve a Saver
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=clear_devices)
 
-    # We retrieve the protobuf graph definition
-    graph = tf.get_default_graph()
-    input_graph_def = graph.as_graph_def()
-
     # We start a session and restore the graph weights
     with tf.Session() as sess:
         saver.restore(sess, input_checkpoint)
 
-        # We use a built-in TF helper to export variables to constants
-        output_graph_def = graph_util.convert_variables_to_constants(
-            sess,  # The session is used to retrieve the weights
-            input_graph_def,  # The graph_def is used to retrieve the nodes
-            output_node_names.split(",")  # The output node names are used to select the useful nodes
+        input_tensor = sess.graph.get_tensor_by_name("InputData/X:0")
+        output_tensor = sess.graph.get_tensor_by_name("FullyConnected/Softmax:0")
+
+        builder = tf.saved_model.builder.SavedModelBuilder(output_folder)
+        prediction_signature = tf.saved_model.signature_def_utils.build_signature_def(
+            inputs={
+                "mfcc": tf.saved_model.utils.build_tensor_info(input_tensor)
+            },
+            outputs={
+                "emotions": tf.saved_model.utils.build_tensor_info(output_tensor)
+            },
+            method_name=tf.saved_model.signature_constants.PREDICT_METHOD_NAME,
         )
 
-        # Finally we serialize and dump the output graph to the filesystem
-        with tf.gfile.GFile(output_graph, "wb") as f:
-            f.write(output_graph_def.SerializeToString())
-        print("%d ops in the final graph." % len(output_graph_def.node))
+        tensor_info_x = tf.saved_model.utils.build_tensor_info(input_tensor)
+        tensor_info_y = tf.saved_model.utils.build_tensor_info(output_tensor)
 
-        print("[INFO] output_graph:", output_graph)
+        classification_signature = tf.saved_model.signature_def_utils.build_signature_def(
+            inputs={tf.saved_model.signature_constants.CLASSIFY_INPUTS: tensor_info_x},
+            outputs={
+                tf.saved_model.signature_constants.CLASSIFY_OUTPUT_CLASSES: tensor_info_y
+            },
+            method_name=tf.saved_model.signature_constants.CLASSIFY_METHOD_NAME,
+        )
+
+        builder.add_meta_graph_and_variables(
+            sess,
+            [tf.saved_model.tag_constants.SERVING],
+            signature_def_map={
+                "predict_emotions": prediction_signature,
+                tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY: classification_signature,
+            },
+            main_op=tf.tables_initializer(),
+        )
+        builder.save()
+
+        print("[INFO] output_graph:", model_folder)
         print("[INFO] all done")
 
 
 if __name__ == '__main__':
-    model_folder = os.path.abspath('model')
-    output_graph = os.path.abspath('model/saved_model.pb')
+    input_folder = os.path.abspath('model')
+    output_folder = os.path.abspath('output')
 
-    freeze_graph(model_folder, output_graph)
+    if os.path.exists(output_folder):
+        shutil.rmtree(output_folder)
+
+    freeze_graph(input_folder, output_folder)
