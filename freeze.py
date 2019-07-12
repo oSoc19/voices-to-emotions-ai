@@ -52,6 +52,6 @@ def freeze_graph(model_folder, output_graph):
 
 if __name__ == '__main__':
     model_folder = os.path.abspath('model')
-    output_graph = os.path.abspath('model/model.pb')
+    output_graph = os.path.abspath('model/saved_model.pb')
 
     freeze_graph(model_folder, output_graph)
