@@ -8,7 +8,7 @@ def dense_to_one_hot(labels_dense, num_classes=8):
     return np.eye(num_classes)[labels_dense]
 
 
-def load_audio_data(file_path, mfcc_features=64, height=200):
+def load_audio_data(file_path, mfcc_features=8, height=200):
     json_file_path = file_path + '.json'
     if os.path.exists(json_file_path):
         with open(json_file_path, 'r') as file:
@@ -46,7 +46,7 @@ def load_dataset(dir_path):
     return dataset
 
 
-def mfcc_get_batch(files, batch_size=10, mfcc_features=20, height=200):
+def mfcc_get_batch(files, batch_size=10, mfcc_features=8, height=200):
     batch_features = []
     labels = []
 

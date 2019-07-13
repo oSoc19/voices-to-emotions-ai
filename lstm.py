@@ -18,7 +18,7 @@ train_dataset = lstm_speech_data.load_dataset(os.path.join(data_dir, 'train')) +
 
 # Network building
 net = tflearn.input_data([None, mfcc_features, height])
-net = tflearn.lstm(net, 200, dropout=0.8)
+net = tflearn.lstm(net, 256, dropout=0.8)
 net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
 
@@ -31,7 +31,7 @@ model = tflearn.DNN(net, tensorboard_verbose=1, session=sess)
 
 # Load previous model to improve training
 print('Loading model...')
-# model.load(model_path)
+model.load(model_path)
 
 gc.collect()
 
@@ -63,5 +63,5 @@ while True:
         print("KeyboardInterrupt has been caught.")
         break
 
-#    except:
-#        print('An error occured')
+    except:
+        print('An error occured')
