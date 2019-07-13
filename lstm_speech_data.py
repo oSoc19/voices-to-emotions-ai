@@ -1,6 +1,8 @@
 import numpy as np
 import os, librosa, math, json
 
+audio_silence_treshold = 30
+
 def dense_to_one_hot(labels_dense, num_classes=8):
     """Convert class labels from scalars to one-hot vectors."""
     return np.eye(num_classes)[labels_dense]
@@ -15,7 +17,7 @@ def load_audio_data(file_path, mfcc_features=64, height=200):
 
     # 16000 Hz = VoIP
     wave, sr = librosa.load(file_path, mono=True, sr=16000)
-    wave_frag_offsets = librosa.effects.split(wave, top_db=35)
+    wave_frag_offsets = librosa.effects.split(wave, top_db=audio_silence_treshold)
 
     results = []
     for offsets in wave_frag_offsets:

@@ -31,7 +31,7 @@ model = tflearn.DNN(net, tensorboard_verbose=1, session=sess)
 
 # Load previous model to improve training
 print('Loading model...')
-model.load(model_path)
+# model.load(model_path)
 
 gc.collect()
 
@@ -63,5 +63,5 @@ while True:
         print("KeyboardInterrupt has been caught.")
         break
 
-    except:
-        print('An error occured')
+#    except:
+#        print('An error occured')
