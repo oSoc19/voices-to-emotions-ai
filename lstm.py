@@ -6,8 +6,8 @@ import tensorflow as tf
 data_dir = os.path.abspath('./data')
 
 learning_rate = 0.0001
-training_epochs = 500
-batch_size = 20000
+training_epochs = 25
+batch_size = 5000
 model_path = 'model/model'
 
 mfcc_features = 12
