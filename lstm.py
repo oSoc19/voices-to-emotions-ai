@@ -10,7 +10,7 @@ training_epochs = 50
 batch_size = 1000
 model_path = 'model/model'
 
-mfcc_features = 8
+mfcc_features = 12
 height = 200
 classes = 8
 train_dataset = lstm_speech_data.load_dataset(os.path.join(data_dir, 'train')) + lstm_speech_data.load_dataset(
