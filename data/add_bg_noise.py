@@ -44,11 +44,10 @@ def create_noisy_data(input_folder, output_folder):
             print("Noisifying " + f)
             mix_together(input_folder + f, "./cut_noise/" + str(r.randint(0, 119)) + ".wav", output_folder)
 
-
 train_dir = "./train/"
 train_noisy_dir = "./train_noisy/"
 
-multiplier = 2
+multiplier = 1
 
 if not os.path.exists(train_noisy_dir):
     os.makedirs(train_noisy_dir)
