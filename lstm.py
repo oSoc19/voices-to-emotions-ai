@@ -52,8 +52,8 @@ if not os.path.exists(checkpoint_dir):
     os.mkdir(checkpoint_dir)
 
 # Training
-model = tflearn.DNN(net, tensorboard_verbose=1,
-                    checkpoint_path=checkpoint_path, best_checkpoint_path=best_checkpoint_path, best_val_accuracy=0.75)
+model = tflearn.DNN(net, tensorboard_verbose=1, checkpoint_path=checkpoint_path,
+                    best_checkpoint_path=best_checkpoint_path, best_val_accuracy=0.55, max_checkpoints=1)
 
 #  model.load(checkpoint_path)
 
