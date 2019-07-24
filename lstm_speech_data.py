@@ -1,7 +1,7 @@
 import numpy as np
 import os, librosa, math, json
 
-audio_silence_treshold = 45
+audio_silence_treshold = 35
 
 def dense_to_one_hot(labels_dense, num_classes=8):
     """Convert class labels from scalars to one-hot vectors."""

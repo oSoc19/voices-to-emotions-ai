@@ -9,10 +9,10 @@ learning_rate = 0.0001
 training_epochs = 25000
 batch_size = 100000
 model_path = 'checkpoint/'
-dropout = 0.65
-lstm_units = 256
+dropout = 0.7
+lstm_units = 512
 
-mfcc_features = 16
+mfcc_features = 14
 height = 200
 classes = 8
 dataset = np.array(lstm_speech_data.load_dataset(os.path.join(data_dir, 'train_noisy')))
