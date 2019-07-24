@@ -9,7 +9,7 @@ def dense_to_one_hot(labels_dense, num_classes=8):
 
 
 def load_audio_data(file_path, mfcc_features=8, height=200):
-    json_file_path = file_path + '.json'
+    json_file_path = file_path + str(mfcc_features) + '-' + str(height) + '.json'
     if os.path.exists(json_file_path):
         with open(json_file_path, 'r') as file:
             json_data = file.read()

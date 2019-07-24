@@ -1,67 +1,49 @@
 from __future__ import division, print_function, absolute_import
 from random import shuffle
-import tflearn, gc, lstm_speech_data, os, math
-import tensorflow as tf
+import tflearn, gc, lstm_speech_data, os, math, sherpa
 
 data_dir = os.path.abspath('./data')
 
 learning_rate = 0.0001
 training_epochs = 25
-batch_size = 5000
-model_path = 'model/model'
+batch_size = 100
+model_path = 'checkpoint/'
+dropout = 0.9
+lstm_units = 128
 
-mfcc_features = 12
+mfcc_features = 14
 height = 200
 classes = 8
 train_dataset = lstm_speech_data.load_dataset(os.path.join(data_dir, 'train')) + lstm_speech_data.load_dataset(
     os.path.join(data_dir, 'train_noisy'))
 
+acc = tflearn.metrics.accuracy()
+
 # Network building
 net = tflearn.input_data([None, mfcc_features, height])
-net = tflearn.lstm(net, 256, dropout=0.8)
+net = tflearn.lstm(net, lstm_units, dropout=dropout)
 net = tflearn.fully_connected(net, classes, activation='softmax')
-net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy')
+net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy',
+                         metric=acc)
 
-config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.8
-sess = tf.Session(config=config)
+checkpoint_path = model_path + str(learning_rate) + '-' + str(lstm_units) + '-' + str(dropout) + '-' + str(
+    mfcc_features) + '-' + str(height) + '/' + 'checkpoint'
 
 # Training
-model = tflearn.DNN(net, tensorboard_verbose=1, session=sess)
+model = tflearn.DNN(net, tensorboard_verbose=1,
+                    checkpoint_path=checkpoint_path)
 
-# Load previous model to improve training
-print('Loading model...')
-model.load(model_path)
+print('Loading Training Data...')
+shuffle(train_dataset)
+trainX, trainY = lstm_speech_data.mfcc_get_batch(train_dataset, batch_size=math.ceil(batch_size * 0.8),
+                                                 mfcc_features=mfcc_features, height=height)
+
+print('Loading Validation Data...')
+shuffle(train_dataset)
+testX, testY = lstm_speech_data.mfcc_get_batch(train_dataset, batch_size=math.ceil(batch_size * 0.2),
+                                               mfcc_features=mfcc_features, height=height)
+
+model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
+          batch_size=batch_size)
 
 gc.collect()
-
-# Train model
-while True:
-    try:
-        print('Loading Training Data...')
-        shuffle(train_dataset)
-        trainX, trainY = lstm_speech_data.mfcc_get_batch(train_dataset, batch_size=math.ceil(batch_size * 0.8),
-                                                         mfcc_features=mfcc_features, height=height)
-
-        print('Loading Validation Data...')
-        shuffle(train_dataset)
-        testX, testY = lstm_speech_data.mfcc_get_batch(train_dataset, batch_size=math.ceil(batch_size * 0.2),
-                                                       mfcc_features=mfcc_features, height=height)
-
-        model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
-                  batch_size=batch_size)
-
-        # Save model
-        print('Saving model...')
-
-        del tf.get_collection_ref(tf.GraphKeys.TRAIN_OPS)[:]
-        model.save(model_path)
-
-        gc.collect()
-
-    except KeyboardInterrupt:
-        print("KeyboardInterrupt has been caught.")
-        break
-
-    except:
-        print('An error occured')

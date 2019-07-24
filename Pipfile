@@ -7,20 +7,15 @@ verify_ssl = true
 
 [packages]
 numpy = "*"
-keras = "*"
-panda = "*"
-sklearn = "*"
-nltk = "*"
-pandas = "*"
+pandas = "==0.24.2"
 tensorflow = "*"
 pip = "*"
-pillow = "*"
-matplotlib = "*"
 librosa = "*"
 opencv-python = "*"
 tflearn = "*"
 future = "*"
 pydub = "*"
+parameter-sherpa = "*"
 
 [requires]
 python_version = "3"
