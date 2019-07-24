@@ -9,8 +9,8 @@ learning_rate = 0.0001
 training_epochs = 25000
 batch_size = 100000
 model_path = 'checkpoint/'
-dropout = 0.9
-lstm_units = 128
+dropout = 0.7
+lstm_units = 512
 
 mfcc_features = 14
 height = 200
@@ -56,5 +56,3 @@ model = tflearn.DNN(net, tensorboard_verbose=1,
 
 model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True,
           batch_size=batch_size)
-
-gc.collect()
