@@ -1,6 +1,6 @@
 from __future__ import division, print_function, absolute_import
 from random import shuffle
-import tflearn, gc, lstm_speech_data, os, math
+import tflearn, lstm_speech_data, os, math
 import numpy as np
 
 data_dir = os.path.abspath('./data')
@@ -9,10 +9,10 @@ learning_rate = 0.0001
 training_epochs = 25000
 batch_size = 100000
 model_path = 'checkpoint/'
-dropout = 0.7
-lstm_units = 512
+dropout = 0.65
+lstm_units = 256
 
-mfcc_features = 14
+mfcc_features = 16
 height = 200
 classes = 8
 dataset = np.array(lstm_speech_data.load_dataset(os.path.join(data_dir, 'train_noisy')))
