@@ -1,6 +1,6 @@
 from __future__ import division, print_function, absolute_import
 from random import shuffle
-import tflearn, gc, lstm_speech_data, os, math, sherpa
+import tflearn, gc, lstm_speech_data, os, math
 
 data_dir = os.path.abspath('./data')
 
