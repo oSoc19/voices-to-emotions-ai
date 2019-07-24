@@ -9,13 +9,15 @@ learning_rate = 0.0001
 training_epochs = 25000
 batch_size = 100000
 model_path = 'checkpoint/'
-dropout = 0.65
+dropout = 0.8
 lstm_units = 256
 
-mfcc_features = 16
+mfcc_features = 14
 height = 200
 classes = 8
 dataset = np.array(lstm_speech_data.load_dataset(os.path.join(data_dir, 'train_noisy')))
+
+shuffle(dataset)
 
 train_dataset = dataset[:round(len(dataset) * .8)]
 validate_dataset = dataset[round(len(dataset) * .8):]
@@ -40,8 +42,9 @@ net = tflearn.fully_connected(net, classes, activation='softmax')
 net = tflearn.regression(net, optimizer='adam', learning_rate=learning_rate, loss='categorical_crossentropy',
                          metric=acc)
 
-checkpoint_dir = os.path.abspath(model_path + str(learning_rate) + '-' + str(lstm_units) + '-' + str(dropout) + '-' + str(
-    mfcc_features) + '-' + str(height) + '/')
+checkpoint_dir = os.path.abspath(
+    model_path + str(learning_rate) + '-' + str(lstm_units) + '-' + str(dropout) + '-' + str(
+        mfcc_features) + '-' + str(height) + '/')
 checkpoint_path = os.path.join(checkpoint_dir, 'checkpoint')
 best_checkpoint_path = os.path.join(checkpoint_dir, 'best_checkpoint')
 
