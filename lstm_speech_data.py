@@ -46,7 +46,7 @@ def load_dataset(dir_path):
     return dataset
 
 
-def mfcc_get_batch(files, batch_size=10, mfcc_features=8, height=200):
+def mfcc_get_batch(files, mfcc_features=8, height=200):
     batch_features = []
     labels = []
 
@@ -64,11 +64,6 @@ def mfcc_get_batch(files, batch_size=10, mfcc_features=8, height=200):
             batch_features.append(mfcc)
 
             if len(batch_features) % 100 == 0:
-                print('Loading Data Progress:', len(batch_features), '/', batch_size)
+                print('Loading Data Progress:', len(batch_features), '...')
 
-            # Return early if the batch_size has been satisfied
-            if len(batch_features) >= batch_size:
-                return batch_features, labels
-
-    print('NOT ENOUGH DATA TO SATISFY BATCH_SIZE')
     return batch_features, labels
