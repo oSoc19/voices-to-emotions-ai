@@ -7,7 +7,7 @@ import tensorflow as tf
 data_dir = os.path.abspath('./data')
 
 learning_rate = 0.0001
-training_epochs = 100
+training_epochs = 50
 batch_size = 100000
 dropout = 0.65
 lstm_units = 256
@@ -21,12 +21,6 @@ shuffle(dataset)
 
 train_dataset = dataset[:round(len(dataset) * .8)]
 validate_dataset = dataset[round(len(dataset) * .8):]
-
-print('Loading Training Data...')
-trainX, trainY = lstm_speech_data.mfcc_get_batch(train_dataset, mfcc_features=mfcc_features, height=height)
-
-print('Loading Validation Data...')
-testX, testY = lstm_speech_data.mfcc_get_batch(validate_dataset, mfcc_features=mfcc_features, height=height)
 
 checkpoint_key = str(learning_rate) + '-' + str(lstm_units) + '-' + str(dropout) + '-' + str(
     mfcc_features) + '-' + str(height)
@@ -71,6 +65,12 @@ gc.collect()
 for i in range(0, 100000000000):
     shuffle(train_dataset)
     shuffle(validate_dataset)
+
+    print('Loading Training Data...')
+    trainX, trainY = lstm_speech_data.mfcc_get_batch(train_dataset, mfcc_features=mfcc_features, height=height)
+
+    print('Loading Validation Data...')
+    testX, testY = lstm_speech_data.mfcc_get_batch(validate_dataset, mfcc_features=mfcc_features, height=height)
 
     model.fit(trainX, trainY, n_epoch=training_epochs, validation_set=(testX, testY), show_metric=True)
 
